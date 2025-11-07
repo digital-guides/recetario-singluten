@@ -217,16 +217,106 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 2: Panes Exprés al Microondas (10)
-  { id: "16", title: "16. ⚡ Pan de taza de avena GF (mug bread)", categoryId: "panes-microondas", ingredients: ["Avena GF molida", "Huevo", "Polvo hornear", "Leche", "Sal"], instructions: ["Mezclar en taza", "Microondas 90 seg", "Dejar reposar", "Desmoldar"], prepTime: "3 min", cookTime: "2 min", servings: "1 porción" },
-  { id: "17", title: "17. ⚡ Pan de taza de almendra (versión keto)", categoryId: "panes-microondas", ingredients: ["Harina almendra", "Huevo", "Polvo hornear", "Mantequilla", "Sal"], instructions: ["Batir en taza", "Microondas 90 seg", "Enfriar 1 min", "Servir"], prepTime: "2 min", cookTime: "2 min", servings: "1 porción" },
-  { id: "18", title: "18. ⚡ Pan de taza de garbanzo (sándwich rápido)", categoryId: "panes-microondas", ingredients: ["Harina garbanzo", "Agua", "Aceite", "Sal", "Polvo hornear"], instructions: ["Mezclar ingredientes", "Microondas 2 min", "Dejar enfriar", "Cortar horizontal"], prepTime: "3 min", cookTime: "2 min", servings: "1 sándwich" },
-  { id: "19", title: "19. ⚡ Pan nube (cloud bread) al microondas", categoryId: "panes-microondas", ingredients: ["Claras", "Queso crema", "Cremor tártaro", "Edulcorante", "Sal"], instructions: ["Batir claras", "Incorporar queso", "Microondas 1 min", "Enfriar"], prepTime: "5 min", cookTime: "1 min", servings: "2-3 porciones" },
-  { id: "20", title: "20. ⚡ Pan inglés rápido al microondas (molde siliconado)", categoryId: "panes-microondas", ingredients: ["Mix harinas GF", "Levadura", "Leche", "Aceite", "Sal"], instructions: ["Mezclar masa", "Molde redondo", "Microondas 4 min", "Tostar después"], prepTime: "5 min", cookTime: "4 min", servings: "1 pan inglés" },
-  { id: "21", title: "21. ⚡ Pan de semillas mixtas (mug rectangular)", categoryId: "panes-microondas", ingredients: ["Semillas molidas", "Huevo", "Polvo hornear", "Agua", "Sal"], instructions: ["Moler semillas", "Mezclar todo", "Microondas 2 min", "Reposar"], prepTime: "4 min", cookTime: "2 min", servings: "1 porción" },
-  { id: "22", title: "22. ⚡ Pan de zanahoria rallada (esponjoso)", categoryId: "panes-microondas", ingredients: ["Zanahoria rallada", "Harina arroz", "Huevo", "Polvo hornear", "Canela"], instructions: ["Rallar zanahoria", "Mezclar ingredientes", "Microondas 2.5 min", "Enfriar"], prepTime: "5 min", cookTime: "3 min", servings: "1-2 porciones" },
-  { id: "23", title: "23. ⚡ Pan de cacao salado (para untar)", categoryId: "panes-microondas", ingredients: ["Cacao", "Harina almendra", "Huevo", "Polvo hornear", "Sal"], instructions: ["Mezclar secos", "Añadir huevo", "Microondas 90 seg", "Untar"], prepTime: "3 min", cookTime: "2 min", servings: "1 porción" },
-  { id: "24", title: "24. ⚡ Pan pita exprés al microondas (plano)", categoryId: "panes-microondas", ingredients: ["Harina arroz", "Agua", "Aceite", "Sal", "Polvo hornear"], instructions: ["Masa líquida", "Extender plato", "Microondas 2 min", "Doblar"], prepTime: "3 min", cookTime: "2 min", servings: "2 pitas" },
-  { id: "25", title: "25. ⚡ Pan de arroz integral en 7 minutos", categoryId: "panes-microondas", ingredients: ["Arroz integral cocido", "Huevo", "Polvo hornear", "Sal", "Agua"], instructions: ["Triturar arroz", "Mezclar todo", "Microondas 3 min", "Reposar 4 min"], prepTime: "4 min", cookTime: "3 min", servings: "1 porción" },
+  { 
+    id: "16", 
+    title: "16. ⚡ Pan de taza de avena GF (mug bread)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de avena certificada: 40 g (≈ 4 cdas)", "Fécula de maíz: 10 g (1 cda)", "Polvo de hornear: 2 g (½ cdta)", "Sal (o una pizca de azúcar si lo querés dulce)", "Huevo: 1 u", "Leche vegetal: 40 ml (≈ 3 cdas)", "Aceite o manteca derretida: 5 ml (1 cdta)"], 
+    instructions: ["Mezclá todo en una taza grande o bol hasta que no queden grumos.", "Cociná 1 min y 30 seg en microondas (800 W). Si seguís viendo puntos húmedos, dales 10–15 seg más.", "Dejá reposar 1 min y desmoldá o comé directo de la taza.", "Consejos: Queda tipo panecillo esponjoso. Podés añadir semillas o pasas según si lo querés salado o dulce. Perfecto para desayuno exprés con mermelada o palta."], 
+    prepTime: "2 min", 
+    cookTime: "1.5 min", 
+    servings: "1 taza grande" 
+  },
+  { 
+    id: "17", 
+    title: "17. ⚡ Pan de taza de almendra (versión keto)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de almendra fina: 30 g (3 cdas)", "Polvo de hornear: 2 g", "Sal: 1 pizca", "Huevo: 1 u", "Aceite de oliva o de coco: 5 ml", "Agua: 20 ml"], 
+    instructions: ["Mezclá todos los ingredientes en una taza.", "Microondas 1 min 20 seg a potencia alta.", "Dejá reposar 30 seg y desmoldá.", "Consejos: Perfecto para dieta keto. Ideal con mantequilla de almendra o aguacate."], 
+    prepTime: "2 min", 
+    cookTime: "1.5 min", 
+    servings: "1 unidad" 
+  },
+  { 
+    id: "18", 
+    title: "18. ⚡ Pan de taza de garbanzo (sándwich rápido)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de garbanzo: 40 g", "Polvo de hornear: 3 g", "Sal: 1 pizca", "Agua: 60 ml", "Aceite de oliva: 5 ml", "Especias (opcional): cúrcuma, comino, romero"], 
+    instructions: ["Mezclá todo en un molde rectangular pequeño o taza ancha.", "Microondas 2 min a potencia alta. Dejá reposar 30 seg y desmoldá.", "Cortá en dos y tostá si querés más firme.", "Consejos: Queda liviano y con miga tierna. Probá agregarle una cucharada de queso rallado para versión salada. Ideal para sandwichitos keto rápidos con aguacate, hummus o queso vegetal."], 
+    prepTime: "3 min", 
+    cookTime: "2 min", 
+    servings: "1-2 panes" 
+  },
+  { 
+    id: "19", 
+    title: "19. ⚡ Pan nube (cloud bread) al microondas", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Huevos: 2 u (separadas claras y yemas)", "Yogur vegetal natural: 30 g", "Polvo de hornear: 2 g", "Sal: 1 pizca"], 
+    instructions: ["Batí las claras a punto nieve con una pizca de sal.", "En otro bol, mezclá las yemas con el yogur y el polvo de hornear.", "Uní ambas preparaciones con movimientos suaves.", "Colocá porciones en plato plano para microondas cubierto con papel vegetal.", "Cociná de a dos discos por vez, 1 min 30 seg aprox.", "Consejos: Quedan como nubes ligeras y flexibles. Usalos para sandwiches sin harinas o mini pizzas. Guardalos en heladera hasta 3 días."], 
+    prepTime: "5 min", 
+    cookTime: "3 min", 
+    servings: "3-4 discos" 
+  },
+  { 
+    id: "20", 
+    title: "20. ⚡ Pan inglés rápido al microondas (molde siliconado)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de arroz: 120 g", "Fécula de maíz: 40 g", "Polvo de hornear: 6 g", "Sal: 4 g", "Psyllium en polvo: 4 g", "Huevo: 1 u", "Aceite: 20 ml", "Agua tibia: 140 ml"], 
+    instructions: ["Batí todo hasta obtener mezcla espesa.", "Verté en molde de silicona engrasado.", "Microondas 7 min a potencia alta (800–900 W).", "Comprobá con palillo y agregá 30 seg más si es necesario.", "Enfriá antes de desmoldar y cortá en rebanadas.", "Consejos: Textura tierna y ligeramente elástica. Perfecto para guardar en heladera y tostar luego. Sin huevo: reemplazalo por 60 ml de leche vegetal y 5 ml de aceite extra."], 
+    prepTime: "2 min", 
+    cookTime: "7 min", 
+    servings: "4 rebanadas" 
+  },
+  { 
+    id: "21", 
+    title: "21. ⚡ Pan de semillas mixtas (mug rectangular)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de arroz: 40 g", "Harina de lino o linaza molida: 20 g", "Polvo de hornear: 3 g", "Sal: 1 pizca", "Agua tibia: 60 ml", "Aceite: 10 ml", "Mix de semillas (chía, girasol, sésamo): 20 g"], 
+    instructions: ["En un recipiente rectangular o taza ancha, mezclá harinas, polvo de hornear y sal.", "Agregá agua, aceite y semillas; mezclá bien.", "Microondas 2 min a potencia alta.", "Reposá 30 seg y desmoldá.", "Consejos: Miga húmeda con textura crocante por las semillas. Si querés hacerlo más esponjoso, agregá 1 clara batida. Ideal para desayunos o snack con queso crema y tomate."], 
+    prepTime: "3 min", 
+    cookTime: "2 min", 
+    servings: "1-2 rebanadas" 
+  },
+  { 
+    id: "22", 
+    title: "22. ⚡ Pan de zanahoria rallada (esponjoso)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Zanahoria rallada fina: 60 g", "Harina de avena GF: 40 g", "Polvo de hornear: 4 g", "Sal o pizca de azúcar (según gusto)", "Huevo: 1 u", "Aceite: 10 ml", "Agua: 40 ml"], 
+    instructions: ["Batí huevo, aceite y agua.", "Agregá la zanahoria rallada y mezclá bien.", "Sumá la harina, el polvo de hornear y la sal.", "Verté en taza o molde pequeño.", "Cociná en microondas 2 min 30 seg, o hasta que al pinchar salga seco.", "Consejos: Miga húmeda y aroma suave. Podés añadir nueces picadas o pasas si lo querés tipo \"pan dulce\". Si usás zanahoria muy jugosa, reducí el agua a 20 ml."], 
+    prepTime: "4 min", 
+    cookTime: "2.5 min", 
+    servings: "2-3 rebanadas" 
+  },
+  { 
+    id: "23", 
+    title: "23. ⚡ Pan de cacao salado (para untar)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de almendra: 30 g", "Cacao sin azúcar: 5 g", "Polvo de hornear: 2 g", "Sal: 1 pizca", "Huevo: 1 u", "Agua: 30 ml", "Aceite: 5 ml"], 
+    instructions: ["Mezclá todo en taza o molde pequeño hasta integrar.", "Microondas 1 min 30 seg.", "Enfriá un poco y cortá para untar con cremas o quesos.", "Consejos: No es dulce, tiene sabor tipo \"pan negro\". Ideal con queso crema, hummus o aguacate. Si querés hacerlo dulce, agregá 1 cda de miel o eritritol y ½ cdta de canela."], 
+    prepTime: "2 min", 
+    cookTime: "1.5 min", 
+    servings: "1-2 panes" 
+  },
+  { 
+    id: "24", 
+    title: "24. ⚡ Pan pita exprés al microondas (plano)", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de arroz: 60 g", "Fécula de maíz: 20 g", "Polvo de hornear: 3 g", "Sal: 2 g", "Agua: 70 ml", "Aceite: 5 ml"], 
+    instructions: ["Mezclá todo hasta formar masa blanda, no pegajosa.", "Dividí en 2 bolitas y estirá con las manos hasta ½ cm de espesor.", "Colocá una por vez en plato cubierto con papel vegetal.", "Cociná 1 min 30 seg por lado (dando vuelta a la mitad).", "Consejos: Quedan flexibles, tipo tortilla. Perfectas para wraps, tacos o fajitas. Podés guardarlas en heladera y calentar 15 seg antes de usar."], 
+    prepTime: "5 min", 
+    cookTime: "3 min", 
+    servings: "2 unidades" 
+  },
+  { 
+    id: "25", 
+    title: "25. ⚡ Pan de arroz integral en 7 minutos", 
+    categoryId: "panes-microondas", 
+    ingredients: ["Harina de arroz integral: 80 g", "Fécula de tapioca: 20 g", "Polvo de hornear: 5 g", "Sal: 4 g", "Agua: 100 ml", "Aceite de oliva: 10 ml", "Vinagre: 5 ml"], 
+    instructions: ["Mezclá todos los ingredientes en un bol hasta lograr una masa tipo \"crema espesa\".", "Verté en molde rectangular pequeño (tipo flanera de silicona).", "Microondas 5 min.", "Dejá reposar 2 min y desmoldá.", "Consejos: Miga compacta pero suave. Ideal para cortar en rodajas finas y tostar. Si lo querés más aireado, añadí 1 clara batida al final."], 
+    prepTime: "2 min", 
+    cookTime: "5 min", 
+    servings: "3-4 rebanadas" 
+  },
 
   // Categoría 3: Panes de Sartén/Plancha (15)
   { id: "26", title: "26. 🍳 Mbejú clásico de almidón de yuca (Paraguay)", categoryId: "panes-sarten", ingredients: ["Almidón yuca", "Queso", "Huevo", "Sal", "Leche"], instructions: ["Mezclar almidón", "Agregar queso", "Cocinar plancha", "Voltear"], prepTime: "5 min", cookTime: "6 min", servings: "4 unidades" },
