@@ -319,21 +319,156 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 3: Panes de Sartén/Plancha (15)
-  { id: "26", title: "26. 🍳 Mbejú clásico de almidón de yuca (Paraguay)", categoryId: "panes-sarten", ingredients: ["Almidón yuca", "Queso", "Huevo", "Sal", "Leche"], instructions: ["Mezclar almidón", "Agregar queso", "Cocinar plancha", "Voltear"], prepTime: "5 min", cookTime: "6 min", servings: "4 unidades" },
-  { id: "27", title: "27. 🍳 Tortillas de maíz 100% GF (plancha)", categoryId: "panes-sarten", ingredients: ["Masa harina maíz", "Agua", "Sal"], instructions: ["Hidratar masa", "Formar bolitas", "Prensar", "Cocinar plancha"], prepTime: "10 min", cookTime: "15 min", servings: "8 tortillas" },
-  { id: "28", title: "28. 🍳 Tortillas de yuca (cassava tortillas)", categoryId: "panes-sarten", ingredients: ["Harina yuca", "Agua tibia", "Sal", "Aceite"], instructions: ["Formar masa", "Dejar reposar", "Estirar finas", "Cocinar sartén"], prepTime: "15 min", cookTime: "12 min", servings: "6 tortillas" },
-  { id: "29", title: "29. 🍳 Tortillas de garbanzo (socca fina en sartén)", categoryId: "panes-sarten", ingredients: ["Harina garbanzo", "Agua", "Aceite oliva", "Sal", "Comino"], instructions: ["Mezclar y reposar", "Verter fino en sartén", "Cocinar ambos lados", "Servir caliente"], prepTime: "30 min", cookTime: "5 min", servings: "4 tortillas" },
-  { id: "30", title: "30. 🍳 Arepas clásicas de maíz precocido (plancha)", categoryId: "panes-sarten", ingredients: ["Harina maíz precocido", "Agua", "Sal", "Aceite"], instructions: ["Formar masa", "Hacer bolitas", "Aplanar", "Cocinar plancha"], prepTime: "10 min", cookTime: "15 min", servings: "6 arepas" },
-  { id: "31", title: "31. 🍳 Pan pita de sartén sin gluten", categoryId: "panes-sarten", ingredients: ["Mix harinas GF", "Agua", "Levadura", "Sal", "Aceite"], instructions: ["Hacer masa", "Reposar 30 min", "Estirar círculos", "Cocinar sartén caliente"], prepTime: "40 min", cookTime: "10 min", servings: "6 pitas" },
-  { id: "32", title: "32. 🍳 Naan sin gluten a la sartén (versión con yogurt vegetal)", categoryId: "panes-sarten", ingredients: ["Harina arroz", "Yogurt vegetal", "Levadura", "Sal", "Aceite"], instructions: ["Mezclar masa", "Fermentar 1h", "Estirar", "Cocinar sartén"], prepTime: "1h 10min", cookTime: "8 min", servings: "4 naans" },
-  { id: "33", title: "33. 🍳 Focaccia plana a la plancha (estilo torta al testo)", categoryId: "panes-sarten", ingredients: ["Mix harinas GF", "Agua", "Levadura", "Aceite oliva", "Sal"], instructions: ["Masa hidratada", "Fermentar corto", "Estirar grueso", "Plancha caliente"], prepTime: "45 min", cookTime: "12 min", servings: "4 porciones" },
-  { id: "34", title: "34. 🍳 Pan chapati sin gluten (mezcla arroz + tapioca)", categoryId: "panes-sarten", ingredients: ["Harina arroz", "Almidón tapioca", "Agua caliente", "Sal", "Aceite"], instructions: ["Mezclar harinas", "Agua caliente", "Amasar", "Estirar y cocinar"], prepTime: "20 min", cookTime: "12 min", servings: "6 chapatis" },
-  { id: "35", title: "35. 🍳 Pan tipo \"piadina\" sin gluten", categoryId: "panes-sarten", ingredients: ["Harina arroz", "Manteca", "Agua", "Sal", "Bicarbonato"], instructions: ["Integrar manteca", "Formar masa", "Estirar fino", "Sartén muy caliente"], prepTime: "15 min", cookTime: "10 min", servings: "4 piadinas" },
-  { id: "36", title: "36. 🍳 Tortilla española de papa (sin harina)", categoryId: "panes-sarten", ingredients: ["Papas", "Huevos", "Cebolla", "Aceite", "Sal"], instructions: ["Freír papas", "Batir huevos", "Mezclar", "Cuajar sartén"], prepTime: "15 min", cookTime: "20 min", servings: "4-6 porciones" },
-  { id: "37", title: "37. 🍳 Farinata genovesa (sartén grande)", categoryId: "panes-sarten", ingredients: ["Harina garbanzo", "Agua", "Aceite oliva", "Sal", "Romero"], instructions: ["Mezclar y reposar 4h", "Verter en sartén", "Horno/sartén caliente", "Gratinar"], prepTime: "4h", cookTime: "15 min", servings: "6 porciones" },
-  { id: "38", title: "38. 🍳 Blinis sin gluten (mini panqueques)", categoryId: "panes-sarten", ingredients: ["Harina alforfón", "Leche", "Huevo", "Levadura", "Sal"], instructions: ["Mezclar masa líquida", "Reposar 30 min", "Cocinar pequeños", "Servir tibios"], prepTime: "35 min", cookTime: "10 min", servings: "12 blinis" },
-  { id: "39", title: "39. 🍳 Cachapas venezolanas (maíz tierno)", categoryId: "panes-sarten", ingredients: ["Maíz tierno", "Azúcar", "Sal", "Leche", "Mantequilla"], instructions: ["Licuar maíz", "Añadir ingredientes", "Cocinar plancha", "Rellenar"], prepTime: "10 min", cookTime: "15 min", servings: "4 cachapas" },
-  { id: "40", title: "40. 🍳 Panqueques de avena GF (batch)", categoryId: "panes-sarten", ingredients: ["Avena GF molida", "Huevos", "Leche", "Polvo hornear", "Canela"], instructions: ["Licuar todo", "Reposar 5 min", "Cocinar sartén", "Apilar"], prepTime: "8 min", cookTime: "12 min", servings: "8 panqueques" },
+  { 
+    id: "26", 
+    title: "26. 🍳 Bejú clásico de almidón de yuca (Paraguay)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Almidón de yuca o mandioca (tapioca granulada): 250 g", "Queso rallado (semicurado o mozzarella): 150 g", "Sal: 3 g", "Manteca o aceite: 20 g", "Agua o leche: 80 ml"], 
+    instructions: ["En un bol, mezclá el almidón de yuca, el queso y la sal.", "Agregá poco a poco el líquido hasta que la mezcla quede granulada pero húmeda (como arena mojada).", "Calentá una sartén antiadherente y derretí un poco de manteca.", "Verté 2–3 cucharadas de la mezcla, presioná con cuchara para compactar.", "Cociná 2–3 min por lado hasta dorar.", "Consejos: La clave está en no hacer masa: debe verse granulada, no pegajosa. Comelo recién hecho, caliente y crocante. Si querés versión sin lácteos, usá queso vegetal rallado y aceite de coco."], 
+    prepTime: "5 min", 
+    cookTime: "10 min", 
+    servings: "6 unidades pequeñas" 
+  },
+  { 
+    id: "27", 
+    title: "27. 🍳 Tortillas de maíz 100% GF (plancha)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de maíz nixtamalizada (masa harina): 200 g", "Agua tibia: 220 ml", "Sal: 4 g"], 
+    instructions: ["Mezclá harina y sal.", "Agregá el agua poco a poco mientras amasás hasta obtener una masa blanda y lisa.", "Dividí en 8 bolitas y cubrilas con paño húmedo.", "Estirá cada bolita entre dos papeles hasta 2 mm de espesor.", "Cociná en plancha caliente 1 min por lado.", "Consejos: Si se agrietan, les falta agua: agregá de a cucharadas. Mantenelas cubiertas con paño limpio para que no se sequen. Perfectas para tacos o quesadillas."], 
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "8 tortillas medianas" 
+  },
+  { 
+    id: "28", 
+    title: "28. 🍳 Tortillas de yuca (cassava tortillas)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Yuca cocida y hecha puré: 300 g", "Fécula de mandioca o tapioca: 30 g", "Sal: 3 g", "Aceite: 10 ml"], 
+    instructions: ["Mezclá la yuca tibia con la fécula, sal y aceite.", "Amasá hasta obtener masa suave, no pegajosa.", "Dividí en 6 bolitas y aplastá hasta 3–4 mm.", "Cociná 2 min por lado en sartén caliente sin grasa.", "Consejos: Textura flexible, ideal para wraps. Si se endurecen, tapalas con paño húmedo apenas salgan del fuego. También podés hacerlas con yuca congelada (descongelá y escurrí bien)."], 
+    prepTime: "15 min", 
+    cookTime: "10 min", 
+    servings: "6 unidades" 
+  },
+  { 
+    id: "29", 
+    title: "29. 🍳 Tortillas de garbanzo (socca fina en sartén)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de garbanzo: 100 g", "Agua: 180 ml", "Sal: 3 g", "Aceite de oliva: 10 ml", "Especias al gusto (romero, pimienta, cúrcuma, ajo en polvo)"], 
+    instructions: ["Mezclá harina, agua, sal y aceite.", "Dejá reposar 10 min para que espese un poco.", "Verté una capa fina en sartén caliente engrasada.", "Cociná 2 min por lado hasta bordes dorados.", "Consejos: Es una versión sin gluten de la \"socca\" italiana. Podés usarla como base de pizza rápida. Si querés textura más firme, horneala 5 min más después."], 
+    prepTime: "12 min", 
+    cookTime: "3 min", 
+    servings: "4 tortillas finas" 
+  },
+  { 
+    id: "30", 
+    title: "30. 🍳 Arepas clásicas de maíz precocido (plancha)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de maíz precocida blanca o amarilla: 250 g", "Agua tibia: 300 ml", "Sal: 5 g", "Aceite o manteca: 15 ml"], 
+    instructions: ["En un bol, mezclá harina y sal.", "Agregá el agua poco a poco y amasá hasta que la masa quede suave y no se pegue.", "Hacé bolitas y aplastalas hasta 1,5 cm de grosor.", "Cociná 5 min por lado en plancha o sartén con un poco de aceite.", "Consejos: Si se agrietan al formar, agregá 1–2 cdas de agua. Cuando las golpeás y suenan huecas, están listas. Podés rellenarlas con queso, aguacate, pollo o lo que más te guste."], 
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "6 unidades" 
+  },
+  { 
+    id: "31", 
+    title: "31. 🍳 Pan pita de sartén sin gluten", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de arroz: 100 g", "Fécula de maíz: 80 g", "Harina de avena GF o sorgo: 40 g", "Polvo de hornear: 4 g", "Sal: 3 g", "Psyllium en polvo: 6 g", "Agua tibia: 140 ml", "Aceite: 10 ml"], 
+    instructions: ["Mezclá todos los secos en un bol.", "Agregá el agua y el aceite, y mezclá hasta obtener una masa suave y elástica.", "Dividí en 4 bolitas y estirá cada una de 3–4 mm.", "Calentá una sartén antiadherente y cociná cada pan 2–3 min por lado.", "Cuando se inflan un poco y toman color, ya están listos.", "Consejos: Son ideales para rellenar con hummus, falafel o vegetales. Guardalos envueltos en paño limpio; se mantienen suaves. Si los querés más elásticos, agregá 10 ml más de agua."], 
+    prepTime: "15 min", 
+    cookTime: "10 min", 
+    servings: "4 unidades medianas" 
+  },
+  { 
+    id: "32", 
+    title: "32. 🍳 Naan sin gluten a la sartén (versión con yogurt vegetal)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de arroz: 120 g", "Harina de tapioca: 60 g", "Polvo de hornear: 5 g", "Sal: 3 g", "Yogurt vegetal natural: 100 g", "Agua tibia: 60 ml", "Aceite: 15 ml"], 
+    instructions: ["Mezclá harinas, polvo de hornear y sal.", "Agregá yogurt, agua y aceite; amasá hasta masa blanda.", "Dividí en 6 porciones y estirá en forma de disco fino.", "Cociná cada naan 2 min por lado en sartén caliente.", "Pincelá con aceite o manteca derretida apenas salgan.", "Consejos: Quedan suaves y fragantes. Perfectos para acompañar curry o guisos. Si querés versión sin yogurt, reemplazalo por 100 ml de leche vegetal y 5 ml más de aceite."], 
+    prepTime: "15 min", 
+    cookTime: "10 min", 
+    servings: "6 unidades pequeñas" 
+  },
+  { 
+    id: "33", 
+    title: "33. 🍳 Focaccia plana a la plancha (estilo torta al testo)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de arroz: 150 g", "Harina de maíz fina: 50 g", "Fécula de tapioca: 30 g", "Psyllium: 6 g", "Polvo de hornear: 5 g", "Sal: 4 g", "Agua tibia: 160 ml", "Aceite de oliva: 25 ml", "Hierbas secas (romero, orégano): 2 g"], 
+    instructions: ["Mezclá todos los secos en un bol.", "Agregá el agua tibia y el aceite.", "Formá una masa húmeda pero maleable.", "Dividí en dos discos de 1 cm de espesor.", "Cociná cada uno en sartén a fuego medio 6–7 min por lado, tapando los primeros minutos.", "Consejos: Miga húmeda y sabor a oliva irresistible. Podés rellenarla con tomate seco y aceitunas antes de cocinar. Si la querés más crujiente, destapá los últimos 2 minutos."], 
+    prepTime: "10 min", 
+    cookTime: "15 min", 
+    servings: "2 panes medianos" 
+  },
+  { 
+    id: "34", 
+    title: "34. 🍳 Pan chapati sin gluten (mezcla arroz + tapioca)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de arroz: 100 g", "Fécula de tapioca: 80 g", "Sal: 3 g", "Agua caliente: 150 ml", "Aceite: 5 ml"], 
+    instructions: ["Mezclá harina, tapioca y sal.", "Agregá el agua caliente (de a poco) y el aceite.", "Amasá hasta que no se pegue.", "Dividí en 6 bolitas y estirá fino (2–3 mm).", "Cociná 1–2 min por lado hasta que se formen manchitas doradas.", "Consejos: Son suaves, flexibles y perfectos para enrollar. Mantenelos envueltos en paño para que no se sequen. Podés añadir 1 cda de yogurt vegetal si los querés más tiernos."], 
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "6 unidades finas" 
+  },
+  { 
+    id: "35", 
+    title: "35. 🍳 Pan tipo \"piadina\" sin gluten", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de arroz: 100 g", "Harina de avena GF: 80 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Aceite de oliva: 20 ml", "Agua tibia: 100 ml"], 
+    instructions: ["Mezclá harinas, polvo de hornear y sal.", "Agregá el aceite y el agua, y formá masa suave.", "Dividí en 4 bolitas y estirá finas (2–3 mm).", "Cociná 1–2 min por lado en plancha caliente.", "Serví tibias con rellenos salados.", "Consejos: Perfectas para wraps o paninis. Quedan muy tiernas si las tapás apenas salgan. También podés hacer mini piadinas para picadas."], 
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "4 unidades medianas" 
+  },
+  { 
+    id: "36", 
+    title: "36. 🍳 Pan plano de quinua (ligero y flexible)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de quinua: 100 g", "Fécula de tapioca: 50 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Agua tibia: 120 ml", "Aceite: 10 ml"], 
+    instructions: ["Mezclá harinas, polvo de hornear y sal.", "Agregá agua y aceite; mezclá hasta masa suave.", "Dividí en 4 partes y estirá de 3 mm.", "Cociná 2 min por lado en sartén antiadherente caliente.", "Consejos: Pan de sabor suave y textura elástica. Ideal para tacos, wraps o acompañar sopas. Si lo querés más tierno, sumá 1 cucharada extra de agua o aceite."], 
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "4 unidades medianas" 
+  },
+  { 
+    id: "37", 
+    title: "37. 🍳 Pan de sarraceno en sartén (galette base)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de trigo sarraceno: 100 g", "Agua: 200 ml", "Sal: 2 g", "Aceite: 5 ml"], 
+    instructions: ["Mezclá harina, sal y agua hasta que no queden grumos.", "Reposá 10 min para que espese un poco.", "Verté una capa fina en sartén antiadherente engrasada.", "Cociná 2–3 min por lado hasta dorar.", "Consejos: Quedan finas, tipo crepe salado francés. Podés rellenarlas con verduras salteadas o jamón y queso. Si querés sabor más neutro, mezclá mitad sarraceno y mitad arroz."], 
+    prepTime: "12 min", 
+    cookTime: "6 min", 
+    servings: "3 galettes grandes" 
+  },
+  { 
+    id: "38", 
+    title: "38. 🍳 Pan de batata (láminas flexibles en plancha)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Puré de batata cocida: 200 g", "Harina de arroz: 80 g", "Fécula de maíz: 30 g", "Sal: 3 g", "Aceite: 10 ml"], 
+    instructions: ["Mezclá el puré con la harina, fécula, sal y aceite.", "Formá masa blanda. Si está muy seca, agregá 1–2 cdas de agua.", "Dividí en 4 bolitas y estirá fino (3 mm).", "Cociná 2–3 min por lado hasta dorar.", "Consejos: Miga suave y ligeramente dulce. Perfecto para combinar con sabores salados (queso, palta, hummus). También podés usar puré de zapallo o papa en lugar de batata."], 
+    prepTime: "15 min", 
+    cookTime: "10 min", 
+    servings: "4 unidades medianas" 
+  },
+  { 
+    id: "39", 
+    title: "39. 🍳 Pan árabe fino sin gluten (plancha rápida)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de arroz: 100 g", "Harina de maíz fina: 50 g", "Fécula de tapioca: 50 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Agua tibia: 140 ml", "Aceite: 10 ml"], 
+    instructions: ["Mezclá harinas, polvo de hornear y sal.", "Incorporá agua y aceite hasta lograr masa blanda y elástica.", "Dividí en 4 bolitas y estirá finas (2–3 mm).", "Cociná 1–2 min por lado hasta dorar.", "Consejos: Livianos, flexibles y deliciosos. Si los querés con burbujas, subí un poco el fuego. Mantenelos tapados para conservar su suavidad."], 
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "4 unidades medianas" 
+  },
+  { 
+    id: "40", 
+    title: "40. 🍳 Pan \"arepa dulce\" (panecillo dulce de plancha)", 
+    categoryId: "panes-sarten", 
+    ingredients: ["Harina de maíz precocida: 200 g", "Agua tibia: 220 ml", "Azúcar mascabo o miel: 25 g", "Canela en polvo: 1 g", "Sal: 1 pizca", "Aceite o manteca: 15 ml"], 
+    instructions: ["Mezclá harina, azúcar, canela y sal.", "Agregá el agua y formá masa suave.", "Armá bollitos y aplastá hasta 1 cm.", "Cociná en plancha engrasada 4–5 min por lado.", "Consejos: Deliciosas para desayuno o merienda. Podés rellenarlas con queso o mermelada. Si querés más dulces, añadí 1 cda extra de miel."], 
+    prepTime: "10 min", 
+    cookTime: "15 min", 
+    servings: "6 unidades" 
+  },
 
   // Categoría 4: Panes con Fermentación Corta (10)
   { id: "41", title: "41. 🌾 Pan de molde esponjoso (arroz + tapioca + psyllium)", categoryId: "panes-fermentacion", ingredients: ["Harina arroz", "Almidón tapioca", "Psyllium", "Levadura", "Agua tibia"], instructions: ["Mezclar secos", "Añadir agua", "Fermentar 45 min", "Hornear 40 min"], prepTime: "50 min", cookTime: "40 min", servings: "1 molde" },
