@@ -1,7 +1,22 @@
 import { Link } from "react-router-dom";
 import { Category } from "@/types/recipe";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChevronRight } from "lucide-react";
+import { 
+  Timer, Zap, Flame, Wheat, Sprout, 
+  Cake, Sparkles, Dumbbell, Globe, LucideIcon 
+} from "lucide-react";
+
+const iconMap: Record<string, LucideIcon> = {
+  timer: Timer,
+  zap: Zap,
+  flame: Flame,
+  wheat: Wheat,
+  sprout: Sprout,
+  cake: Cake,
+  sparkles: Sparkles,
+  dumbbell: Dumbbell,
+  globe: Globe,
+};
 
 interface CategoryCardProps {
   category: Category;
@@ -9,24 +24,22 @@ interface CategoryCardProps {
 }
 
 export const CategoryCard = ({ category, recipeCount }: CategoryCardProps) => {
+  const Icon = iconMap[category.icon] || Timer;
+  
   return (
     <Link to={`/categoria/${category.id}`}>
-      <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-[1.02] border-border bg-card">
-        <div className="aspect-square overflow-hidden bg-muted">
-          <img
-            src={category.image}
-            alt={category.name}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-          />
+      <Card className="group hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer border-border bg-card overflow-hidden">
+        <div className="aspect-square relative overflow-hidden bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center">
+          <Icon className="w-20 h-20 text-primary group-hover:scale-110 transition-transform duration-300" />
         </div>
         <CardContent className="p-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h3 className="font-bold text-lg text-foreground mb-1">{category.name}</h3>
-              <p className="text-sm text-muted-foreground">{recipeCount} recetas</p>
-            </div>
-            <ChevronRight className="w-5 h-5 text-primary group-hover:translate-x-1 transition-transform" />
-          </div>
+          <h3 className="font-semibold text-lg text-foreground mb-1 group-hover:text-primary transition-colors">
+            {category.name}
+          </h3>
+          <p className="text-sm text-muted-foreground mb-2">{category.description}</p>
+          <p className="text-xs text-muted-foreground">
+            {recipeCount} {recipeCount === 1 ? 'receta' : 'recetas'}
+          </p>
         </CardContent>
       </Card>
     </Link>

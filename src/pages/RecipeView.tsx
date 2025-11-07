@@ -2,7 +2,11 @@ import { useParams, Link } from "react-router-dom";
 import { recipes, categories } from "@/data/recipes";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, Clock, Users, ChefHat } from "lucide-react";
+import { ArrowLeft, Clock, Users, ChefHat, Printer } from "lucide-react";
+
+const handlePrint = () => {
+  window.print();
+};
 
 const RecipeView = () => {
   const { recipeId } = useParams();
@@ -26,14 +30,20 @@ const RecipeView = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="bg-card border-b border-border sticky top-0 z-50">
+      <header className="bg-card border-b border-border sticky top-0 z-50 print:hidden">
         <div className="container mx-auto px-4 py-4">
-          <Link to={`/categoria/${recipe.categoryId}`}>
-            <Button variant="ghost" className="-ml-2">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Volver a {category?.name}
+          <div className="flex items-center justify-between">
+            <Link to={`/categoria/${recipe.categoryId}`}>
+              <Button variant="ghost" className="-ml-2">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Volver a {category?.name}
+              </Button>
+            </Link>
+            <Button onClick={handlePrint} variant="outline">
+              <Printer className="w-4 h-4 mr-2" />
+              Imprimir
             </Button>
-          </Link>
+          </div>
         </div>
       </header>
 
