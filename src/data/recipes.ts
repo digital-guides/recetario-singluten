@@ -5,6 +5,9 @@ import panesRapidosImage from "@/assets/panes-rapidos-horno.jpg";
 import panesFestivosImage from "@/assets/panes-festivos-enriquecidos.jpg";
 import panesMasaMadreImage from "@/assets/panes-masa-madre.jpg";
 import panesProteicosImage from "@/assets/panes-proteicos-low-carb.jpg";
+import panesFermentacionImage from "@/assets/panes-fermentacion-corta.jpg";
+import panesDulcesImage from "@/assets/panes-dulces.jpg";
+import panesLatinoamericanosImage from "@/assets/panes-latinoamericanos.jpg";
 
 export const categories: Category[] = [
   {
@@ -32,7 +35,8 @@ export const categories: Category[] = [
     id: "panes-fermentacion",
     name: "Fermentación Corta",
     icon: "wheat",
-    description: "1 levado, esponjosos"
+    description: "1 levado, esponjosos",
+    image: panesFermentacionImage
   },
   {
     id: "masa-madre",
@@ -45,7 +49,8 @@ export const categories: Category[] = [
     id: "panes-dulces",
     name: "Panes Dulces",
     icon: "cake",
-    description: "Bollería rápida, sin laminado"
+    description: "Bollería rápida, sin laminado",
+    image: panesDulcesImage
   },
   {
     id: "panes-festivos",
@@ -65,7 +70,8 @@ export const categories: Category[] = [
     id: "regionales-latam",
     name: "Regionales LATAM",
     icon: "globe",
-    description: "Clásicos latinoamericanos adaptados"
+    description: "Clásicos latinoamericanos adaptados",
+    image: panesLatinoamericanosImage
   }
 ];
 
