@@ -65,21 +65,156 @@ export const categories: Category[] = [
 
 export const recipes: Recipe[] = [
   // Categoría 1: Panes Rápidos (15)
-  { id: "1", title: "Pan rápido de harina de arroz \"todo uso\"", categoryId: "panes-rapidos", ingredients: ["Harina de arroz", "Levadura química", "Sal", "Aceite", "Agua"], instructions: ["Mezclar ingredientes secos", "Añadir líquidos", "Verter en molde", "Hornear 35-40 min a 180°C"], prepTime: "10 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "2", title: "Pan express de avena certificada (molde)", categoryId: "panes-rapidos", ingredients: ["Avena GF molida", "Huevos", "Yogurt vegetal", "Polvo de hornear", "Sal"], instructions: ["Triturar avena", "Mezclar todo", "Hornear en molde", "Dejar enfriar"], prepTime: "5 min", cookTime: "35 min", servings: "1 molde" },
-  { id: "3", title: "Pan de garbanzo al horno (tipo focaccia fina)", categoryId: "panes-rapidos", ingredients: ["Harina de garbanzo", "Agua", "Aceite de oliva", "Sal", "Romero"], instructions: ["Mezclar harina y agua", "Dejar reposar 30 min", "Agregar aceite y sal", "Hornear fino 25 min"], prepTime: "35 min", cookTime: "25 min", servings: "4-6 porciones" },
-  { id: "4", title: "Pan de almendra suave (batido)", categoryId: "panes-rapidos", ingredients: ["Harina de almendra", "Huevos", "Polvo de hornear", "Sal", "Vinagre"], instructions: ["Batir huevos", "Incorporar almendra", "Añadir químicos", "Hornear 30 min"], prepTime: "8 min", cookTime: "30 min", servings: "1 molde pequeño" },
-  { id: "5", title: "Pan de yogurt vegetal y semillas (sin levado)", categoryId: "panes-rapidos", ingredients: ["Yogurt de soja", "Harina arroz", "Semillas mixtas", "Bicarbonato", "Sal"], instructions: ["Mezclar yogurt y harina", "Agregar semillas", "Incorporar bicarbonato", "Hornear 35 min"], prepTime: "10 min", cookTime: "35 min", servings: "1 molde" },
-  { id: "6", title: "Pan rústico de sorgo y maíz (mezcla básica)", categoryId: "panes-rapidos", ingredients: ["Harina de sorgo", "Harina de maíz", "Psyllium", "Levadura química", "Agua"], instructions: ["Mezclar harinas", "Hidratar psyllium", "Unir todo", "Hornear 40 min"], prepTime: "12 min", cookTime: "40 min", servings: "1 hogaza" },
-  { id: "7", title: "Pan de papa y aceite de oliva (textura tierna)", categoryId: "panes-rapidos", ingredients: ["Papa cocida", "Harina arroz", "Aceite oliva", "Sal", "Polvo hornear"], instructions: ["Aplastar papa", "Mezclar con harina", "Añadir aceite", "Hornear 35 min"], prepTime: "15 min", cookTime: "35 min", servings: "1 molde" },
-  { id: "8", title: "Pan de calabaza especiado (salado)", categoryId: "panes-rapidos", ingredients: ["Puré de calabaza", "Mix harinas GF", "Comino", "Sal", "Polvo hornear"], instructions: ["Mezclar calabaza y especias", "Agregar harinas", "Incorporar químicos", "Hornear 38 min"], prepTime: "10 min", cookTime: "38 min", servings: "1 molde" },
-  { id: "9", title: "Pan de cebolla y orégano (bandeja)", categoryId: "panes-rapidos", ingredients: ["Cebolla caramelizada", "Harina arroz", "Orégano", "Aceite", "Polvo hornear"], instructions: ["Caramelizar cebolla", "Mezclar masa", "Extender en bandeja", "Hornear 30 min"], prepTime: "20 min", cookTime: "30 min", servings: "Bandeja" },
-  { id: "10", title: "Pan tipo \"soda bread\" sin gluten (bicarbonato)", categoryId: "panes-rapidos", ingredients: ["Mix harinas GF", "Bicarbonato", "Suero leche", "Sal", "Azúcar"], instructions: ["Mezclar secos", "Añadir suero", "Formar bollo", "Hornear 35 min"], prepTime: "8 min", cookTime: "35 min", servings: "1 hogaza" },
-  { id: "11", title: "Pan integral sin gluten (arroz + avena GF)", categoryId: "panes-rapidos", ingredients: ["Harina arroz integral", "Avena GF", "Semillas", "Polvo hornear", "Agua"], instructions: ["Mezclar harinas", "Añadir semillas", "Hidratar", "Hornear 40 min"], prepTime: "10 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "12", title: "Pan de linaza molida (alto en fibra)", categoryId: "panes-rapidos", ingredients: ["Linaza molida", "Harina arroz", "Psyllium", "Polvo hornear", "Agua"], instructions: ["Hidratar linaza", "Mezclar con harinas", "Añadir químicos", "Hornear 35 min"], prepTime: "15 min", cookTime: "35 min", servings: "1 molde" },
-  { id: "13", title: "Pan de coco salado (ligero)", categoryId: "panes-rapidos", ingredients: ["Harina de coco", "Huevos", "Leche coco", "Sal", "Polvo hornear"], instructions: ["Mezclar harina coco", "Batir huevos", "Unir todo", "Hornear 30 min"], prepTime: "8 min", cookTime: "30 min", servings: "1 molde pequeño" },
-  { id: "14", title: "Pan de queso rápido (sin amasado)", categoryId: "panes-rapidos", ingredients: ["Queso rallado", "Harina arroz", "Huevos", "Polvo hornear", "Sal"], instructions: ["Mezclar queso y harina", "Agregar huevos", "Incorporar químicos", "Hornear 30 min"], prepTime: "10 min", cookTime: "30 min", servings: "1 molde" },
-  { id: "15", title: "Pan de hierbas mediterráneas (molde pequeño)", categoryId: "panes-rapidos", ingredients: ["Mix harinas GF", "Hierbas frescas", "Aceite oliva", "Polvo hornear", "Sal"], instructions: ["Picar hierbas", "Mezclar masa", "Añadir aceite", "Hornear 32 min"], prepTime: "12 min", cookTime: "32 min", servings: "1 molde pequeño" },
+  { 
+    id: "1", 
+    title: "Pan rápido de harina de arroz \"todo uso\"", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de arroz: 250 g", "Almidón de tapioca: 50 g", "Psyllium en polvo: 10 g", "Polvo de hornear: 8 g", "Sal fina: 5 g", "Agua tibia: 280 ml", "Huevos: 2 u (≈100 g)", "Aceite de oliva: 30 ml", "Vinagre de manzana: 10 ml"], 
+    instructions: ["Precalienta el horno a 190 °C. Engrasa y forra el molde con papel.", "En un bol, mezcla harina de arroz, tapioca, psyllium, polvo de hornear y sal.", "En otro bol, bate agua tibia, huevos, aceite y vinagre.", "Une líquidos con secos. Mezcla 1–2 min hasta ver una pasta espesa y suave (no es una masa para amasar).", "Vierte al molde, alisa con espátula humedecida.", "Hornea 35–40 min hasta que dore y al clavar un palillo salga seco.", "Desmolda y deja enfriar 20 min sobre rejilla antes de cortar.", "Consejos: Textura esperada es miga tierna y uniforme, corteza fina. Si lo ves muy denso, añade 20–30 ml extra de agua tibia."], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10-12 rebanadas" 
+  },
+  { 
+    id: "2", 
+    title: "Pan express de avena certificada (molde)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de avena certificada sin gluten: 300 g", "Almidón de tapioca: 40 g", "Psyllium en polvo: 8 g", "Polvo de hornear: 8 g", "Sal fina: 5 g", "Leche vegetal (avena/almendra): 280 ml", "Huevo: 1 u (≈50 g)", "Aceite suave: 20 ml", "Miel o sirope: 15 g", "Vinagre de manzana: 10 ml"], 
+    instructions: ["Horno a 180 °C. Molde engrasado y forrado.", "Mezcla avena, tapioca, psyllium, polvo de hornear y sal.", "Bate leche vegetal, huevo, aceite, miel y vinagre.", "Integra todo. Debe quedar una mezcla cremosa y algo espesa.", "Vierte y alisa. Golpea suavemente el molde para eliminar burbujas.", "Hornea 35 min aprox. Si dora muy rápido, cúbrelo con papel.", "Enfría 15–20 min antes de rebanar.", "Consejos: Si tu mezcla queda muy espesa, suma 20–40 ml de leche. Para desayunos, añade semillas de girasol y sésamo a la superficie."], 
+    prepTime: "10 min", 
+    cookTime: "35 min", 
+    servings: "10-12 rebanadas" 
+  },
+  { 
+    id: "3", 
+    title: "Pan de garbanzo al horno (tipo focaccia fina)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de garbanzo: 250 g", "Agua: 450 ml", "Aceite de oliva: 40 ml (y 20 ml extra para la bandeja y superficie)", "Sal: 6 g", "Polvo de hornear: 4 g", "Romero seco: 2 g", "Opcional: rodajas finas de cebolla, tomatitos, aceitunas"], 
+    instructions: ["Precalienta el horno a 220 °C con la bandeja dentro (la queremos bien caliente).", "En un bol, bate harina de garbanzo, agua, 40 ml de aceite, sal, polvo de hornear y romero hasta que no queden grumos. Reposa 10 min.", "Saca la bandeja caliente, pincela con 10 ml de aceite.", "Vierte la mezcla (queda fluida), agrega cebolla/tomates/aceitunas si quieres, y rocía con 10 ml de aceite por encima.", "Hornea 18–22 min hasta bordes dorados y centro firme.", "Deja entibiar 5 min y corta en cuadrados.", "Consejos: Textura fina, bordes crujientes y centro jugoso. Si la quieres más gruesa, usa una bandeja más pequeña o aumenta la cantidad un 30%."], 
+    prepTime: "15 min", 
+    cookTime: "18-22 min", 
+    servings: "8 porciones" 
+  },
+  { 
+    id: "4", 
+    title: "Pan de almendra suave (batido)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de almendra fina: 220 g", "Harina de coco: 30 g", "Psyllium en polvo: 8 g", "Polvo de hornear: 8 g", "Sal: 3 g", "Huevos: 4 u (≈200 g)", "Yogur vegetal natural (o kefir vegetal): 120 ml", "Agua: 60 ml", "Aceite de oliva o coco: 30 ml", "Vinagre de manzana: 10 ml"], 
+    instructions: ["Horno a 180 °C. Molde engrasado y forrado.", "Mezcla secos: almendra, coco, psyllium, polvo de hornear y sal.", "Bate huevos con yogur, agua, aceite y vinagre.", "Integra líquidos con secos. La mezcla espesa en 1–2 min (el coco y el psyllium absorben).", "Vierte, alisa y hornea 28–32 min. Palillo seco y superficie apenas dorada.", "Enfría 20 min antes de cortar.", "Consejos: Miga esperada es tierna y ligeramente húmeda, ideal para tostadas. Pan low-carb friendly."], 
+    prepTime: "10 min", 
+    cookTime: "28-32 min", 
+    servings: "10 rebanadas" 
+  },
+  { 
+    id: "5", 
+    title: "Pan de yogurt vegetal y semillas (sin levado)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de arroz: 200 g", "Harina de avena GF: 80 g", "Almidón de tapioca: 40 g", "Psyllium en polvo: 8 g", "Polvo de hornear: 8 g", "Sal: 5 g", "Yogurt vegetal natural: 250 g (≈250 ml)", "Agua: 120 ml", "Aceite de oliva: 30 ml", "Mix de semillas: 40 g (chía 10 g, lino 15 g, girasol 15 g)"], 
+    instructions: ["Precalienta a 190 °C. Prepara el molde con papel.", "En un bol, combina harinas, tapioca, psyllium, polvo de hornear y sal.", "Mezcla yogurt, agua y aceite; vierte sobre los secos.", "Incorpora el mix de semillas (reserva un poco para la superficie).", "Vierte en el molde, alisa y espolvorea el resto de semillas.", "Hornea 35–40 min. Si se dora de más, cúbrelo los últimos 10 min.", "Enfría 15–20 min antes de rebanar.", "Consejos: Miga húmeda y elástica gracias al yogurt y el psyllium. Para rodajas más firmes, tuéstalas 3–4 min antes de servir."], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10-12 rebanadas" 
+  },
+  { 
+    id: "6", 
+    title: "Pan rústico de sorgo y maíz (mezcla básica)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de sorgo: 180 g", "Harina de maíz fina (no precocida): 120 g", "Almidón de tapioca: 50 g", "Psyllium en polvo: 10 g", "Polvo de hornear: 8 g", "Sal: 5 g", "Agua tibia: 320 ml", "Aceite de oliva: 30 ml", "Vinagre de manzana: 10 ml"], 
+    instructions: ["Precalienta el horno a 190 °C y prepara un molde con papel.", "Mezcla en un bol las harinas, tapioca, psyllium, polvo de hornear y sal.", "Agrega el agua tibia, aceite y vinagre. Mezcla con espátula hasta formar una pasta húmeda.", "Vierte al molde y alisa la superficie.", "Hornea 35–40 min o hasta que la parte superior se dore y suene hueca al golpearla suavemente.", "Deja enfriar 15 min antes de cortar.", "Consejos: Este pan tiene sabor ligeramente dulce por el maíz y aroma a campo. Ideal para acompañar sopas o untar con aceite de oliva."], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10-12 rebanadas" 
+  },
+  { 
+    id: "7", 
+    title: "Pan de papa y aceite de oliva (textura tierna)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Puré de papa cocida (sin mantequilla): 200 g", "Harina de arroz: 150 g", "Fécula de maíz: 50 g", "Polvo de hornear: 8 g", "Psyllium en polvo: 6 g", "Sal: 4 g", "Agua tibia: 120 ml", "Aceite de oliva: 40 ml"], 
+    instructions: ["Precalienta el horno a 190 °C. Engrasa un molde o usa papel vegetal.", "Mezcla puré de papa con el agua y el aceite hasta integrar.", "Añade los ingredientes secos y mezcla bien. La textura debe ser suave, no líquida.", "Coloca la masa en el molde, alisa y rocía un poco de aceite por encima.", "Hornea 30–35 min hasta dorar.", "Deja reposar 10 min antes de desmoldar.", "Consejos: Queda con una miga húmeda y elástica gracias al puré. Perfecto para tostar con ajo o hierbas."], 
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8-10 rebanadas" 
+  },
+  { 
+    id: "8", 
+    title: "Pan de calabaza especiado (salado)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Puré de calabaza cocida: 200 g", "Harina de arroz: 150 g", "Harina de garbanzo: 50 g", "Polvo de hornear: 8 g", "Sal: 4 g", "Comino molido: 1 g", "Cúrcuma: 1 g", "Aceite de oliva: 30 ml", "Agua: 120 ml"], 
+    instructions: ["Precalienta a 190 °C. Engrasa el molde.", "Mezcla los ingredientes secos en un bol.", "Agrega el puré de calabaza, aceite y agua; mezcla hasta que quede una masa cremosa.", "Vierte en el molde y alisa.", "Hornea 35–40 min hasta dorar ligeramente.", "Deja enfriar antes de cortar.", "Consejos: El color dorado y el aroma especiado son irresistibles. Añade semillas de calabaza arriba antes de hornear para decorar."], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas" 
+  },
+  { 
+    id: "9", 
+    title: "Pan de cebolla y orégano (bandeja)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de arroz: 200 g", "Harina de maíz fina: 80 g", "Fécula de maíz: 50 g", "Polvo de hornear: 8 g", "Sal: 5 g", "Cebolla finamente picada: 100 g", "Aceite de oliva: 40 ml", "Agua tibia: 240 ml", "Orégano seco: 3 g"], 
+    instructions: ["Precalienta el horno a 200 °C.", "Sofríe la cebolla con 10 ml de aceite hasta que esté transparente; enfría.", "Mezcla harinas, polvo de hornear, sal y orégano.", "Agrega el agua, aceite restante y la cebolla. Mezcla hasta que quede espeso.", "Extiende la masa en bandeja engrasada (2–3 cm de grosor).", "Hornea 30 min hasta dorar los bordes.", "Enfría 10 min antes de cortar.", "Consejos: Perfecto para servir como pan de mesa o base de mini pizzas. Si quieres más aroma, añade 1 diente de ajo rallado."], 
+    prepTime: "15 min", 
+    cookTime: "30 min", 
+    servings: "8-10 porciones" 
+  },
+  { 
+    id: "10", 
+    title: "Pan tipo \"soda bread\" sin gluten (con bicarbonato)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de arroz: 200 g", "Harina de avena GF: 100 g", "Fécula de maíz: 50 g", "Bicarbonato de sodio: 5 g", "Polvo de hornear: 5 g", "Sal: 4 g", "Yogur vegetal natural: 250 ml", "Vinagre o jugo de limón: 10 ml", "Aceite: 20 ml"], 
+    instructions: ["Precalienta el horno a 200 °C. Cubre una bandeja con papel.", "Mezcla el yogur con el vinagre y deja reposar 5 min (formará una ligera espuma).", "En un bol, mezcla los ingredientes secos.", "Agrega el yogur y el aceite. Forma una masa blanda, que no se pega a las manos.", "Haz una bola, colócala sobre la bandeja y marca una cruz con cuchillo en la parte superior.", "Hornea 35–40 min o hasta que suene hueco al golpear.", "Enfría sobre rejilla.", "Consejos: Este pan tiene miga densa y corteza rústica. Si lo deseas más aireado, sustituye 50 ml del yogur por agua con gas."], 
+    prepTime: "15 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas" 
+  },
+  { 
+    id: "11", 
+    title: "Pan integral sin gluten (arroz + avena GF)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de arroz integral: 180 g", "Harina de avena certificada GF: 120 g", "Fécula de maíz: 60 g", "Psyllium en polvo: 8 g", "Polvo de hornear: 8 g", "Sal: 5 g", "Aceite de oliva: 30 ml", "Agua tibia: 320 ml", "Vinagre de manzana: 10 ml", "Semillas mixtas: 30 g"], 
+    instructions: ["Precalienta el horno a 190 °C y prepara un molde mediano.", "En un bol, mezcla las harinas, fécula, psyllium, polvo de hornear y sal.", "Agrega el agua tibia, el aceite y el vinagre. Mezcla con cuchara hasta lograr una pasta espesa.", "Incorpora la mitad de las semillas.", "Vierte la mezcla al molde, alisa y espolvorea el resto de semillas.", "Hornea 35–40 min, hasta dorar.", "Enfría antes de cortar.", "Consejos: Pan de sabor suave y miga húmeda, perfecto para tostadas o sándwiches. Podés guardar rebanadas congeladas hasta 2 meses."], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "12 rebanadas" 
+  },
+  { 
+    id: "12", 
+    title: "Pan de linaza molida (alto en fibra)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Linaza molida: 120 g", "Harina de almendra: 100 g", "Harina de coco: 20 g", "Polvo de hornear: 8 g", "Sal: 4 g", "Huevos: 4 u (≈200 g)", "Agua: 120 ml", "Aceite de oliva: 20 ml", "Vinagre de manzana: 10 ml"], 
+    instructions: ["Precalienta el horno a 180 °C.", "Mezcla secos: linaza, almendra, coco, polvo de hornear y sal.", "En otro bol, bate los huevos con el agua, aceite y vinagre.", "Integra todo y deja reposar 5 min (la linaza absorbe líquido y espesa).", "Coloca en molde pequeño y alisa.", "Hornea 30–35 min hasta que al pinchar salga seco.", "Enfría sobre rejilla.", "Consejos: Textura densa, ideal para tostadas saladas. Si querés versión más húmeda, agregá 1 cucharada extra de agua. Aporta muchísima saciedad."], 
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8-10 rebanadas" 
+  },
+  { 
+    id: "13", 
+    title: "Pan de coco salado (ligero)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de coco: 60 g", "Fécula de maíz: 40 g", "Polvo de hornear: 6 g", "Sal: 3 g", "Huevos: 3 u", "Leche vegetal o agua: 150 ml", "Aceite de coco o de oliva: 25 ml"], 
+    instructions: ["Horno a 180 °C.", "Mezclá los ingredientes secos.", "En otro bol, batí huevos, leche y aceite.", "Integra todo. La mezcla debe quedar cremosa (no líquida).", "Verté en molde pequeño.", "Horneá 25–30 min, hasta dorar los bordes.", "Dejá enfriar antes de cortar.", "Consejos: Muy aromático y suave, perfecto para acompañar comidas ligeras. Podés agregar 1 cucharadita de orégano o ajo en polvo para darle un toque salado."], 
+    prepTime: "10 min", 
+    cookTime: "25-30 min", 
+    servings: "6-8 rebanadas" 
+  },
+  { 
+    id: "14", 
+    title: "Pan de queso rápido (sin amasado)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Fécula de mandioca o tapioca: 200 g", "Queso rallado (duro o semicurado): 120 g", "Huevo: 1 u", "Aceite: 30 ml", "Leche tibia: 100 ml", "Polvo de hornear: 6 g", "Sal: 3 g"], 
+    instructions: ["Precalentá el horno a 200 °C.", "En un bol, mezclá la fécula, el queso, el polvo de hornear y la sal.", "Incorporá el huevo, el aceite y la leche. Mezclá hasta que se forme una masa pegajosa pero manejable.", "Formá bollitos con las manos húmedas y colocá sobre bandeja con papel.", "Horneá 20–25 min, hasta que se inflen y doren.", "Consejos: Si te gustan más elásticos, usá mezcla de quesos duros y frescos. Podés hacerlos mini para picadas o más grandes para sándwiches."], 
+    prepTime: "10 min", 
+    cookTime: "20-25 min", 
+    servings: "8-10 bollitos" 
+  },
+  { 
+    id: "15", 
+    title: "Pan de hierbas mediterráneas (molde pequeño)", 
+    categoryId: "panes-rapidos", 
+    ingredients: ["Harina de arroz: 200 g", "Harina de sorgo: 100 g", "Fécula de maíz: 40 g", "Polvo de hornear: 8 g", "Sal: 4 g", "Aceite de oliva: 40 ml", "Agua tibia: 280 ml", "Vinagre de manzana: 10 ml", "Hierbas secas (romero, orégano, tomillo): 2 g de cada una aprox."], 
+    instructions: ["Precalentá el horno a 190 °C.", "Mezclá harinas, fécula, polvo de hornear, sal y hierbas.", "Agregá aceite, agua y vinagre. Mezclá hasta integrar.", "Verté en molde pequeño, alisá la superficie y rociá un poco de aceite arriba.", "Horneá 35–40 min hasta dorar.", "Dejá enfriar 15 min antes de cortar.", "Consejos: Aroma increíble gracias al romero y al aceite de oliva. Ideal para acompañar ensaladas o sopas. Si querés versión más intensa, sumá aceitunas picadas a la mezcla."], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas" 
+  },
 
   // Categoría 2: Panes Exprés al Microondas (10)
   { id: "16", title: "Pan de taza de avena GF (mug bread)", categoryId: "panes-microondas", ingredients: ["Avena GF molida", "Huevo", "Polvo hornear", "Leche", "Sal"], instructions: ["Mezclar en taza", "Microondas 90 seg", "Dejar reposar", "Desmoldar"], prepTime: "3 min", cookTime: "2 min", servings: "1 porción" },
