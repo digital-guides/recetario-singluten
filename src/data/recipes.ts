@@ -1510,17 +1510,296 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 9: Regionales LATAM (12)
-  { id: "89", title: "89. 🌎 Pão de queijo (pan de queso brasileño) sin gluten", categoryId: "regionales-latam", ingredients: ["Almidón tapioca", "Queso rallado", "Huevos", "Leche", "Aceite"], instructions: ["Escaldar almidón", "Añadir queso", "Formar bolitas", "Hornear"], prepTime: "15 min", cookTime: "25 min", servings: "12 unidades" },
-  { id: "90", title: "90. 🌎 Chipa paraguaya (quesuda, almidón de yuca)", categoryId: "regionales-latam", ingredients: ["Almidón yuca", "Queso Paraguay", "Huevos", "Leche", "Grasa"], instructions: ["Mezclar todo", "Formar herradura", "Hornear dorado", "Servir caliente"], prepTime: "15 min", cookTime: "25 min", servings: "10 chipas" },
-  { id: "91", title: "91. 🌎 Cachitos/\"calcitos\" de yuca (rellenos salados)", categoryId: "regionales-latam", ingredients: ["Masa yuca", "Jamón", "Queso", "Huevo", "Mantequilla"], instructions: ["Masa de yuca", "Rellenar", "Formar cachitos", "Hornear"], prepTime: "30 min", cookTime: "20 min", servings: "8 cachitos" },
-  { id: "92", title: "92. 🌎 Pan andino de papa (sin gluten)", categoryId: "regionales-latam", ingredients: ["Papa amarilla", "Harina arroz", "Anís", "Sal", "Levadura"], instructions: ["Puré papa", "Mezclar harina", "Fermentar", "Hornear"], prepTime: "1h", cookTime: "35 min", servings: "1 hogaza" },
-  { id: "93", title: "93. 🌎 Pan de yuca horneado (Ecuador/Colombia)", categoryId: "regionales-latam", ingredients: ["Almidón yuca", "Queso fresco", "Huevo", "Mantequilla"], instructions: ["Mezclar masa", "Formar bolitas", "Hornear esponjoso", "Servir tibio"], prepTime: "10 min", cookTime: "20 min", servings: "10 panes" },
-  { id: "94", title: "94. 🌎 Pan de bono sin gluten (versión casera)", categoryId: "regionales-latam", ingredients: ["Almidón yuca", "Queso costeño", "Huevos", "Mantequilla"], instructions: ["Mezclar ingredientes", "Formar aros", "Hornear dorado", "Comer caliente"], prepTime: "15 min", cookTime: "25 min", servings: "8 panes" },
-  { id: "95", title: "95. 🌎 Pan campesino costeño (adaptado GF)", categoryId: "regionales-latam", ingredients: ["Mix GF", "Coco rallado", "Anís", "Levadura", "Leche coco"], instructions: ["Masa aromática", "Fermentar corto", "Formar redondo", "Hornear"], prepTime: "1h", cookTime: "35 min", servings: "1 hogaza" },
-  { id: "96", title: "96. 🌎 Pan telera sin gluten (adaptación)", categoryId: "regionales-latam", ingredients: ["Mix GF", "Levadura", "Agua", "Manteca", "Sal"], instructions: ["Masa suave", "Fermentar 1h", "Formar ovalado", "Hornear blando"], prepTime: "1h 10min", cookTime: "20 min", servings: "6 teleras" },
-  { id: "97", title: "97. 🌎 Pan francés casero sin gluten (básico)", categoryId: "regionales-latam", ingredients: ["Mix panificable", "Levadura", "Agua", "Sal", "Azúcar"], instructions: ["Masa clásica", "Fermentar", "Formar bolillos", "Hornear crujiente"], prepTime: "1h 15min", cookTime: "25 min", servings: "6 panes" },
-  { id: "98", title: "98. 🌎 Pan gallego sin gluten (miga húmeda)", categoryId: "regionales-latam", ingredients: ["Mix GF", "Papa cocida", "Levadura", "Aceite oliva", "Sal"], instructions: ["Integrar papa", "Masa húmeda", "Fermentar", "Hornear rústico"], prepTime: "1h 20min", cookTime: "40 min", servings: "1 hogaza" },
-  { id: "99", title: "99. 🌎 Pan tipo ciabatta latino (con aceite y sal)", categoryId: "regionales-latam", ingredients: ["Mix GF", "Aceite oliva", "Sal gruesa", "Levadura", "Agua"], instructions: ["Alta hidratación", "Fermentar", "Estirar", "Hornear plano"], prepTime: "1h 30min", cookTime: "25 min", servings: "2 ciabattas" },
-  { id: "100", title: "100. 🌎 Pan bollo dulce criollo (sin gluten, aromático)", categoryId: "regionales-latam", ingredients: ["Mix GF", "Azúcar", "Anís", "Mantequilla", "Levadura"], instructions: ["Masa dulce", "Fermentar", "Formar bollos", "Hornear aromático"], prepTime: "1h 15min", cookTime: "22 min", servings: "8 bollos" }
+  { 
+    id: "89", 
+    title: "89. 🇧🇷 Pão de queijo (pan de queso brasileño) sin gluten", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Fécula de mandioca dulce: 250 g",
+      "Leche vegetal: 120 ml",
+      "Aceite o manteca: 50 ml",
+      "Huevo: 2 u",
+      "Queso rallado (duro o semicurado): 120 g",
+      "Sal: 4 g"
+    ], 
+    instructions: [
+      "Calentá leche y aceite hasta que hiervan.",
+      "Verté sobre la fécula y mezclá con cuchara.",
+      "Agregá los huevos y el queso; mezclá hasta masa suave.",
+      "Formá bolitas y horneá 20–25 min a 200 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "20-25 min", 
+    servings: "12 unidades",
+    chefTip: "Textura elástica y corazón tierno. Se pueden congelar antes de hornear. Servilos recién hechos, aún tibios."
+  },
+  { 
+    id: "90", 
+    title: "90. 🇵🇾 Chipa paraguaya (quesuda, almidón de yuca)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Fécula de mandioca: 250 g",
+      "Queso rallado: 150 g",
+      "Huevos: 2 u",
+      "Leche o agua: 60 ml",
+      "Aceite o manteca: 40 ml",
+      "Polvo de hornear: 5 g",
+      "Sal: 4 g"
+    ], 
+    instructions: [
+      "Mezclá todos los ingredientes hasta masa firme.",
+      "Formá rosquitas o bollos.",
+      "Horneá 25–30 min a 190 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "25-30 min", 
+    servings: "10 unidades",
+    chefTip: "Corteza crocante, miga suave. Podés usar mezcla de quesos duros y blandos. Clásico de mate o café paraguayo."
+  },
+  { 
+    id: "91", 
+    title: "91. 🧀 Cachitos de yuca (rellenos salados)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Yuca cocida y pisada: 300 g",
+      "Fécula de maíz: 40 g",
+      "Queso rallado: 100 g",
+      "Huevo: 1 u",
+      "Sal: 4 g",
+      "Relleno: jamón, queso o vegetales al gusto"
+    ], 
+    instructions: [
+      "Mezclá yuca, fécula, queso, huevo y sal.",
+      "Formá discos y colocá relleno.",
+      "Cerrá en forma de medialuna.",
+      "Horneá 25 min a 190 °C o dorá en sartén."
+    ], 
+    prepTime: "15 min", 
+    cookTime: "25 min", 
+    servings: "8 unidades",
+    chefTip: "Suaves y dorados. Podés hacerlos dulces con relleno de guayaba. Se recalientan perfecto en air fryer."
+  },
+  { 
+    id: "92", 
+    title: "92. 🥔 Pan andino de papa (sin gluten)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Papa cocida y pisada: 250 g",
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 50 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Aceite: 30 ml",
+      "Agua tibia: 60 ml"
+    ], 
+    instructions: [
+      "Mezclá todo hasta masa suave.",
+      "Formá bollitos o discos.",
+      "Horneá 25–30 min a 190 °C."
+    ], 
+    prepTime: "15 min", 
+    cookTime: "25-30 min", 
+    servings: "10 unidades",
+    chefTip: "Textura húmeda y sabor delicado. Ideal para acompañar sopas o guisos. También podés cocinarlos en plancha."
+  },
+  { 
+    id: "93", 
+    title: "93. 🇪🇨 Pan de yuca horneado (Ecuador/Colombia)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Fécula de yuca: 250 g",
+      "Queso fresco rallado: 150 g",
+      "Huevo: 1 u",
+      "Yogurt natural o vegetal: 100 ml",
+      "Sal: 3 g"
+    ], 
+    instructions: [
+      "Mezclá todos los ingredientes hasta masa homogénea.",
+      "Formá bolitas y colocá en bandeja.",
+      "Horneá 20–25 min a 200 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "20-25 min", 
+    servings: "12 unidades",
+    chefTip: "Dorados por fuera, tiernos por dentro. Se pueden hacer mini para picadas. Si querés más crocantes, terminá 3 min en air fryer."
+  },
+  { 
+    id: "94", 
+    title: "94. 🇨🇴 Pan de bono sin gluten (versión casera)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Fécula de yuca: 200 g",
+      "Harina de maíz precocida: 50 g",
+      "Queso rallado: 150 g",
+      "Huevo: 1 u",
+      "Leche vegetal: 80 ml",
+      "Polvo de hornear: 5 g"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Agregá queso, huevo y leche.",
+      "Amasá y formá bollitos.",
+      "Horneá 20–25 min a 200 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "20-25 min", 
+    servings: "10 unidades",
+    chefTip: "Aroma irresistible al salir del horno. Crujientes por fuera, suaves por dentro. Servilos tibios."
+  },
+  { 
+    id: "95", 
+    title: "95. 🌾 Pan campesino costeño (adaptado GF)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Harina de maíz: 80 g",
+      "Fécula de tapioca: 40 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 6 g",
+      "Azúcar: 10 g",
+      "Sal: 5 g",
+      "Agua tibia: 260 ml",
+      "Aceite: 30 ml"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Agregá agua y aceite.",
+      "Verté en molde, tapá y dejá levar 40 min.",
+      "Horneá 35–40 min a 190 °C."
+    ], 
+    prepTime: "50 min", 
+    cookTime: "35-40 min", 
+    servings: "12 rebanadas",
+    chefTip: "Sabor suave y miga dorada. Ideal para acompañar comidas típicas. Podés sumar semillas o coco rallado."
+  },
+  { 
+    id: "96", 
+    title: "96. 🇲🇽 Pan telera sin gluten (adaptación mexicana)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 80 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 6 g",
+      "Azúcar: 10 g",
+      "Sal: 5 g",
+      "Agua tibia: 260 ml",
+      "Aceite: 25 ml"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Agregá agua y aceite.",
+      "Formá panes ovalados, haceles un corte central.",
+      "Levá 40 min.",
+      "Horneá 30 min a 190 °C."
+    ], 
+    prepTime: "50 min", 
+    cookTime: "30 min", 
+    servings: "6 teleras medianas",
+    chefTip: "Pan suave, ideal para tortas mexicanas. Si querés dorado extra, pincelá con aceite antes del horno. Se congela muy bien."
+  },
+  { 
+    id: "97", 
+    title: "97. 🇫🇷 Pan francés casero sin gluten (básico)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de tapioca: 100 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 6 g",
+      "Sal: 5 g",
+      "Agua tibia: 280 ml",
+      "Aceite: 20 ml"
+    ], 
+    instructions: [
+      "Mezclá los secos.",
+      "Agregá agua y aceite, mezclá bien.",
+      "Formá baguettes y dejá levar 40 min.",
+      "Horneá 30–35 min a 200 °C."
+    ], 
+    prepTime: "50 min", 
+    cookTime: "30-35 min", 
+    servings: "2 baguettes medianas",
+    chefTip: "Corteza fina, interior tierno. Si querés más crocante, rociá con agua antes del horneado. Ideal para sándwiches o bruschettas."
+  },
+  { 
+    id: "98", 
+    title: "98. 🇪🇸 Pan gallego sin gluten (miga húmeda)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Harina de arroz integral: 180 g",
+      "Harina de maíz: 100 g",
+      "Fécula de papa: 80 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 6 g",
+      "Sal: 5 g",
+      "Agua tibia: 280 ml",
+      "Aceite: 25 ml"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Agregá agua y aceite.",
+      "Verté en molde o formá pan redondo.",
+      "Dejá levar 45 min.",
+      "Horneá 40 min a 190 °C."
+    ], 
+    prepTime: "55 min", 
+    cookTime: "40 min", 
+    servings: "12 rebanadas",
+    chefTip: "Miga húmeda y corteza firme. Perfecto para sopas o comidas saladas. Se conserva 3 días envuelto en paño."
+  },
+  { 
+    id: "99", 
+    title: "99. 🇮🇹 Pan tipo ciabatta latino (con aceite y sal)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de maíz: 80 g",
+      "Fécula de tapioca: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 6 g",
+      "Sal: 4 g",
+      "Agua tibia: 280 ml",
+      "Aceite de oliva: 30 ml"
+    ], 
+    instructions: [
+      "Mezclá todos los ingredientes.",
+      "Verté en molde alargado y alisá.",
+      "Levá 40 min.",
+      "Horneá 35 min a 190 °C."
+    ], 
+    prepTime: "50 min", 
+    cookTime: "35 min", 
+    servings: "8 rebanadas",
+    chefTip: "Textura aireada y suave aroma a oliva. Perfecto para bruschettas o focaccias. Rocialo con sal gruesa y aceite antes de hornear."
+  },
+  { 
+    id: "100", 
+    title: "100. 🇦🇷 Pan bollo dulce criollo (sin gluten, aromático)", 
+    categoryId: "regionales-latam", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 80 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 6 g",
+      "Azúcar: 40 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 220 ml",
+      "Aceite: 40 ml",
+      "Esencia de vainilla: 1 cdta",
+      "Ralladura de limón: 1 cdta"
+    ], 
+    instructions: [
+      "Mezclá los secos.",
+      "Agregá leche, aceite y esencias.",
+      "Amasá con espátula y formá bollos.",
+      "Dejá levar 40 min.",
+      "Horneá 30 min a 180 °C."
+    ], 
+    prepTime: "50 min", 
+    cookTime: "30 min", 
+    servings: "10 unidades",
+    chefTip: "Pan suave, fragante y con toque criollo. Podés espolvorear azúcar o coco antes del horneado. Ideal para acompañar mate o café con leche."
+  }
 ];
 
