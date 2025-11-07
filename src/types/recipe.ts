@@ -7,6 +7,7 @@ export interface Recipe {
   prepTime?: string;
   cookTime?: string;
   servings?: string;
+  chefTip?: string;
 }
 
 export interface Category {

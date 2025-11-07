@@ -667,18 +667,343 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 6: Panes Dulces (12)
-  { id: "59", title: "59. 🧁 Pan dulce de naranja y almendra (glaseado ligero)", categoryId: "panes-dulces", ingredients: ["Harina almendra", "Ralladura naranja", "Huevos", "Azúcar", "Polvo hornear"], instructions: ["Mezclar ingredientes", "Molde", "Hornear", "Glasear"], prepTime: "15 min", cookTime: "35 min", servings: "1 molde" },
-  { id: "60", title: "60. 🧁 Pan tipo \"milk bread\" sin gluten (suave)", categoryId: "panes-dulces", ingredients: ["Mix GF", "Leche", "Mantequilla", "Azúcar", "Levadura"], instructions: ["Masa tierna", "Fermentar 1h", "Molde", "Hornear suave"], prepTime: "1h 10min", cookTime: "30 min", servings: "1 molde" },
-  { id: "61", title: "61. 🧁 Pan de chocolate marmolado (molde)", categoryId: "panes-dulces", ingredients: ["Mix GF", "Cacao", "Azúcar", "Huevos", "Aceite"], instructions: ["Dividir masa", "Marmolar", "Molde", "Hornear"], prepTime: "15 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "62", title: "62. 🧁 Pan de banana (banana bread) sin gluten", categoryId: "panes-dulces", ingredients: ["Bananas maduras", "Mix GF", "Huevos", "Azúcar", "Nueces"], instructions: ["Aplastar bananas", "Mezclar", "Molde", "Hornear"], prepTime: "10 min", cookTime: "50 min", servings: "1 molde" },
-  { id: "63", title: "63. 🧁 Pan de coco dulce (rebanado)", categoryId: "panes-dulces", ingredients: ["Coco rallado", "Leche coco", "Azúcar", "Huevos", "Harina arroz"], instructions: ["Mezclar ingredientes", "Molde", "Hornear", "Enfriar"], prepTime: "12 min", cookTime: "45 min", servings: "1 molde" },
-  { id: "64", title: "64. 🧁 Pan de pasas y canela (sin trigo)", categoryId: "panes-dulces", ingredients: ["Mix GF", "Pasas", "Canela", "Azúcar", "Levadura"], instructions: ["Hidratar pasas", "Masa dulce", "Fermentar 1h", "Hornear"], prepTime: "1h 15min", cookTime: "35 min", servings: "1 molde" },
-  { id: "65", title: "65. 🧁 Pan de manzana y nuez (especiado)", categoryId: "panes-dulces", ingredients: ["Manzanas", "Nueces", "Mix GF", "Canela", "Azúcar"], instructions: ["Picar manzana", "Mezclar", "Molde", "Hornear"], prepTime: "15 min", cookTime: "45 min", servings: "1 molde" },
-  { id: "66", title: "66. 🧁 Pan de limón y semillas de amapola", categoryId: "panes-dulces", ingredients: ["Ralladura limón", "Semillas amapola", "Mix GF", "Azúcar", "Yogurt"], instructions: ["Mezclar ingredientes", "Molde", "Hornear", "Glasear limón"], prepTime: "12 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "67", title: "67. 🧁 Pan de dátiles (naturalmente dulce)", categoryId: "panes-dulces", ingredients: ["Dátiles", "Mix GF", "Huevos", "Aceite coco", "Canela"], instructions: ["Remojar dátiles", "Procesar", "Mezclar masa", "Hornear"], prepTime: "20 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "68", title: "68. 🧁 Pan de calabaza dulce (spiced)", categoryId: "panes-dulces", ingredients: ["Puré calabaza", "Especias", "Mix GF", "Azúcar morena", "Huevos"], instructions: ["Mezclar calabaza", "Añadir especias", "Molde", "Hornear"], prepTime: "12 min", cookTime: "50 min", servings: "1 molde" },
-  { id: "69", title: "69. 🧁 Pan de arándanos frescos", categoryId: "panes-dulces", ingredients: ["Arándanos", "Mix GF", "Azúcar", "Limón", "Huevos"], instructions: ["Mezclar base", "Integrar arándanos", "Molde", "Hornear"], prepTime: "10 min", cookTime: "45 min", servings: "1 molde" },
-  { id: "70", title: "70. 🧁 Pan dulce de naranja confitada", categoryId: "panes-dulces", ingredients: ["Naranja confitada", "Mix GF", "Azúcar", "Mantequilla", "Levadura"], instructions: ["Picar naranja", "Masa dulce", "Fermentar corto", "Hornear"], prepTime: "1h", cookTime: "35 min", servings: "1 molde" },
+  { 
+    id: "59", 
+    title: "59. 🍊 Pan dulce de naranja y almendra (glaseado ligero)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de almendra: 150 g",
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 50 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 2 g",
+      "Ralladura de naranja: 1 u",
+      "Jugo de naranja natural: 100 ml",
+      "Huevos: 3 u",
+      "Aceite: 50 ml",
+      "Miel o azúcar mascabo: 50 g",
+      "Esencia de vainilla: 1 cdta"
+    ], 
+    instructions: [
+      "Precalentá el horno a 180 °C y engrasá un molde.",
+      "Mezclá secos: harinas, fécula, polvo de hornear, sal y ralladura.",
+      "En otro bol, batí huevos, jugo, miel, aceite y vainilla.",
+      "Combiná ambos hasta lograr mezcla homogénea.",
+      "Verté en el molde y horneá 35–40 min.",
+      "Enfriá y decorá con glaseado de jugo y azúcar impalpable."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Aroma cítrico y textura húmeda. Perfecto con una taza de té o café. Podés sumar chips de chocolate o nueces."
+  },
+  { 
+    id: "60", 
+    title: "60. 🥛 Pan tipo \"milk bread\" sin gluten (suave)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de papa: 80 g",
+      "Fécula de tapioca: 40 g",
+      "Psyllium: 6 g",
+      "Polvo de hornear: 8 g",
+      "Azúcar: 40 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 220 ml",
+      "Aceite: 30 ml",
+      "Huevo: 1 u",
+      "Vainilla: 1 cdta"
+    ], 
+    instructions: [
+      "Mezclá los secos en un bol.",
+      "En otro, batí leche, huevo, aceite y vainilla.",
+      "Uní ambos y mezclá hasta lograr masa espesa.",
+      "Verté en molde y horneá 30–35 min a 180 °C.",
+      "Dejá enfriar antes de cortar."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan suave y ligeramente dulce. Ideal para tostadas con manteca o mermelada. Podés hacerlo sin huevo: sumá 60 ml más de leche y 5 ml de aceite."
+  },
+  { 
+    id: "61", 
+    title: "61. 🍫 Pan de chocolate marmolado (molde)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de maíz: 60 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 2 g",
+      "Huevo: 2 u",
+      "Azúcar: 60 g",
+      "Aceite: 40 ml",
+      "Leche vegetal: 120 ml",
+      "Cacao sin azúcar: 20 g",
+      "Esencia de vainilla: 1 cdta"
+    ], 
+    instructions: [
+      "Precalentá el horno a 180 °C.",
+      "Mezclá secos excepto el cacao.",
+      "En otro bol, batí huevos, azúcar, leche y aceite.",
+      "Uní y dividí la mezcla: una parte vainilla, otra con cacao.",
+      "Verté ambas alternadas en molde y mezclá con cuchillo para efecto marmolado.",
+      "Horneá 35–40 min."
+    ], 
+    prepTime: "15 min", 
+    cookTime: "35-40 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Textura húmeda, sabor equilibrado. Perfecto para meriendas o desayunos especiales. Podés añadir chips de chocolate o ralladura de naranja."
+  },
+  { 
+    id: "62", 
+    title: "62. 🍌 Pan de banana (banana bread) sin gluten", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Bananas maduras: 3 u (≈ 300 g)",
+      "Huevo: 1 u",
+      "Aceite: 40 ml",
+      "Azúcar mascabo: 60 g",
+      "Harina de arroz: 150 g",
+      "Harina de almendra: 70 g",
+      "Polvo de hornear: 8 g",
+      "Canela: 1 cdta",
+      "Sal: 1 pizca",
+      "Nueces o chips de chocolate: 50 g"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Pisá las bananas y mezclá con el huevo, aceite y azúcar.",
+      "Incorporá las harinas, polvo de hornear, canela y sal.",
+      "Añadí las nueces o chips.",
+      "Verté en molde y horneá 40–45 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "40-45 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Clásico, húmedo y aromático. Cuanto más maduras las bananas, mejor sabor. Perfecto para congelar en rebanadas."
+  },
+  { 
+    id: "63", 
+    title: "63. 🥥 Pan de coco dulce (rebanado)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de coco: 60 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 2 g",
+      "Huevos: 3 u",
+      "Leche vegetal: 150 ml",
+      "Aceite de coco: 30 ml",
+      "Azúcar o miel: 40 g",
+      "Esencia de vainilla: 1 cdta"
+    ], 
+    instructions: [
+      "Precalentá el horno a 180 °C.",
+      "Mezclá secos.",
+      "En otro bol, batí huevos, leche, aceite y azúcar.",
+      "Uní todo y mezclá.",
+      "Verté en molde y horneá 30–35 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8-10 rebanadas",
+    chefTip: "Pan húmedo, de sabor tropical. Podés decorarlo con coco rallado encima. Ideal para desayunos o colaciones."
+  },
+  { 
+    id: "64", 
+    title: "64. 🍇 Pan de pasas y canela (sin trigo)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz integral: 150 g",
+      "Fécula de maíz: 70 g",
+      "Polvo de hornear: 8 g",
+      "Canela: 2 g",
+      "Sal: 2 g",
+      "Huevo: 2 u",
+      "Aceite: 30 ml",
+      "Leche vegetal: 120 ml",
+      "Azúcar mascabo: 50 g",
+      "Pasas: 50 g"
+    ], 
+    instructions: [
+      "Precalentá el horno a 180 °C.",
+      "Mezclá los secos.",
+      "En otro bol, batí huevos, aceite, leche y azúcar.",
+      "Uní todo y añadí las pasas.",
+      "Verté en molde y horneá 35–40 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Miga húmeda y aroma especiado. Si querés textura más suave, hidratá las pasas 10 min antes. Perfecto con manteca o miel."
+  },
+  { 
+    id: "65", 
+    title: "65. 🍎 Pan de manzana y nuez (especiado)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz: 160 g",
+      "Fécula de maíz: 60 g",
+      "Polvo de hornear: 8 g",
+      "Canela: 1 cdta",
+      "Nuez moscada: ½ cdta",
+      "Sal: 2 g",
+      "Huevos: 2 u",
+      "Aceite: 40 ml",
+      "Azúcar mascabo: 70 g",
+      "Puré de manzana natural: 150 g",
+      "Manzana rallada: 100 g",
+      "Nueces picadas: 50 g"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Mezclá harinas, fécula, polvo de hornear y especias.",
+      "En otro bol, batí huevos, aceite, azúcar y puré.",
+      "Incorporá la manzana rallada y las nueces.",
+      "Verté en molde y horneá 40–45 min."
+    ], 
+    prepTime: "15 min", 
+    cookTime: "40-45 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Aroma cálido y miga húmeda. Ideal con café o té de la tarde. Podés reemplazar nueces por almendras o pasas."
+  },
+  { 
+    id: "66", 
+    title: "66. 🍯 Pan brioche rápido sin gluten (en molde)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de papa: 80 g",
+      "Psyllium: 6 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 3 g",
+      "Azúcar: 50 g",
+      "Huevos: 3 u",
+      "Aceite o manteca derretida: 40 ml",
+      "Leche vegetal tibia: 100 ml",
+      "Vainilla: 1 cdta"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Mezclá secos.",
+      "En otro bol, batí huevos, leche, aceite y vainilla.",
+      "Combiná ambas partes hasta masa cremosa.",
+      "Verté en molde y horneá 35–40 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Miga tierna y ligeramente dulce. Podés sumarle ralladura de limón o chips de chocolate. Perfecto para rebanar y tostar."
+  },
+  { 
+    id: "67", 
+    title: "67. 🍯 Pan dulce de miel (textura tierna)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz integral: 150 g",
+      "Fécula de maíz: 70 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 3 g",
+      "Huevos: 2 u",
+      "Aceite: 40 ml",
+      "Miel: 60 g",
+      "Leche vegetal: 100 ml",
+      "Canela (opcional): ½ cdta"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Mezclá los secos.",
+      "Batí huevos, miel, aceite y leche.",
+      "Uní todo hasta masa homogénea.",
+      "Verté en molde y horneá 35–40 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Dulzura natural y aroma suave. Si querés más esponjoso, batí los huevos 2–3 min antes de mezclar. Ideal para acompañar con mantequilla o frutas frescas."
+  },
+  { 
+    id: "68", 
+    title: "68. 🥕 Pan de zanahoria dulce (fácil)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Zanahoria rallada fina: 150 g",
+      "Harina de arroz: 150 g",
+      "Fécula de maíz: 70 g",
+      "Polvo de hornear: 8 g",
+      "Canela: 1 cdta",
+      "Huevos: 2 u",
+      "Aceite: 40 ml",
+      "Azúcar mascabo: 60 g",
+      "Leche vegetal: 100 ml"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Mezclá secos.",
+      "Batí huevos, aceite, azúcar y leche.",
+      "Incorporá la zanahoria rallada.",
+      "Verté en molde y horneá 35–40 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan dulce y colorido, ideal para meriendas. Podés sumarle nueces o coco rallado. Si lo querés más húmedo, aumentá 10 ml de aceite."
+  },
+  { 
+    id: "69", 
+    title: "69. 🍮 Pan \"colchón de vainilla\" (esponjoso, corteza suave)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz: 150 g",
+      "Fécula de maíz: 60 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 2 g",
+      "Azúcar: 70 g",
+      "Huevos: 3 u",
+      "Aceite: 40 ml",
+      "Leche vegetal: 120 ml",
+      "Esencia de vainilla: 2 cdas"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Batí huevos y azúcar 2 min hasta espumar.",
+      "Incorporá aceite, leche y vainilla.",
+      "Añadí los secos y mezclá suave.",
+      "Verté en molde y horneá 30–35 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan aireado y liviano, tipo bizcochuelo suave. Podés servirlo con frutas o crema vegetal. No lo sobrecocines, o perderá su ternura."
+  },
+  { 
+    id: "70", 
+    title: "70. 🌸 Pan dulce de anís (tradicional adaptado)", 
+    categoryId: "panes-dulces", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de papa: 80 g",
+      "Polvo de hornear: 8 g",
+      "Semillas de anís: 2 g",
+      "Sal: 2 g",
+      "Huevos: 2 u",
+      "Azúcar: 60 g",
+      "Aceite: 40 ml",
+      "Leche vegetal: 120 ml"
+    ], 
+    instructions: [
+      "Precalentá horno a 180 °C.",
+      "Mezclá secos.",
+      "Batí huevos, azúcar, leche y aceite.",
+      "Combiná ambas partes y mezclá bien.",
+      "Verté en molde y horneá 40–45 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "40-45 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Pan aromático y delicado. Si no tenés anís, podés usar hinojo o vainilla. Excelente para acompañar café o infusiones."
+  },
 
   // Categoría 7: Panes Festivos (10)
   { id: "71", title: "71. ✨ Rosca dulce sin gluten (trenzada)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Levadura", "Leche", "Mantequilla", "Azúcar", "Frutas confitadas"], instructions: ["Masa enriquecida", "Fermentar 1.5h", "Trenzar rosca", "Hornear y decorar"], prepTime: "2h", cookTime: "35 min", servings: "1 rosca grande" },
