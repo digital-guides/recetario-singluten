@@ -23,7 +23,7 @@ const Home = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-3 mb-4">
             <ChefHat className="w-8 h-8 text-primary" />
-            <h1 className="text-2xl font-bold text-foreground">Mi Recetario</h1>
+            <h1 className="text-2xl font-bold text-foreground">Mi Recetario <span className="italic">de Matilda Pasta</span></h1>
           </div>
           <SearchBar value={searchQuery} onChange={setSearchQuery} />
         </div>
