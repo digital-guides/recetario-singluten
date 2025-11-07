@@ -29,8 +29,18 @@ export const CategoryCard = ({ category, recipeCount }: CategoryCardProps) => {
   return (
     <Link to={`/categoria/${category.id}`}>
       <Card className="group hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer border-border bg-card overflow-hidden">
-        <div className="aspect-square relative overflow-hidden bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center">
-          <Icon className="w-20 h-20 text-primary group-hover:scale-110 transition-transform duration-300" />
+        <div className="aspect-square relative overflow-hidden">
+          {category.image ? (
+            <img 
+              src={category.image} 
+              alt={category.name}
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center">
+              <Icon className="w-20 h-20 text-primary group-hover:scale-110 transition-transform duration-300" />
+            </div>
+          )}
         </div>
         <CardContent className="p-4">
           <h3 className="font-semibold text-lg text-foreground mb-1 group-hover:text-primary transition-colors">

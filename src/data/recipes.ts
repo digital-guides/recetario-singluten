@@ -1,23 +1,29 @@
 import { Category, Recipe } from "@/types/recipe";
+import panesSartenImage from "@/assets/panes-sarten-plancha.jpg";
+import panesExpressImage from "@/assets/panes-express-microondas.jpg";
+import panesRapidosImage from "@/assets/panes-rapidos-horno.jpg";
 
 export const categories: Category[] = [
   {
     id: "panes-rapidos",
     name: "Panes Rápidos",
     icon: "timer",
-    description: "Sin levado, horno ≤40 min"
+    description: "Sin levado, horno ≤40 min",
+    image: panesRapidosImage
   },
   {
     id: "panes-microondas",
     name: "Panes Exprés",
     icon: "zap",
-    description: "Al microondas, ≤30 min total"
+    description: "Al microondas, ≤30 min total",
+    image: panesExpressImage
   },
   {
     id: "panes-sarten",
     name: "Panes de Sartén",
     icon: "flame",
-    description: "A la plancha, sin horno"
+    description: "A la plancha, sin horno",
+    image: panesSartenImage
   },
   {
     id: "panes-fermentacion",
