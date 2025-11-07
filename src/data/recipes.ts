@@ -2,6 +2,9 @@ import { Category, Recipe } from "@/types/recipe";
 import panesSartenImage from "@/assets/panes-sarten-plancha.jpg";
 import panesExpressImage from "@/assets/panes-express-microondas.jpg";
 import panesRapidosImage from "@/assets/panes-rapidos-horno.jpg";
+import panesFestivosImage from "@/assets/panes-festivos-enriquecidos.jpg";
+import panesMasaMadreImage from "@/assets/panes-masa-madre.jpg";
+import panesProteicosImage from "@/assets/panes-proteicos-low-carb.jpg";
 
 export const categories: Category[] = [
   {
@@ -35,7 +38,8 @@ export const categories: Category[] = [
     id: "masa-madre",
     name: "Masa Madre",
     icon: "sprout",
-    description: "Fermentación natural"
+    description: "Fermentación natural",
+    image: panesMasaMadreImage
   },
   {
     id: "panes-dulces",
@@ -47,13 +51,15 @@ export const categories: Category[] = [
     id: "panes-festivos",
     name: "Panes Festivos",
     icon: "sparkles",
-    description: "Enriquecidos con técnica"
+    description: "Enriquecidos con técnica",
+    image: panesFestivosImage
   },
   {
     id: "high-protein",
     name: "High-Protein / Low-Carb",
     icon: "dumbbell",
-    description: "Alto en proteína, bajo en carbohidratos"
+    description: "Alto en proteína, bajo en carbohidratos",
+    image: panesProteicosImage
   },
   {
     id: "regionales-latam",
