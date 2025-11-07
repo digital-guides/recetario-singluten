@@ -1006,16 +1006,315 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 7: Panes Festivos (10)
-  { id: "71", title: "71. ✨ Rosca dulce sin gluten (trenzada)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Levadura", "Leche", "Mantequilla", "Azúcar", "Frutas confitadas"], instructions: ["Masa enriquecida", "Fermentar 1.5h", "Trenzar rosca", "Hornear y decorar"], prepTime: "2h", cookTime: "35 min", servings: "1 rosca grande" },
-  { id: "72", title: "72. ✨ Panettone sin gluten (frutas y cítricos)", categoryId: "panes-festivos", ingredients: ["Mix panificable", "Levadura", "Frutas confitadas", "Ralladura", "Mantequilla", "Huevos"], instructions: ["Masa dulce rica", "Fermentaciones largas", "Molde alto", "Hornear lento"], prepTime: "6h", cookTime: "50 min", servings: "1 panettone" },
-  { id: "73", title: "73. ✨ Pan de Pascua sin gluten (especias)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Frutas secas", "Especias", "Miel", "Nueces"], instructions: ["Remojar frutas", "Masa especiada", "Molde", "Hornear bajo"], prepTime: "30 min", cookTime: "60 min", servings: "1 pan" },
-  { id: "74", title: "74. ✨ Stollen sin gluten (relleno de mazapán)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Mazapán", "Frutas", "Mantequilla", "Especias"], instructions: ["Masa enriquecida", "Rellenar mazapán", "Formar", "Hornear y azucarar"], prepTime: "2h", cookTime: "45 min", servings: "1 stollen" },
-  { id: "75", title: "75. ✨ Babka de chocolate sin gluten (trenza)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Chocolate", "Mantequilla", "Levadura", "Azúcar"], instructions: ["Masa laminada", "Untar chocolate", "Trenzar", "Hornear"], prepTime: "3h", cookTime: "40 min", servings: "1 babka" },
-  { id: "76", title: "76. ✨ Challah sin gluten (trenzado enriquecido)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Huevos", "Miel", "Aceite", "Levadura"], instructions: ["Masa rica", "Fermentar 1.5h", "Trenzar 6 cabos", "Pintar y hornear"], prepTime: "2h", cookTime: "30 min", servings: "1 challah" },
-  { id: "77", title: "77. ✨ Roscones individuales sin gluten", categoryId: "panes-festivos", ingredients: ["Mix GF", "Azahar", "Levadura", "Nata", "Mantequilla"], instructions: ["Masa aromática", "Formar roscas", "Fermentar", "Hornear y decorar"], prepTime: "2h", cookTime: "20 min", servings: "6 roscones" },
-  { id: "78", title: "78. ✨ Pan dulce de cardamomo (estilo nórdico)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Cardamomo", "Mantequilla", "Azúcar", "Levadura"], instructions: ["Masa especiada", "Enrollar", "Formar caracol", "Hornear"], prepTime: "1.5h", cookTime: "25 min", servings: "8 bollos" },
-  { id: "79", title: "79. ✨ Colomba pascual sin gluten", categoryId: "panes-festivos", ingredients: ["Mix GF", "Naranja confitada", "Almendra", "Mantequilla", "Levadura"], instructions: ["Masa dulce italiana", "Fermentaciones", "Molde paloma", "Glasear almendra"], prepTime: "5h", cookTime: "40 min", servings: "1 colomba" },
-  { id: "80", title: "80. ✨ Pan especiado de jengibre (tipo loaf festivo)", categoryId: "panes-festivos", ingredients: ["Mix GF", "Jengibre", "Melaza", "Especias", "Azúcar morena"], instructions: ["Mezclar especias", "Masa oscura", "Molde", "Hornear aromático"], prepTime: "15 min", cookTime: "50 min", servings: "1 molde" },
+  { 
+    id: "71", 
+    title: "71. 🎀 Rosca dulce sin gluten (trenzada)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 80 g",
+      "Fécula de tapioca: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 60 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 200 ml",
+      "Huevo: 2 u",
+      "Aceite o manteca derretida: 50 ml",
+      "Esencia de vainilla o ralladura de limón: 1 cdta",
+      "Opcional: pasas, frutas confitadas, azúcar glas para decorar"
+    ], 
+    instructions: [
+      "Mezclá secos: harinas, féculas, psyllium, levadura, azúcar y sal.",
+      "En otro bol, batí leche, huevos, aceite y vainilla.",
+      "Uní todo y mezclá hasta obtener masa blanda.",
+      "Dejá levar 1 h tapado.",
+      "Formá una trenza o aro, colocá en bandeja.",
+      "Dejá levar 30 min más y horneá 30–35 min a 180 °C."
+    ], 
+    prepTime: "1h 40min", 
+    cookTime: "30-35 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Queda suave y aromática. Podés rellenarla con crema pastelera o dulce de leche. Al salir del horno, pincelala con miel tibia para brillo."
+  },
+  { 
+    id: "72", 
+    title: "72. 🍊 Panettone sin gluten (frutas y cítricos)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 100 g",
+      "Harina de almendra: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 70 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 220 ml",
+      "Huevos: 3 u",
+      "Manteca o aceite: 60 g",
+      "Ralladura de naranja y limón: 1 cda",
+      "Frutas abrillantadas o pasas: 80 g",
+      "Esencia de vainilla y de almendra: 1 cdta cada una"
+    ], 
+    instructions: [
+      "Mezclá secos: harinas, fécula, psyllium, levadura, azúcar y sal.",
+      "En otro bol, batí leche, huevos, manteca y esencias.",
+      "Combiná todo, mezclá bien y añadí ralladuras y frutas.",
+      "Verté en molde alto de panettone.",
+      "Levá 1 h o hasta que duplique.",
+      "Horneá 40–45 min a 180 °C."
+    ], 
+    prepTime: "1h 30min", 
+    cookTime: "40-45 min", 
+    servings: "1 pan grande (8 porciones)",
+    chefTip: "Esponjoso y fragante. Si querés textura más húmeda, agregá 1 cda de miel. Conservá en bolsa de tela o recipiente hermético."
+  },
+  { 
+    id: "73", 
+    title: "73. 🎄 Pan de Pascua sin gluten (especias y frutos secos)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz integral: 180 g",
+      "Fécula de papa: 100 g",
+      "Harina de avena GF: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar mascabo: 80 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 220 ml",
+      "Aceite: 50 ml",
+      "Huevo: 2 u",
+      "Canela, clavo, nuez moscada: ½ cdta cada una",
+      "Frutas secas (pasas, nueces, almendras): 100 g"
+    ], 
+    instructions: [
+      "Mezclá los secos y especias.",
+      "Batí leche, huevo y aceite.",
+      "Combiná ambas mezclas.",
+      "Añadí las frutas secas y revolvé.",
+      "Verté en molde, dejá levar 1 h y horneá 40 min a 180 °C."
+    ], 
+    prepTime: "1h 15min", 
+    cookTime: "40 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Aroma navideño y miga densa. Podés cubrir con glasé de azúcar y limón. Perfecto para regalar en fiestas."
+  },
+  { 
+    id: "74", 
+    title: "74. 🎅 Stollen sin gluten (relleno de mazapán)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Harina de almendra: 100 g",
+      "Fécula de maíz: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 60 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 200 ml",
+      "Manteca o aceite: 50 g",
+      "Huevo: 1 u",
+      "Ralladura de limón: 1 cdta",
+      "Mazapán: 100 g (para relleno)",
+      "Pasas y almendras picadas: 60 g"
+    ], 
+    instructions: [
+      "Mezclá los secos.",
+      "Batí leche, huevo, manteca y ralladura.",
+      "Combiná ambas mezclas, añadí pasas y almendras.",
+      "Estirá la masa y colocá una tira de mazapán en el centro.",
+      "Doblá y sellá los bordes.",
+      "Dejá levar 1 h y horneá 40 min a 180 °C.",
+      "Al salir, espolvoreá con azúcar impalpable."
+    ], 
+    prepTime: "1h 30min", 
+    cookTime: "40 min", 
+    servings: "10 porciones",
+    chefTip: "Tradicional alemán adaptado, muy aromático. Guardá en papel y lata, mejora con el tiempo. Podés reemplazar mazapán por pasta de dátiles o frutos secos."
+  },
+  { 
+    id: "75", 
+    title: "75. 🍫 Babka de chocolate sin gluten (trenza)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 80 g",
+      "Harina de almendra: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 50 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 200 ml",
+      "Aceite o manteca: 40 ml",
+      "Huevo: 1 u",
+      "Cacao: 20 g",
+      "Chocolate picado: 60 g"
+    ], 
+    instructions: [
+      "Mezclá secos: harinas, fécula, psyllium, levadura, azúcar, sal.",
+      "Agregá leche, aceite y huevo, mezclá.",
+      "Dividí la masa en dos, agregá cacao a una parte.",
+      "Extendé ambas, colocá chocolate picado y trenzá.",
+      "Dejá levar 45 min.",
+      "Horneá 35–40 min a 180 °C."
+    ], 
+    prepTime: "1h 15min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan dulce marmolado, tierno y fragante. Si querés más brillo, pincelá con almíbar al salir del horno. Guardalo tapado, se mantiene fresco 3–4 días."
+  },
+  { 
+    id: "76", 
+    title: "76. 🌼 Challah sin gluten (trenzado enriquecido)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 100 g",
+      "Harina de almendra: 60 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 50 g",
+      "Sal: 3 g",
+      "Agua tibia o leche vegetal: 220 ml",
+      "Huevo: 2 u + 1 para pincelar",
+      "Aceite: 40 ml",
+      "Miel: 20 g"
+    ], 
+    instructions: [
+      "Mezclá harinas, fécula, psyllium, levadura, azúcar y sal.",
+      "Batí agua, huevos, aceite y miel.",
+      "Uní ambas mezclas hasta lograr masa húmeda.",
+      "Dividí en 3 partes, formá tiras y trenzá sobre bandeja.",
+      "Dejá levar 45 min tapada.",
+      "Pincelá con huevo y horneá 35–40 min a 180 °C."
+    ], 
+    prepTime: "1h 15min", 
+    cookTime: "35-40 min", 
+    servings: "10-12 rebanadas",
+    chefTip: "Dorada, tierna y ligeramente dulce. Si querés versión vegana, reemplazá los huevos por 60 ml de leche vegetal + 1 cda de psyllium adicional. Podés agregar semillas de sésamo arriba."
+  },
+  { 
+    id: "77", 
+    title: "77. 🎁 Roscones individuales sin gluten", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de maíz: 80 g",
+      "Harina de almendra: 40 g",
+      "Psyllium: 6 g",
+      "Levadura seca: 6 g",
+      "Azúcar: 60 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 200 ml",
+      "Huevo: 1 u",
+      "Aceite: 40 ml",
+      "Ralladura de naranja: 1 cdta",
+      "Decoración: azúcar perlado, frutas confitadas"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Batí leche, huevo, aceite y ralladura.",
+      "Uní todo y mezclá hasta masa cremosa.",
+      "Verté en moldes individuales engrasados (aros o flaneras).",
+      "Dejá levar 40 min y decorá.",
+      "Horneá 25–30 min a 180 °C."
+    ], 
+    prepTime: "1h 10min", 
+    cookTime: "25-30 min", 
+    servings: "6 unidades",
+    chefTip: "Súper suaves y perfumados. Perfectos para regalar o servir en brunch. Podés rellenarlos con crema pastelera o mermelada."
+  },
+  { 
+    id: "78", 
+    title: "78. 🌸 Pan dulce de cardamomo (estilo nórdico)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de papa: 80 g",
+      "Harina de almendra: 50 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 60 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 220 ml",
+      "Aceite o manteca: 50 ml",
+      "Huevo: 1 u",
+      "Cardamomo molido: 1 cdta",
+      "Esencia de vainilla: 1 cdta"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Batí leche, huevo, aceite y especias.",
+      "Combiná todo hasta masa cremosa.",
+      "Formá bollos o enrollá y formá caracoles.",
+      "Dejá levar 40 min.",
+      "Horneá 25–30 min a 180 °C."
+    ], 
+    prepTime: "1h 10min", 
+    cookTime: "25-30 min", 
+    servings: "10 rebanadas",
+    chefTip: "Sabor elegante y especiado. Podés decorar con almendras fileteadas y azúcar. Si querés versión sin huevo, usá 60 ml de leche extra."
+  },
+  { 
+    id: "79", 
+    title: "79. 🕊️ Colomba pascual sin gluten", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de papa: 100 g",
+      "Harina de almendra: 50 g",
+      "Psyllium: 8 g",
+      "Levadura seca: 7 g",
+      "Azúcar: 70 g",
+      "Sal: 3 g",
+      "Leche vegetal tibia: 220 ml",
+      "Huevo: 2 u",
+      "Aceite o manteca: 50 ml",
+      "Ralladura de naranja: 1 cda",
+      "Almendras fileteadas y azúcar glas para decorar"
+    ], 
+    instructions: [
+      "Mezclá secos y ralladura.",
+      "Batí leche, huevo y aceite.",
+      "Combiná todo y mezclá hasta obtener masa cremosa.",
+      "Verté en molde (forma de paloma o rectangular).",
+      "Dejá levar 45–60 min.",
+      "Decorá con almendras y horneá 40–45 min a 180 °C."
+    ], 
+    prepTime: "1h 15min", 
+    cookTime: "40-45 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan liviano y aromático, símbolo de Pascua. Podés agregar chips de chocolate o frutas confitadas. Conservá cubierto en paño seco."
+  },
+  { 
+    id: "80", 
+    title: "80. 🍂 Pan especiado de jengibre (tipo loaf festivo)", 
+    categoryId: "panes-festivos", 
+    ingredients: [
+      "Harina de arroz integral: 150 g",
+      "Fécula de maíz: 80 g",
+      "Polvo de hornear: 8 g",
+      "Jengibre en polvo: 1 cdta",
+      "Canela: 1 cdta",
+      "Nuez moscada: ½ cdta",
+      "Sal: 2 g",
+      "Huevo: 2 u",
+      "Aceite: 40 ml",
+      "Miel o azúcar mascabo: 60 g",
+      "Leche vegetal: 100 ml"
+    ], 
+    instructions: [
+      "Precalentá el horno a 180 °C.",
+      "Mezclá harinas, fécula, polvo de hornear y especias.",
+      "En otro bol, batí huevos, miel, aceite y leche.",
+      "Combiná ambas partes y mezclá.",
+      "Verté en molde y horneá 35–40 min."
+    ], 
+    prepTime: "15 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan húmedo y fragante, típico de invierno. Podés cubrirlo con glaseado de limón o miel. Ideal para regalar o disfrutar en desayuno navideño."
+  },
 
   // Categoría 8: High-Protein / Low-Carb (8)
   { id: "81", title: "81. 💪 Pan proteico de clara y almendra (keto)", categoryId: "high-protein", ingredients: ["Harina almendra", "Claras", "Proteína en polvo", "Polvo hornear", "Sal"], instructions: ["Batir claras", "Mezclar secos", "Integrar", "Hornear bajo"], prepTime: "10 min", cookTime: "35 min", servings: "1 molde pequeño" },
