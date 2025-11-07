@@ -1317,14 +1317,197 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 8: High-Protein / Low-Carb (8)
-  { id: "81", title: "81. 💪 Pan proteico de clara y almendra (keto)", categoryId: "high-protein", ingredients: ["Harina almendra", "Claras", "Proteína en polvo", "Polvo hornear", "Sal"], instructions: ["Batir claras", "Mezclar secos", "Integrar", "Hornear bajo"], prepTime: "10 min", cookTime: "35 min", servings: "1 molde pequeño" },
-  { id: "82", title: "82. 💪 Pan de garbanzo y sésamo (alto en proteína)", categoryId: "high-protein", ingredients: ["Harina garbanzo", "Tahini", "Huevos", "Semillas sésamo", "Polvo hornear"], instructions: ["Mezclar ingredientes", "Añadir tahini", "Molde", "Hornear"], prepTime: "10 min", cookTime: "30 min", servings: "1 molde" },
-  { id: "83", title: "83. 💪 Pan de yogurt griego vegetal + chía (low-carb)", categoryId: "high-protein", ingredients: ["Yogurt griego vegetal", "Chía", "Harina almendra", "Huevos", "Polvo hornear"], instructions: ["Mezclar yogurt", "Hidratar chía", "Unir todo", "Hornear"], prepTime: "15 min", cookTime: "30 min", servings: "1 molde pequeño" },
-  { id: "84", title: "84. 💪 Pan de linaza dorada (ultra fibra)", categoryId: "high-protein", ingredients: ["Linaza molida", "Huevos", "Psyllium", "Polvo hornear", "Sal"], instructions: ["Hidratar linaza", "Mezclar con huevos", "Añadir químicos", "Hornear denso"], prepTime: "15 min", cookTime: "35 min", servings: "1 molde" },
-  { id: "85", title: "85. 💪 Pan de semillas al completo (sin harinas)", categoryId: "high-protein", ingredients: ["Mix semillas", "Huevos", "Psyllium", "Agua", "Sal"], instructions: ["Remojar semillas", "Mezclar todo", "Molde", "Hornear bajo"], prepTime: "30 min", cookTime: "50 min", servings: "1 molde" },
-  { id: "86", title: "86. 💪 Pan de coco y proteína (suero/vegana)", categoryId: "high-protein", ingredients: ["Harina coco", "Proteína en polvo", "Huevos", "Leche", "Polvo hornear"], instructions: ["Mezclar secos", "Añadir líquidos", "Molde pequeño", "Hornear"], prepTime: "8 min", cookTime: "25 min", servings: "1 molde pequeño" },
-  { id: "87", title: "87. 💪 Pan nube horneado (batch para sándwich)", categoryId: "high-protein", ingredients: ["Claras", "Queso crema", "Cremor tártaro", "Sal"], instructions: ["Batir claras a nieve", "Incorporar queso", "Formar discos", "Hornear bajo"], prepTime: "10 min", cookTime: "30 min", servings: "6 discos" },
-  { id: "88", title: "88. 💪 Pan de calabacín rallado (low-carb, húmedo)", categoryId: "high-protein", ingredients: ["Calabacín rallado", "Harina almendra", "Huevos", "Queso", "Polvo hornear"], instructions: ["Escurrir calabacín", "Mezclar ingredientes", "Molde", "Hornear"], prepTime: "15 min", cookTime: "40 min", servings: "1 molde" },
+  { 
+    id: "81", 
+    title: "81. 💪 Pan proteico de clara y almendra (keto)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Harina de almendra: 150 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 3 g",
+      "Claras de huevo: 5 u (≈ 160 g)",
+      "Aceite de oliva: 20 ml",
+      "Agua: 40 ml",
+      "Semillas (opcional): 20 g"
+    ], 
+    instructions: [
+      "Precalentá el horno a 180 °C.",
+      "Batí ligeramente las claras hasta espumar.",
+      "Agregá aceite y agua.",
+      "Incorporá la harina, el polvo de hornear y la sal.",
+      "Mezclá suave, verté en molde y horneá 25–30 min."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "25-30 min", 
+    servings: "8 rebanadas",
+    chefTip: "Miga húmeda y liviana, perfecta para tostar. Podés añadir hierbas o queso rallado. Guardá en heladera hasta 5 días."
+  },
+  { 
+    id: "82", 
+    title: "82. 🌿 Pan de garbanzo y sésamo (alto en proteína)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Harina de garbanzo: 200 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Agua tibia: 250 ml",
+      "Aceite: 30 ml",
+      "Semillas de sésamo: 20 g",
+      "Comino o cúrcuma (opcional): ½ cdta"
+    ], 
+    instructions: [
+      "Mezclá todos los ingredientes hasta obtener masa cremosa.",
+      "Verté en molde engrasado.",
+      "Horneá 30–35 min a 190 °C.",
+      "Enfriá antes de cortar."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8-10 rebanadas",
+    chefTip: "Pan rico en fibra y proteínas vegetales. Ideal para acompañar hummus o sopas. Podés tostar las semillas para más aroma."
+  },
+  { 
+    id: "83", 
+    title: "83. 🥣 Pan de yogurt griego vegetal + chía (low-carb)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Harina de almendra: 120 g",
+      "Psyllium: 6 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 3 g",
+      "Yogurt vegetal alto en proteína: 150 g",
+      "Agua: 80 ml",
+      "Chía: 15 g",
+      "Aceite: 20 ml"
+    ], 
+    instructions: [
+      "Mezclá secos: harina, psyllium, polvo de hornear, sal y chía.",
+      "Agregá yogurt, agua y aceite.",
+      "Mezclá y verté en molde pequeño.",
+      "Horneá 30 min a 180 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "30 min", 
+    servings: "8 rebanadas",
+    chefTip: "Miga elástica y húmeda. Podés usar yogurt de coco o soya. Perfecto para desayunos saludables."
+  },
+  { 
+    id: "84", 
+    title: "84. 🌻 Pan de linaza dorada (ultra fibra)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Linaza dorada molida: 120 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Huevo: 4 u",
+      "Agua: 80 ml",
+      "Aceite: 20 ml"
+    ], 
+    instructions: [
+      "Mezclá todos los ingredientes.",
+      "Verté en molde pequeño.",
+      "Horneá 25–30 min a 180 °C.",
+      "Dejá enfriar antes de cortar."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "25-30 min", 
+    servings: "8 rebanadas",
+    chefTip: "Pan denso y saciante. Excelente fuente de omega 3. Podés hacerlo en microondas: 2–3 min por porción."
+  },
+  { 
+    id: "85", 
+    title: "85. 🥜 Pan de semillas al completo (sin harinas)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Semillas de girasol: 80 g",
+      "Semillas de calabaza: 50 g",
+      "Chía: 20 g",
+      "Linaza molida: 50 g",
+      "Avena GF en hojuelas: 30 g (opcional)",
+      "Agua: 250 ml",
+      "Aceite: 20 ml",
+      "Sal: 4 g"
+    ], 
+    instructions: [
+      "Mezclá todo y dejá reposar 30 min hasta que espese.",
+      "Verté en molde y alisá.",
+      "Horneá 40–45 min a 190 °C."
+    ], 
+    prepTime: "40 min", 
+    cookTime: "40-45 min", 
+    servings: "12 rebanadas",
+    chefTip: "Pan crujiente, tipo \"multisemillas\". Sin harinas, solo semillas y fibra. Perfecto para untar o comer con sopas."
+  },
+  { 
+    id: "86", 
+    title: "86. 🥥 Pan de coco y proteína (suero/vegana)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Harina de coco: 40 g",
+      "Proteína en polvo (vegetal o whey): 30 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 2 g",
+      "Huevos: 4 u",
+      "Agua: 100 ml",
+      "Aceite de coco: 20 ml"
+    ], 
+    instructions: [
+      "Mezclá secos.",
+      "Batí huevos, agua y aceite.",
+      "Uní ambas mezclas y verté en molde.",
+      "Horneá 25–30 min a 180 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "25-30 min", 
+    servings: "8 rebanadas",
+    chefTip: "Miga húmeda y sabor suave. Aporta proteína y saciedad. También podés hacerlo en formato muffin."
+  },
+  { 
+    id: "87", 
+    title: "87. ☁️ Pan tipo \"cloud bread\" (sin harinas, esponjoso)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Huevos: 3 u (separadas claras y yemas)",
+      "Yogurt vegetal o queso crema: 60 g",
+      "Polvo de hornear: 3 g",
+      "Sal: 1 pizca"
+    ], 
+    instructions: [
+      "Batí las claras a nieve.",
+      "Mezclá las yemas con el yogurt y el polvo de hornear.",
+      "Integrá con movimientos suaves.",
+      "Colocá cucharadas sobre bandeja.",
+      "Horneá 20–22 min a 180 °C."
+    ], 
+    prepTime: "10 min", 
+    cookTime: "20-22 min", 
+    servings: "6 discos",
+    chefTip: "Ligeros como nubes, sin harinas. Perfectos para sandwiches o mini pizzas. Guardalos en heladera hasta 3 días."
+  },
+  { 
+    id: "88", 
+    title: "88. 🥒 Pan de calabacín rallado (low-carb, húmedo)", 
+    categoryId: "high-protein", 
+    ingredients: [
+      "Calabacín rallado y escurrido: 150 g",
+      "Harina de almendra: 120 g",
+      "Psyllium: 6 g",
+      "Polvo de hornear: 8 g",
+      "Sal: 3 g",
+      "Huevo: 3 u",
+      "Aceite: 30 ml",
+      "Semillas (opcional): 20 g"
+    ], 
+    instructions: [
+      "Mezclá huevos, aceite y calabacín.",
+      "Agregá secos y mezclá.",
+      "Verté en molde y horneá 35–40 min a 180 °C."
+    ], 
+    prepTime: "15 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Pan húmedo, sabroso y bajo en carbohidratos. Perfecto para tostar o servir con hummus. Escurrí bien el calabacín para que no quede aguado."
+  },
 
   // Categoría 9: Regionales LATAM (12)
   { id: "89", title: "89. 🌎 Pão de queijo (pan de queso brasileño) sin gluten", categoryId: "regionales-latam", ingredients: ["Almidón tapioca", "Queso rallado", "Huevos", "Leche", "Aceite"], instructions: ["Escaldar almidón", "Añadir queso", "Formar bolitas", "Hornear"], prepTime: "15 min", cookTime: "25 min", servings: "12 unidades" },
