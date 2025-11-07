@@ -477,16 +477,106 @@ export const recipes: Recipe[] = [
   },
 
   // Categoría 4: Panes con Fermentación Corta (10)
-  { id: "41", title: "41. 🌾 Pan de molde esponjoso (arroz + tapioca + psyllium)", categoryId: "panes-fermentacion", ingredients: ["Harina arroz", "Almidón tapioca", "Psyllium", "Levadura", "Agua tibia"], instructions: ["Mezclar secos", "Añadir agua", "Fermentar 45 min", "Hornear 40 min"], prepTime: "50 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "42", title: "42. 🌾 Pan baguette corta fermentación (sin gluten)", categoryId: "panes-fermentacion", ingredients: ["Mix panificable GF", "Levadura", "Agua", "Sal", "Vinagre"], instructions: ["Masa hidratada", "Fermentar 1h", "Formar baguette", "Hornear con vapor"], prepTime: "1h 10min", cookTime: "25 min", servings: "2 baguettes" },
-  { id: "43", title: "43. 🌾 Pan rústico con corteza crujiente (levadura instantánea)", categoryId: "panes-fermentacion", ingredients: ["Mix harinas GF", "Levadura instantánea", "Agua", "Sal", "Aceite"], instructions: ["Mezclar todo", "Fermentar 1h", "Formar hogaza", "Hornear 45 min"], prepTime: "1h", cookTime: "45 min", servings: "1 hogaza" },
-  { id: "44", title: "44. 🌾 Pan con aceitunas y romero (una fermentación)", categoryId: "panes-fermentacion", ingredients: ["Mix GF", "Aceitunas", "Romero", "Levadura", "Agua"], instructions: ["Masa base", "Agregar aceitunas", "Fermentar 1h", "Hornear"], prepTime: "1h 10min", cookTime: "40 min", servings: "1 hogaza" },
-  { id: "45", title: "45. 🌾 Pan ciabatta sin gluten (hidratación media)", categoryId: "panes-fermentacion", ingredients: ["Harina arroz", "Tapioca", "Levadura", "Agua", "Aceite oliva"], instructions: ["Masa pegajosa", "Fermentar 1h", "Estirar con aceite", "Hornear con vapor"], prepTime: "1h 15min", cookTime: "30 min", servings: "2 ciabattas" },
-  { id: "46", title: "46. 🌾 Pan de campo simple (molde alargado)", categoryId: "panes-fermentacion", ingredients: ["Mix GF integral", "Levadura", "Semillas", "Agua", "Sal"], instructions: ["Mezclar", "Fermentar 50 min", "Molde", "Hornear"], prepTime: "55 min", cookTime: "40 min", servings: "1 molde" },
-  { id: "47", title: "47. 🌾 Pan de centeno \"fake\" (saborizado sin centeno)", categoryId: "panes-fermentacion", ingredients: ["Harina alforfón", "Comino", "Melaza", "Levadura", "Agua"], instructions: ["Saborizar masa oscura", "Fermentar 1h", "Formar hogaza", "Hornear"], prepTime: "1h", cookTime: "45 min", servings: "1 hogaza" },
-  { id: "48", title: "48. 🌾 Pan de sándwich tierno (rebanado fino)", categoryId: "panes-fermentacion", ingredients: ["Mix panificable", "Leche", "Mantequilla", "Levadura", "Azúcar"], instructions: ["Masa suave", "Fermentar 1h", "Molde", "Hornear tierno"], prepTime: "1h 5min", cookTime: "35 min", servings: "1 molde" },
-  { id: "49", title: "49. 🌾 Pan estilo bollo de hamburguesa (fermentación corta)", categoryId: "panes-fermentacion", ingredients: ["Mix GF", "Levadura", "Huevo", "Leche", "Aceite"], instructions: ["Formar bollos", "Fermentar 45 min", "Pintar huevo", "Hornear"], prepTime: "50 min", cookTime: "18 min", servings: "6 bollos" },
-  { id: "50", title: "50. 🌾 Pan de hot dog sin gluten (molde individual)", categoryId: "panes-fermentacion", ingredients: ["Mix panificable", "Levadura", "Agua", "Aceite", "Sal"], instructions: ["Formar alargados", "Moldes individuales", "Fermentar 40 min", "Hornear"], prepTime: "45 min", cookTime: "20 min", servings: "8 panes" },
+  { 
+    id: "41", 
+    title: "41. 🌾 Pan de molde esponjoso (arroz + tapioca + psyllium)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 100 g", "Psyllium en polvo: 8 g", "Levadura seca instantánea: 6 g", "Azúcar: 10 g", "Sal: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Vinagre de manzana: 10 ml"], 
+    instructions: ["En un bol grande, mezclá harinas, psyllium, levadura, azúcar y sal.", "Agregá agua tibia, aceite y vinagre. Mezclá bien con espátula; la masa será espesa y húmeda.", "Verté al molde, alisá con espátula mojada.", "Tapá y dejá levar 30–40 min hasta que suba casi al borde.", "Horneá 35 min a 190 °C.", "Desmoldá y enfriá sobre rejilla.", "Consejos: Miga suave y esponjosa, perfecta para tostadas. Si querés más dorado, pincelá con aceite antes de hornear. No sobrelevés, o colapsará al enfriar."], 
+    prepTime: "40 min", 
+    cookTime: "35 min", 
+    servings: "12 rebanadas" 
+  },
+  { 
+    id: "42", 
+    title: "42. 🌾 Pan baguette corta fermentación (sin gluten)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 180 g", "Fécula de maíz: 100 g", "Fécula de papa: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 20 ml"], 
+    instructions: ["Mezclá todos los secos.", "Agregá agua y aceite, mezclá con batidor o espátula hasta masa uniforme.", "Formá dos bastones con las manos húmedas y colocá sobre bandeja con papel.", "Dejá levar 30 min tapado.", "Horneá 25–30 min a 200 °C con un vasito de agua en la base del horno para vapor.", "Consejos: Corteza crujiente, interior tierno. Podés espolvorear harina de arroz encima antes del horneado. Si querés textura más alveolada, añadí 1 clara extra."], 
+    prepTime: "40 min", 
+    cookTime: "30 min", 
+    servings: "2 baguettes medianas" 
+  },
+  { 
+    id: "43", 
+    title: "43. 🌾 Pan rústico con corteza crujiente (levadura instantánea)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz integral: 150 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 50 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 8 g", "Agua tibia: 280 ml", "Aceite de oliva: 25 ml"], 
+    instructions: ["Mezclá harinas, psyllium, levadura, sal y azúcar.", "Agregá agua y aceite; mezclá hasta obtener masa húmeda y algo pegajosa.", "Verté sobre molde o formá una bola con las manos enharinadas.", "Dejá levar 45 min tapado.", "Horneá 35–40 min a 200 °C.", "Consejos: Corteza firme y miga húmeda. Perfecto para sopas o guisos. Podés agregar 1 cda de semillas para textura extra."], 
+    prepTime: "50 min", 
+    cookTime: "40 min", 
+    servings: "1 pan mediano" 
+  },
+  { 
+    id: "44", 
+    title: "44. 🌾 Pan con aceitunas y romero (una fermentación)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 200 g", "Fécula de maíz: 80 g", "Harina de garbanzo: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 5 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Aceitunas verdes picadas: 50 g", "Romero fresco o seco: 2 g"], 
+    instructions: ["Mezclá harinas, psyllium, levadura, azúcar y sal.", "Agregá agua y aceite. Mezclá hasta obtener masa espesa.", "Incorporá aceitunas y romero.", "Verté en molde o bandeja y alisá.", "Levá 40 min tapado, luego horneá 35 min a 190 °C.", "Consejos: Aromático y con sabor mediterráneo. Si usás romero fresco, agregalo picado fino. Servilo tibio con aceite de oliva extra virgen."], 
+    prepTime: "45 min", 
+    cookTime: "35 min", 
+    servings: "8-10 rebanadas" 
+  },
+  { 
+    id: "45", 
+    title: "45. 🌾 Pan ciabatta sin gluten (hidratación media)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 150 g", "Fécula de tapioca: 80 g", "Harina de sorgo: 70 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 25 ml"], 
+    instructions: ["Mezclá los secos en un bol.", "Agregá agua y aceite, mezclá hasta masa elástica y pegajosa.", "Verté sobre bandeja enharinada y formá dos panes alargados.", "Dejá levar 40 min tapado.", "Horneá 30–35 min a 200 °C.", "Consejos: Miga aireada, perfecta para sándwiches. Si querés más corteza, rociá con agua antes de hornear. Dejalo enfriar 20 min antes de cortar."], 
+    prepTime: "45 min", 
+    cookTime: "35 min", 
+    servings: "2 panes medianos" 
+  },
+  { 
+    id: "46", 
+    title: "46. 🌾 Pan de campo simple (molde alargado)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 180 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 60 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 25 ml"], 
+    instructions: ["Mezclá los ingredientes secos en un bol grande.", "Agregá el agua y el aceite, mezclá bien.", "Verté la masa (de consistencia densa) en un molde alargado.", "Tapá y dejá levar 40–50 min en lugar cálido.", "Horneá 35–40 min a 190 °C.", "Enfriá sobre rejilla antes de cortar.", "Consejos: Pan básico, ideal para iniciarse en la panificación sin gluten. Si querés sabor más rústico, usá harina de arroz integral. También podés aromatizar con 1 cda de semillas o hierbas secas."], 
+    prepTime: "50 min", 
+    cookTime: "40 min", 
+    servings: "10-12 rebanadas" 
+  },
+  { 
+    id: "47", 
+    title: "47. 🌾 Pan de centeno \"fake\" (saborizado sin centeno)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de sorgo: 150 g", "Harina de arroz integral: 100 g", "Fécula de papa: 60 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Cacao sin azúcar: 5 g", "Café instantáneo: 1 g (opcional)", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 25 ml", "Vinagre: 10 ml"], 
+    instructions: ["Mezclá las harinas, psyllium, levadura, azúcar, cacao, café y sal.", "Incorporá agua, aceite y vinagre. Mezclá bien.", "Verté en molde y alisá.", "Dejá levar 40–45 min.", "Horneá 35–40 min a 190 °C.", "Consejos: El cacao y el café imitan el color y aroma del centeno clásico. Ideal con manteca o quesos fuertes. Conservá en la heladera hasta 5 días o congelado en rebanadas."], 
+    prepTime: "50 min", 
+    cookTime: "40 min", 
+    servings: "10 rebanadas" 
+  },
+  { 
+    id: "48", 
+    title: "48. 🌾 Pan de sándwich tierno (rebanado fino)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 180 g", "Fécula de tapioca: 100 g", "Fécula de maíz: 50 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Sal: 5 g", "Leche vegetal tibia: 260 ml", "Aceite: 30 ml", "Vinagre: 10 ml"], 
+    instructions: ["Mezclá todos los secos.", "Agregá leche, aceite y vinagre.", "Batí 1–2 min hasta mezcla homogénea.", "Verté en molde de pan inglés, tapá y dejá levar 35–40 min.", "Horneá 35 min a 190 °C.", "Consejos: Pan de miga muy suave, tipo \"pan lactal\". Si lo querés más alto, usá molde pequeño o sumá 10% de ingredientes. Perfecto para sándwiches o tostadas dulces."], 
+    prepTime: "40 min", 
+    cookTime: "35 min", 
+    servings: "12 rebanadas finas" 
+  },
+  { 
+    id: "49", 
+    title: "49. 🌾 Pan estilo bollo de hamburguesa (fermentación corta)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 80 g", "Fécula de maíz: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite: 30 ml", "Semillas de sésamo (opcional): 10 g"], 
+    instructions: ["Mezclá los secos.", "Agregá el agua y el aceite.", "Mezclá hasta que la masa quede espesa.", "Con las manos húmedas, formá 6 bollos y colocá en bandeja.", "Dejá levar 30–40 min tapados.", "Espolvoreá semillas y horneá 25–30 min a 190 °C.", "Consejos: Miga suave y corteza fina. Podés pintarlos con huevo o aceite para mejor dorado. Si los querés tipo pan de hot dog, formá alargados en lugar de redondos."], 
+    prepTime: "40 min", 
+    cookTime: "30 min", 
+    servings: "6 bollos grandes" 
+  },
+  { 
+    id: "50", 
+    title: "50. 🌾 Pan de hot dog sin gluten (molde individual)", 
+    categoryId: "panes-fermentacion", 
+    ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 80 g", "Fécula de maíz: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite: 30 ml"], 
+    instructions: ["Mezclá los secos.", "Agregá agua y aceite.", "Verté en moldes individuales o formá panes alargados.", "Dejá levar 40 min.", "Horneá 25–30 min a 190 °C.", "Consejos: Miga tierna, perfecta para hot dogs o mini sándwiches. Si querés más elásticos, agregá 1 clara batida. Se pueden congelar después del horneado, envueltos en film."], 
+    prepTime: "45 min", 
+    cookTime: "30 min", 
+    servings: "6 unidades" 
+  },
 
   // Categoría 5: Panes de Masa Madre (8)
   { id: "51", title: "51. 🍞 Pan rústico de masa madre (arroz + sorgo)", categoryId: "masa-madre", ingredients: ["Masa madre GF", "Harina arroz", "Sorgo", "Sal", "Agua"], instructions: ["Refrescar masa madre", "Mezclar harinas", "Fermentar 4-6h", "Hornear"], prepTime: "6h", cookTime: "50 min", servings: "1 hogaza" },
