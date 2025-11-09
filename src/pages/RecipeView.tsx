@@ -51,7 +51,7 @@ const RecipeView = () => {
       <main className="container mx-auto px-4 py-6 max-w-3xl">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-foreground mb-3">{recipe.title}</h1>
-          <div className="flex items-center gap-4 text-muted-foreground">
+          <div className="flex items-center gap-4 text-muted-foreground mb-4">
             {recipe.prepTime && (
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5" />
@@ -65,6 +65,12 @@ const RecipeView = () => {
               </div>
             )}
           </div>
+          {recipe.description && (
+            <div className="bg-muted/50 border border-border rounded-lg p-4 mb-6">
+              <h3 className="font-semibold text-foreground mb-2">Descripción:</h3>
+              <p className="text-muted-foreground">{recipe.description}</p>
+            </div>
+          )}
         </div>
 
         {/* Ingredients */}
@@ -86,7 +92,7 @@ const RecipeView = () => {
         </Card>
 
         {/* Instructions */}
-        <Card className="border-border bg-card">
+        <Card className="border-border bg-card mb-6">
           <CardContent className="p-6">
             <h2 className="text-xl font-bold text-foreground mb-4">Preparación</h2>
             <ol className="space-y-4">
@@ -101,6 +107,29 @@ const RecipeView = () => {
             </ol>
           </CardContent>
         </Card>
+
+        {/* Expected Texture */}
+        {recipe.expectedTexture && (
+          <Card className="border-border bg-card mb-6">
+            <CardContent className="p-6">
+              <h3 className="font-semibold text-foreground mb-2">Textura esperada:</h3>
+              <p className="text-muted-foreground">{recipe.expectedTexture}</p>
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Chef Tip */}
+        {recipe.chefTip && (
+          <Card className="border-primary/20 bg-primary/5">
+            <CardContent className="p-6">
+              <h3 className="font-semibold text-foreground mb-2 flex items-center gap-2">
+                <ChefHat className="w-5 h-5 text-primary" />
+                Tip:
+              </h3>
+              <p className="text-muted-foreground">{recipe.chefTip}</p>
+            </CardContent>
+          </Card>
+        )}
       </main>
     </div>
   );

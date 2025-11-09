@@ -1813,8 +1813,9 @@ export const recipes: Recipe[] = [
   // Categoría 10: Pizzas Sin Gluten (10)
   { 
     id: "101", 
-    title: "1. Pizza Napolitana Sin Gluten (masa fina y borde dorado)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "1️⃣ Pizza Napolitana Sin Gluten (masa fina y borde dorado)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Inspirada en la clásica pizza italiana, con base delgada y borde aireado. Su masa combina harinas ligeras que logran una textura crocante por fuera y suave al centro.",
     ingredients: [
       "Harina de arroz: 180 g",
       "Fécula de tapioca: 80 g",
@@ -1831,18 +1832,19 @@ export const recipes: Recipe[] = [
       "Incorporar el agua con levadura y el aceite. Amasar con espátula hasta lograr una masa húmeda y elástica.",
       "Dejar reposar tapada 40 minutos.",
       "Estirar sobre papel de horno con los dedos engrasados hasta 3–4 mm de grosor.",
-      "Prehornear 10 min a 220 °C, cubrir con salsa y toppings, y hornear otros 10–12 min.",
-      "Textura esperada: Borde aireado, base firme, centro tierno y aroma mediterráneo."
-    ], 
+      "Prehornear 10 min a 220 °C, cubrir con salsa y toppings, y hornear otros 10–12 min."
+    ],
+    expectedTexture: "Borde aireado, base firme, centro tierno y aroma mediterráneo.",
     prepTime: "50 min", 
     cookTime: "20-22 min", 
     servings: "2 pizzas medianas",
-    chefTip: "Inspirada en la clásica pizza italiana, con base delgada y borde aireado. Su masa combina harinas ligeras que logran una textura crocante por fuera y suave al centro. Para versión vegana, usá queso vegetal rallado y aceite de oliva infusionado con ajo."
+    chefTip: "Para versión vegana, usá queso vegetal rallado y aceite de oliva infusionado con ajo."
   },
   { 
     id: "102", 
-    title: "2. Pizza de Sartén Exprés (sin horno, lista en minutos)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "2️⃣ Pizza de Sartén Exprés (sin horno, lista en minutos)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Ideal para días de apuro: se cocina directamente en sartén antiadherente, sin necesidad de levado.",
     ingredients: [
       "Harina de avena sin gluten: 100 g",
       "Harina de arroz: 80 g",
@@ -1857,18 +1859,19 @@ export const recipes: Recipe[] = [
       "Agregar aceite y agua poco a poco hasta formar una masa suave.",
       "Estirar con rodillo hasta 20 cm de diámetro.",
       "Cocinar en sartén tapada a fuego medio 5 min por lado.",
-      "Añadir salsa y queso, tapar 2 min más hasta derretir.",
-      "Textura esperada: Base crocante con interior tierno."
-    ], 
+      "Añadir salsa y queso, tapar 2 min más hasta derretir."
+    ],
+    expectedTexture: "Base crocante con interior tierno.",
     prepTime: "10 min", 
     cookTime: "12 min", 
     servings: "1 pizza",
-    chefTip: "Ideal para días de apuro: se cocina directamente en sartén antiadherente, sin necesidad de levado. Usá sartén gruesa para evitar que se queme el fondo."
+    chefTip: "Usá sartén gruesa para evitar que se queme el fondo."
   },
   { 
     id: "103", 
-    title: "3. Pizza de Coliflor Low-Carb (base vegetal y ligera)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "3️⃣ Pizza de Coliflor Low-Carb (base vegetal y ligera)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Una versión sin harinas, rica en fibra y sabor. Perfecta para dietas bajas en carbohidratos.",
     ingredients: [
       "Coliflor cruda rallada: 300 g",
       "Queso mozzarella rallado: 100 g",
@@ -1880,18 +1883,19 @@ export const recipes: Recipe[] = [
       "Cocinar la coliflor al vapor 5 minutos y escurrir muy bien.",
       "Mezclar con los demás ingredientes hasta formar una masa compacta.",
       "Extender sobre bandeja con papel vegetal y formar un disco fino.",
-      "Hornear 15 min a 200 °C, agregar toppings y hornear 10 min más.",
-      "Textura esperada: Masa flexible, dorada y con aroma vegetal suave."
-    ], 
+      "Hornear 15 min a 200 °C, agregar toppings y hornear 10 min más."
+    ],
+    expectedTexture: "Masa flexible, dorada y con aroma vegetal suave.",
     prepTime: "15 min", 
     cookTime: "25 min", 
     servings: "1 pizza",
-    chefTip: "Una versión sin harinas, rica en fibra y sabor. Perfecta para dietas bajas en carbohidratos. Podés reemplazar el queso por mezcla de lino molido y levadura nutricional (opción vegana)."
+    chefTip: "Podés reemplazar el queso por mezcla de lino molido y levadura nutricional (opción vegana)."
   },
   { 
     id: "104", 
-    title: "4. Pizza de Harina de Yuca y Queso (estilo brasileño)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "4️⃣ Pizza de Harina de Yuca y Queso (estilo brasileño)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Una base elástica y sabrosa, inspirada en el 'pão de queijo'. Crocante afuera y masticable al centro.",
     ingredients: [
       "Fécula de yuca (tapioca): 200 g",
       "Queso rallado (duro o semicurado): 100 g",
@@ -1904,18 +1908,19 @@ export const recipes: Recipe[] = [
       "Calentar leche con aceite y sal, y verter sobre la fécula.",
       "Mezclar y dejar templar. Incorporar queso y huevo.",
       "Formar la masa y estirarla sobre papel de horno.",
-      "Hornear 12 min a 200 °C, cubrir y hornear 8 min más.",
-      "Textura esperada: Suave, dorada y elástica, con sabor a queso derretido."
-    ], 
+      "Hornear 12 min a 200 °C, cubrir y hornear 8 min más."
+    ],
+    expectedTexture: "Suave, dorada y elástica, con sabor a queso derretido.",
     prepTime: "15 min", 
     cookTime: "20 min", 
     servings: "1 pizza",
-    chefTip: "Una base elástica y sabrosa, inspirada en el 'pão de queijo'. Crocante afuera y masticable al centro. Perfecta para air fryer: 190 °C por 10 min."
+    chefTip: "Perfecta para air fryer: 190 °C por 10 min."
   },
   { 
     id: "105", 
-    title: "5. Pizza de Avena y Semillas (rica en fibra y proteínas)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "5️⃣ Pizza de Avena y Semillas (rica en fibra y proteínas)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Combina harinas integrales sin gluten y semillas que aportan textura y saciedad.",
     ingredients: [
       "Harina de avena GF: 150 g",
       "Harina de arroz integral: 80 g",
@@ -1932,16 +1937,16 @@ export const recipes: Recipe[] = [
       "Amasar hasta lograr masa húmeda y uniforme.",
       "Dejar levar 45 min, estirar y hornear 15 min a 200 °C.",
       "Agregar salsa y toppings, hornear 10 min más."
-    ], 
+    ],
     prepTime: "55 min", 
     cookTime: "25 min", 
-    servings: "2 pizzas",
-    chefTip: "Combina harinas integrales sin gluten y semillas que aportan textura y saciedad. Base nutritiva y sabrosa."
+    servings: "2 pizzas"
   },
   { 
     id: "106", 
-    title: "6. Pizza Integral Sin Gluten (masa rústica y aireada)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "6️⃣ Pizza Integral Sin Gluten (masa rústica y aireada)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Una base robusta, rica en fibra, con sabor artesanal. Ideal para quienes disfrutan masas más densas y nutritivas.",
     ingredients: [
       "Harina de arroz integral: 120 g",
       "Harina de sorgo: 80 g",
@@ -1958,18 +1963,19 @@ export const recipes: Recipe[] = [
       "Mezclar las harinas, psyllium y sal.",
       "Agregar el agua restante y el aceite; amasar con espátula hasta masa húmeda.",
       "Reposar 1 hora en lugar cálido.",
-      "Estirar, prehornear 10 min a 200 °C, cubrir y hornear 15 min más.",
-      "Textura esperada: Base firme, corteza crocante y miga húmeda."
-    ], 
+      "Estirar, prehornear 10 min a 200 °C, cubrir y hornear 15 min más."
+    ],
+    expectedTexture: "Base firme, corteza crocante y miga húmeda.",
     prepTime: "1 h 10 min", 
     cookTime: "25 min", 
     servings: "2 pizzas medianas",
-    chefTip: "Una base robusta, rica en fibra, con sabor artesanal. Ideal para quienes disfrutan masas más densas y nutritivas. Agregá 1 cucharadita de miel para favorecer el dorado sin usar azúcar refinada."
+    chefTip: "Agregá 1 cucharadita de miel para favorecer el dorado sin usar azúcar refinada."
   },
   { 
     id: "107", 
-    title: "7. Pizza de Almendra y Linaza (versión keto y sin lácteos)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "7️⃣ Pizza de Almendra y Linaza (versión keto y sin lácteos)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Masa baja en carbohidratos, rica en grasas saludables y con sabor a frutos secos.",
     ingredients: [
       "Harina de almendra: 120 g",
       "Harina de linaza dorada: 40 g",
@@ -1984,18 +1990,19 @@ export const recipes: Recipe[] = [
       "Agregar huevos, aceite y agua.",
       "Amasar con espátula hasta masa maleable (no pegajosa).",
       "Extender entre papeles de horno de 3–4 mm.",
-      "Hornear 12 min a 190 °C, añadir toppings y hornear 8 min más.",
-      "Textura esperada: Masa flexible, dorada y con aroma tostado."
-    ], 
+      "Hornear 12 min a 190 °C, añadir toppings y hornear 8 min más."
+    ],
+    expectedTexture: "Masa flexible, dorada y con aroma tostado.",
     prepTime: "10 min", 
     cookTime: "20 min", 
     servings: "1 pizza",
-    chefTip: "Masa baja en carbohidratos, rica en grasas saludables y con sabor a frutos secos. Ideal para base de pizza blanca (sin salsa de tomate), con topping de vegetales grillados."
+    chefTip: "Ideal para base de pizza blanca (sin salsa de tomate), con topping de vegetales grillados."
   },
   { 
     id: "108", 
-    title: "8. Pizza Mediterránea con Aceitunas y Hierbas",
-    categoryId: "pizzas-sin-gluten", 
+    title: "8️⃣ Pizza Mediterránea con Aceitunas y Hierbas",
+    categoryId: "pizzas-sin-gluten",
+    description: "Aroma a campo italiano: masa ligera y perfumada con orégano, romero y aceitunas negras.",
     ingredients: [
       "Harina de arroz: 160 g",
       "Fécula de tapioca: 70 g",
@@ -2013,18 +2020,18 @@ export const recipes: Recipe[] = [
       "Mezclar secos, añadir líquidos y amasar.",
       "Incorporar las aceitunas y hierbas.",
       "Dejar levar 45 min.",
-      "Estirar y hornear 12 min a 220 °C, agregar salsa y toppings, hornear 8 min más.",
-      "Textura esperada: Masa aireada con aroma herbal intenso y borde crocante."
-    ], 
+      "Estirar y hornear 12 min a 220 °C, agregar salsa y toppings, hornear 8 min más."
+    ],
+    expectedTexture: "Masa aireada con aroma herbal intenso y borde crocante.",
     prepTime: "55 min", 
     cookTime: "20 min", 
-    servings: "2 pizzas",
-    chefTip: "Aroma a campo italiano: masa ligera y perfumada con orégano, romero y aceitunas negras."
+    servings: "2 pizzas"
   },
   { 
     id: "109", 
-    title: "9. Mini Pizzas Individuales (listas para congelar)",
-    categoryId: "pizzas-sin-gluten", 
+    title: "9️⃣ Mini Pizzas Individuales (listas para congelar)",
+    categoryId: "pizzas-sin-gluten",
+    description: "Porciones pequeñas, ideales para preparar, congelar y recalentar sin perder textura.",
     ingredients: [
       "Harina de arroz: 150 g",
       "Fécula de maíz: 60 g",
@@ -2040,18 +2047,19 @@ export const recipes: Recipe[] = [
       "Reposar 45 min.",
       "Formar discos pequeños (8–10 cm).",
       "Prehornear 8 min a 200 °C.",
-      "Agregar salsa y queso, hornear 10 min más o congelar antes de hornear.",
-      "Textura esperada: Base crujiente y miga elástica incluso tras descongelar."
-    ], 
+      "Agregar salsa y queso, hornear 10 min más o congelar antes de hornear."
+    ],
+    expectedTexture: "Base crujiente y miga elástica incluso tras descongelar.",
     prepTime: "55 min", 
     cookTime: "18 min", 
     servings: "8-10 mini pizzas",
-    chefTip: "Porciones pequeñas, ideales para preparar, congelar y recalentar sin perder textura. Congelá las bases prehorneadas envueltas en film y recalentá 5 min al servir."
+    chefTip: "Congelá las bases prehorneadas envueltas en film y recalentá 5 min al servir."
   },
   { 
     id: "110", 
-    title: "10. Pizza Dulce de Manzana y Canela",
-    categoryId: "pizzas-sin-gluten", 
+    title: "🔟 Pizza Dulce de Manzana y Canela",
+    categoryId: "pizzas-sin-gluten",
+    description: "Una versión gourmet, perfecta como postre o desayuno. La masa neutra se cubre con manzanas especiadas y miel.",
     ingredients: [
       "Harina de arroz: 120 g",
       "Fécula de tapioca: 60 g",
@@ -2069,13 +2077,13 @@ export const recipes: Recipe[] = [
       "Agregar agua, aceite de coco y miel. Amasar hasta formar masa uniforme.",
       "Dejar levar 45 min.",
       "Estirar y cubrir con las manzanas laminadas y canela.",
-      "Hornear 15 min a 200 °C, agregar un toque extra de miel y hornear 5 min más.",
-      "Textura esperada: Borde crocante, centro húmedo y aroma a canela y coco."
-    ], 
+      "Hornear 15 min a 200 °C, agregar un toque extra de miel y hornear 5 min más."
+    ],
+    expectedTexture: "Borde crocante, centro húmedo y aroma a canela y coco.",
     prepTime: "55 min", 
     cookTime: "20 min", 
     servings: "1 pizza dulce",
-    chefTip: "Una versión gourmet, perfecta como postre o desayuno. La masa neutra se cubre con manzanas especiadas y miel. Servir con yogur vegetal frío o helado sin lácteos."
+    chefTip: "Servir con yogur vegetal frío o helado sin lácteos."
   }
 ];
 
