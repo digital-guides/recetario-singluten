@@ -9,6 +9,7 @@ import panesFermentacionImage from "@/assets/panes-fermentacion-corta.jpg";
 import panesDulcesImage from "@/assets/panes-dulces.jpg";
 import panesLatinoamericanosImage from "@/assets/panes-latinoamericanos.jpg";
 import pizzasSinGlutenImage from "@/assets/pizzas-sin-gluten.jpg";
+import empanadasTartasImage from "@/assets/empanadas-tartas-sin-gluten.jpg";
 
 export const categories: Category[] = [
   {
@@ -80,6 +81,13 @@ export const categories: Category[] = [
     icon: "pizza",
     description: "Pizzas sin gluten deliciosas",
     image: pizzasSinGlutenImage
+  },
+  {
+    id: "empanadas-tartas",
+    name: "🥟 BONO 2 – EMPANADAS Y TARTAS SIN GLUTEN",
+    icon: "cake",
+    description: "Masas que no se quiebran, rellenos sabrosos y dorado perfecto",
+    image: empanadasTartasImage
   }
 ];
 
@@ -2084,6 +2092,260 @@ export const recipes: Recipe[] = [
     cookTime: "20 min", 
     servings: "1 pizza dulce",
     chefTip: "Servir con yogur vegetal frío o helado sin lácteos."
+  },
+
+  // Categoría 11: Empanadas y Tartas Sin Gluten (10)
+  { 
+    id: "111", 
+    title: "1️⃣ Empanadas Clásicas Sin Gluten (masa flexible y dorada)",
+    categoryId: "empanadas-tartas",
+    description: "La versión sin gluten de la empanada tradicional argentina. Masa elástica que se dobla sin romperse y dorado perfecto.",
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Fécula de mandioca: 80 g",
+      "Harina de garbanzo: 40 g",
+      "Psyllium husk: 8 g",
+      "Sal: 5 g",
+      "Aceite o manteca: 30 ml",
+      "Agua tibia: 150–170 ml",
+      "Relleno sugerido: carne picada, cebolla, pimentón, comino y huevo duro"
+    ], 
+    instructions: [
+      "Mezclar las harinas, psyllium y sal.",
+      "Incorporar aceite y agua poco a poco hasta lograr masa blanda y lisa.",
+      "Reposar tapada 20 min.",
+      "Estirar de 2 mm de grosor y cortar discos.",
+      "Rellenar, cerrar y hornear a 200 °C durante 20–25 min."
+    ],
+    expectedTexture: "Flexible, sin grietas, con dorado uniforme.",
+    prepTime: "30 min", 
+    cookTime: "20-25 min", 
+    servings: "12 unidades",
+    chefTip: "Para dorado extra, pincelá con yema o leche vegetal."
+  },
+  { 
+    id: "112", 
+    title: "2️⃣ Empanadas de Yuca y Pollo Especiado",
+    categoryId: "empanadas-tartas",
+    description: "Masa elástica y ligeramente chiclosa con sabor neutro. Relleno jugoso y especiado.",
+    ingredients: [
+      "Fécula de yuca: 250 g",
+      "Queso rallado (duro): 80 g",
+      "Huevo: 1 u",
+      "Leche o bebida vegetal: 100 ml",
+      "Sal: 4 g",
+      "Relleno: pollo desmenuzado, cebolla, pimiento, curry y cúrcuma"
+    ], 
+    instructions: [
+      "Mezclar fécula con queso, huevo, leche y sal.",
+      "Amasar hasta lograr masa elástica.",
+      "Dividir, rellenar y sellar con los dedos.",
+      "Hornear 15–18 min a 200 °C o cocinar en air fryer 10 min a 190 °C."
+    ],
+    expectedTexture: "Crocante por fuera, suave por dentro.",
+    prepTime: "20 min", 
+    cookTime: "15-18 min", 
+    servings: "8-10 unidades",
+    chefTip: "Podés hacer mini empanadas y congelarlas crudas."
+  },
+  { 
+    id: "113", 
+    title: "3️⃣ Empanaditas de Queso y Cebolla (versión rápida al horno o air fryer)",
+    categoryId: "empanadas-tartas",
+    description: "Masa liviana con base de avena y arroz, dorada y con sabor mantecoso.",
+    ingredients: [
+      "Harina de avena GF: 100 g",
+      "Harina de arroz: 80 g",
+      "Fécula de maíz: 40 g",
+      "Psyllium: 6 g",
+      "Polvo de hornear: 5 g",
+      "Sal: 4 g",
+      "Aceite o mantequilla: 20 ml",
+      "Agua tibia: 120 ml",
+      "Relleno: queso rallado y cebolla salteada"
+    ], 
+    instructions: [
+      "Mezclar secos y luego líquidos.",
+      "Formar masa maleable y reposar 10 min.",
+      "Estirar y cortar discos de 10 cm.",
+      "Rellenar, sellar y hornear 15 min a 200 °C o en air fryer 8 min a 190 °C."
+    ],
+    expectedTexture: "Liviana, ligeramente crujiente y húmeda al centro.",
+    prepTime: "20 min", 
+    cookTime: "15 min", 
+    servings: "10 unidades",
+    chefTip: "Podés agregar una pizca de cúrcuma a la masa para un color dorado natural."
+  },
+  { 
+    id: "114", 
+    title: "4️⃣ Empanadas Criollas Veganas (masa con garbanzo y aceite de oliva)",
+    categoryId: "empanadas-tartas",
+    description: "Sin lácteos, sin huevo, con masa rica en proteínas vegetales y sabor mediterráneo.",
+    ingredients: [
+      "Harina de garbanzo: 100 g",
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 60 g",
+      "Sal: 5 g",
+      "Aceite de oliva: 25 ml",
+      "Agua tibia: 160 ml",
+      "Relleno: vegetales salteados (berenjena, pimiento, cebolla, tomate)"
+    ], 
+    instructions: [
+      "Mezclar secos y añadir aceite y agua.",
+      "Amasar hasta masa suave.",
+      "Estirar, cortar y rellenar.",
+      "Hornear 20 min a 200 °C."
+    ],
+    expectedTexture: "Masa firme, bordes crujientes y sabor neutro.",
+    prepTime: "25 min", 
+    cookTime: "20 min", 
+    servings: "10 unidades",
+    chefTip: "Pincelá con mezcla de aceite + cúrcuma para dorado vegetal."
+  },
+  { 
+    id: "115", 
+    title: "5️⃣ Empanadas de Papa y Arroz (económicas y suaves)",
+    categoryId: "empanadas-tartas",
+    description: "Textura tierna y suave, perfecta para rellenos cremosos.",
+    ingredients: [
+      "Puré de papa: 200 g",
+      "Harina de arroz: 120 g",
+      "Fécula de maíz: 40 g",
+      "Aceite: 15 ml",
+      "Sal: 4 g"
+    ], 
+    instructions: [
+      "Mezclar puré tibio con harinas, sal y aceite.",
+      "Amasar hasta masa homogénea.",
+      "Formar discos de 8–10 cm.",
+      "Rellenar y hornear 20 min a 190 °C."
+    ],
+    expectedTexture: "Suave y húmeda, con sabor delicado.",
+    prepTime: "20 min", 
+    cookTime: "20 min", 
+    servings: "10 unidades",
+    chefTip: "Perfecta para rellenos de verdura o queso."
+  },
+  { 
+    id: "116", 
+    title: "6️⃣ Empanadas Dulces de Manzana y Canela",
+    categoryId: "empanadas-tartas",
+    description: "Versión de postre con masa base neutra y relleno especiado.",
+    ingredients: [
+      "Harina de arroz: 100 g",
+      "Fécula de tapioca: 50 g",
+      "Harina de almendra: 30 g",
+      "Aceite de coco: 15 ml",
+      "Miel: 15 ml",
+      "Agua: 80 ml",
+      "Relleno: manzana rallada, canela y gotas de limón"
+    ], 
+    instructions: [
+      "Mezclar todo hasta masa suave.",
+      "Armar discos y rellenar.",
+      "Hornear 15 min a 190 °C."
+    ],
+    expectedTexture: "Crujiente y dorada con aroma a canela.",
+    prepTime: "15 min", 
+    cookTime: "15 min", 
+    servings: "8 unidades",
+    chefTip: "Espolvoreá con azúcar mascabado antes de hornear."
+  },
+  { 
+    id: "117", 
+    title: "7️⃣ Tarta de Espinaca y Queso Vegetal",
+    categoryId: "empanadas-tartas",
+    description: "Masa firme y base sin grietas, ideal para rellenos húmedos.",
+    ingredients: [
+      "Harina de arroz: 150 g",
+      "Fécula de maíz: 80 g",
+      "Psyllium husk: 6 g",
+      "Aceite: 25 ml",
+      "Agua: 100–120 ml",
+      "Sal: 5 g",
+      "Relleno: espinaca, tofu o queso vegetal y cebolla"
+    ], 
+    instructions: [
+      "Mezclar masa, estirar y forrar molde.",
+      "Prehornear 10 min a 200 °C.",
+      "Agregar relleno y hornear 25 min."
+    ],
+    expectedTexture: "Base crocante y borde ligeramente quebradizo.",
+    prepTime: "20 min", 
+    cookTime: "35 min", 
+    servings: "6-8 porciones",
+    chefTip: "Dejá enfriar antes de cortar para mejor presentación."
+  },
+  { 
+    id: "118", 
+    title: "8️⃣ Tarta Rústica de Verduras Asadas",
+    categoryId: "empanadas-tartas",
+    description: "Aroma casero y textura firme con sabor a campo.",
+    ingredients: [
+      "Harina de avena GF: 120 g",
+      "Harina de arroz integral: 100 g",
+      "Fécula de tapioca: 40 g",
+      "Aceite de oliva: 20 ml",
+      "Agua: 110 ml",
+      "Sal: 5 g",
+      "Relleno: calabaza, berenjena y pimientos asados"
+    ], 
+    instructions: [
+      "Mezclar y amasar.",
+      "Extender masa en molde bajo.",
+      "Rellenar con verduras y hornear 25 min a 200 °C."
+    ],
+    expectedTexture: "Crujiente por fuera, suave en el centro.",
+    prepTime: "20 min", 
+    cookTime: "25 min", 
+    servings: "6 porciones",
+    chefTip: "Decorá con semillas antes de hornear."
+  },
+  { 
+    id: "119", 
+    title: "9️⃣ Mini Quiches Sin Gluten",
+    categoryId: "empanadas-tartas",
+    description: "Versión individual con base firme y relleno cremoso.",
+    ingredients: [
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 50 g",
+      "Harina de almendra: 30 g",
+      "Huevo: 1 u",
+      "Aceite: 15 ml",
+      "Agua: 60 ml"
+    ], 
+    instructions: [
+      "Formar masa y forrar moldes individuales.",
+      "Rellenar con mezcla de huevo, crema vegetal y vegetales.",
+      "Hornear 20 min a 190 °C."
+    ],
+    expectedTexture: "Base crocante, centro cremoso.",
+    prepTime: "20 min", 
+    cookTime: "20 min", 
+    servings: "6-8 mini quiches",
+    chefTip: "Congelá ya horneadas y recalentá 10 min antes de servir."
+  },
+  { 
+    id: "120", 
+    title: "🔟 Base 'Todo Uso' para Tartas y Empanadas",
+    categoryId: "empanadas-tartas",
+    description: "Una receta comodín que sirve tanto para masas saladas como dulces.",
+    ingredients: [
+      "Harina de arroz: 150 g",
+      "Fécula de maíz: 70 g",
+      "Psyllium husk: 6 g",
+      "Aceite: 20 ml",
+      "Agua: 100–120 ml",
+      "Sal: pizca"
+    ], 
+    instructions: [
+      "Mezclar ingredientes y amasar 2 min.",
+      "Usar inmediatamente o conservar 3 días refrigerada."
+    ],
+    expectedTexture: "Masa suave y flexible.",
+    prepTime: "10 min", 
+    servings: "Para 1 tarta o 10 empanadas",
+    chefTip: "Para versión dulce, agregá 1 cdta. de miel o azúcar mascabado."
   }
 ];
 
