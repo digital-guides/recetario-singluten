@@ -10,6 +10,7 @@ import panesDulcesImage from "@/assets/panes-dulces.jpg";
 import panesLatinoamericanosImage from "@/assets/panes-latinoamericanos.jpg";
 import pizzasSinGlutenImage from "@/assets/pizzas-sin-gluten.jpg";
 import empanadasTartasImage from "@/assets/empanadas-tartas-sin-gluten.jpg";
+import guiaSustitucionImage from "@/assets/guia-sustitucion-harinas.jpg";
 
 export const categories: Category[] = [
   {
@@ -88,6 +89,13 @@ export const categories: Category[] = [
     icon: "cake",
     description: "Masas que no se quiebran, rellenos sabrosos y dorado perfecto",
     image: empanadasTartasImage
+  },
+  {
+    id: "guia-sustituciones",
+    name: "🌾 BONO 3 – GUÍA DE SUSTITUCIONES DE HARINAS",
+    icon: "wheat",
+    description: "Cómo reemplazar harinas y convertir recetas tradicionales en versiones sin gluten",
+    image: guiaSustitucionImage
   }
 ];
 
@@ -2346,6 +2354,128 @@ export const recipes: Recipe[] = [
     prepTime: "10 min", 
     servings: "Para 1 tarta o 10 empanadas",
     chefTip: "Para versión dulce, agregá 1 cdta. de miel o azúcar mascabado."
+  },
+
+  // 🌾 BONO 3 – GUÍA DE SUSTITUCIONES DE HARINAS (121-124)
+  { 
+    id: "121", 
+    title: "1️⃣ Tabla de Sustituciones de Harinas y Féculas",
+    categoryId: "guia-sustituciones",
+    description: "Guía completa de equivalencias cuando te falta alguna harina. Usá las proporciones indicadas para mantener textura y sabor similares.",
+    ingredients: [
+      "**Si te falta Harina de arroz:** Usá Avena GF o sorgo (1:1) → Miga más tierna, color más dorado",
+      "**Si te falta Harina de avena GF:** Usá Arroz o mijo (1:1) → Miga más ligera",
+      "**Si te falta Harina de sorgo:** Usá Mijo o arroz integral (1:1) → Textura más suave",
+      "**Si te falta Harina de garbanzo:** Usá Quinoa o lenteja (1:1) → Sabor más neutro",
+      "**Si te falta Harina de almendra:** Usá Harina de coco (1 taza almendra = ½ taza coco + 3–4 cdas líquido) → Más fibra y dulzor leve",
+      "**Si te falta Harina de coco:** Usá Almendra o avena (1 taza coco = 1½ taza sustituto menos ¼ taza líquido) → Miga más esponjosa",
+      "**Si te falta Harina de maíz:** Usá Arroz + 1 cda fécula de maíz (1:1) → Más color y suavidad",
+      "**Si te falta Fécula de maíz (maicena):** Usá Tapioca o papa (1:1) → Misma ligereza",
+      "**Si te falta Tapioca o almidón de yuca:** Usá Maicena + 1 cda aceite (1:1) → Menos elástica, igual crocante",
+      "**Si te falta Harina de papa:** Usá Fécula de maíz (1:1) → Más aireada",
+      "**Si te falta Psyllium husk:** Usá ½ cdta goma xantana o 2 cdas chía molida + 4 cdas agua → Misma elasticidad",
+      "**Si te falta Goma xantana:** Usá 1 cda psyllium o lino molido → Mismo efecto aglutinante",
+      "**Si te falta Yuca o mandioca rallada:** Usá Papa cocida o batata (1:1) → Sabor más suave, textura tierna"
+    ], 
+    instructions: [
+      "Identificá qué harina te falta en tu receta.",
+      "Buscá el sustituto correspondiente en la lista.",
+      "Aplicá la proporción indicada exactamente.",
+      "Tené en cuenta el resultado esperado (textura, sabor, color).",
+      "Si es necesario, ajustá líquidos según la absorción de la harina sustituta."
+    ],
+    expectedTexture: "Resultados variables según la sustitución: desde texturas más tiernas hasta más firmes, pero siempre manteniendo la calidad sin gluten.",
+    prepTime: "Referencia inmediata", 
+    servings: "Aplicable a cualquier receta",
+    chefTip: "💡 Guardá esta tabla en tu cocina como referencia rápida. Las sustituciones funcionan mejor cuando combinás al menos 2 harinas diferentes."
+  },
+  { 
+    id: "122", 
+    title: "2️⃣ Combinaciones Básicas según Resultado Deseado",
+    categoryId: "guia-sustituciones",
+    description: "Mezclas caseras optimizadas según el tipo de preparación que querés lograr. Proporciones orientativas para resultados perfectos.",
+    ingredients: [
+      "**Para masa elástica (pizza, wraps):** 2 partes harina de arroz + 1 parte tapioca → Flexibilidad sin romperse",
+      "**Para pan liviano y aireado:** 2 partes arroz + 1 parte maicena + 1 parte avena GF → Miga suave y ligera",
+      "**Para pan húmedo o integral:** 1 parte sorgo + 1 parte avena + 1 parte fécula → Textura rústica y húmeda",
+      "**Para empanadas o tartas firmes:** 2 partes arroz + 1 parte maicena + 1 parte garbanzo → Masa maleable y resistente",
+      "**Para pan dulce o bollería:** 2 partes arroz + 1 parte papa + 1 parte almendra → Aroma suave y elasticidad",
+      "**Para versión low-carb/keto:** 2 partes almendra + 1 parte coco + huevo extra → Miga húmeda y alta saciedad"
+    ], 
+    instructions: [
+      "Elegí el tipo de resultado que necesitás (masa elástica, pan liviano, etc.).",
+      "Medí las harinas según las proporciones indicadas (ejemplo: si usás 200g total, dividí según las partes).",
+      "Mezclá primero todas las harinas secas antes de agregar líquidos.",
+      "Agregá siempre un aglutinante (psyllium, goma xantana o chía molida).",
+      "Ajustá líquidos gradualmente hasta lograr la consistencia deseada."
+    ],
+    expectedTexture: "Según la combinación elegida: desde masas flexibles para wraps hasta migas húmedas para panes integrales.",
+    prepTime: "5-10 min de preparación", 
+    servings: "Base para cualquier receta",
+    chefTip: "⭐ Podés preparar tus propias mezclas en cantidad y guardarlas en frascos herméticos. Etiquetá cada mezcla con su uso ideal."
+  },
+  { 
+    id: "123", 
+    title: "3️⃣ Cómo Adaptar Recetas de Trigo a Versión Sin Gluten",
+    categoryId: "guia-sustituciones",
+    description: "Transformá tus recetas clásicas favoritas en versiones aptas celíacas con esta guía completa de equivalencias y ajustes necesarios.",
+    ingredients: [
+      "**Harinas y líquidos:** Por cada taza de harina de trigo → usá 1 taza de mezcla sin gluten (50% base + 30% fécula + 20% complementaria)",
+      "Ejemplo de mezcla: ½ taza harina de arroz + ⅓ taza maicena + 3 cdas avena o almendra",
+      "**Líquidos extra:** Agregá 2–3 cdas extra de líquido (agua, leche vegetal o aceite) porque las harinas sin gluten absorben más",
+      "**Aglutinantes:** Agregá 1 cda de psyllium o ½ cdta goma xantana por cada 50 g de harina total",
+      "**Alternativa natural:** 1 cda de chía o lino molido + 3 cdas agua (dejá reposar 10 min)",
+      "**Grasas:** Un chorrito extra de aceite (5–10 ml por pan) mejora textura y conservación"
+    ], 
+    instructions: [
+      "Identificá la cantidad total de harina de trigo en tu receta original.",
+      "Reemplazá con una mezcla sin gluten (50% base + 30% fécula + 20% complementaria).",
+      "Agregá 1 cda de psyllium husk o ½ cdta de goma xantana por cada 50g de harina.",
+      "Aumentá los líquidos en 2-3 cucharadas adicionales.",
+      "No amases la masa, solo mezclá hasta integrar ingredientes.",
+      "Reducí el tiempo de levado a 20-40 minutos máximo.",
+      "Horneá a 10°C menos que la receta original y vigilá el dorado.",
+      "Agregá 5-10 ml de aceite extra para mejorar textura y conservación."
+    ],
+    expectedTexture: "Textura diferente al trigo pero igualmente deliciosa. Las masas sin gluten son más húmedas y menos elásticas, pero con miga suave y sabrosa.",
+    prepTime: "Mismo tiempo que receta original + 5 min", 
+    servings: "Según receta original",
+    chefTip: "🌿 No intentes copiar al 100% la textura del trigo: las masas sin gluten son distintas, pero igual de deliciosas. Mezclá siempre al menos dos harinas distintas: una base (arroz/avena) y una fécula (maicena/tapioca)."
+  },
+  { 
+    id: "124", 
+    title: "4️⃣ Tips Rápidos de la Chef Matilda 🌿",
+    categoryId: "guia-sustituciones",
+    description: "Soluciones prácticas para los problemas más comunes al trabajar con masas sin gluten. Tips probados que salvan cualquier preparación.",
+    ingredients: [
+      "**Problema:** La masa se agrieta",
+      "**Solución:** Agregá 1–2 cdas más de agua tibia o aceite",
+      "",
+      "**Problema:** La masa queda muy pegajosa",
+      "**Solución:** Añadí 1–2 cdas de harina de arroz o fécula",
+      "",
+      "**Problema:** El pan no dora bien",
+      "**Solución:** Rociá con aceite o pincelá con miel o leche vegetal antes de hornear",
+      "",
+      "**Problema:** La masa se desarma al cortar",
+      "**Solución:** Usá 1 cdta extra de psyllium husk o lino molido",
+      "",
+      "**Problema:** La miga queda muy seca",
+      "**Solución:** Añadí 1 cda de aceite o puré (banana, manzana, calabaza)"
+    ], 
+    instructions: [
+      "Identificá el problema específico que estás teniendo con tu masa.",
+      "Aplicá la solución correspondiente según la tabla de problemas comunes.",
+      "Hacé ajustes pequeños de a poco (1 cucharada a la vez).",
+      "Anotá los ajustes que funcionan para recordarlos en futuras preparaciones.",
+      "Recordá que cada harina se comporta diferente, algunos ajustes son normales.",
+      "Si después de 2-3 ajustes no funciona, considerá cambiar la proporción de harinas base.",
+      "La práctica hace al maestro: con el tiempo conocerás el comportamiento de cada harina."
+    ],
+    expectedTexture: "Con estos ajustes lograrás texturas óptimas: masas flexibles que no se quiebran, miga húmeda y suave, dorado perfecto y cortes limpios.",
+    prepTime: "Correcciones inmediatas durante el proceso", 
+    servings: "Aplicable a cualquier preparación",
+    chefTip: "⭐ El secreto está en no desanimarse: las primeras veces puede salir diferente, pero con estos tips y un poco de práctica, tus masas sin gluten quedarán perfectas. ¡Anotá tus propios descubrimientos!"
   }
 ];
 
