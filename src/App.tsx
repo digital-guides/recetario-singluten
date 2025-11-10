@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import CategoryView from "./pages/CategoryView";
 import RecipeView from "./pages/RecipeView";
 import SearchResults from "./pages/SearchResults";
+import SubstitutionGuide from "./pages/SubstitutionGuide";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -19,6 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/categoria/guia-sustituciones" element={<SubstitutionGuide />} />
           <Route path="/categoria/:categoryId" element={<CategoryView />} />
           <Route path="/receta/:recipeId" element={<RecipeView />} />
           <Route path="/buscar" element={<SearchResults />} />
