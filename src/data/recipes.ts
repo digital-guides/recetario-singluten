@@ -11,6 +11,7 @@ import panesLatinoamericanosImage from "@/assets/panes-latinoamericanos.jpg";
 import pizzasSinGlutenImage from "@/assets/pizzas-sin-gluten.jpg";
 import empanadasTartasImage from "@/assets/empanadas-tartas-sin-gluten.jpg";
 import guiaSustitucionImage from "@/assets/guia-sustitucion-harinas.jpg";
+import panesAirFryerImage from "@/assets/panes-air-fryer.webp";
 
 export const categories: Category[] = [
   {
@@ -96,6 +97,13 @@ export const categories: Category[] = [
     icon: "wheat",
     description: "Cómo reemplazar harinas y convertir recetas tradicionales en versiones sin gluten",
     image: guiaSustitucionImage
+  },
+  {
+    id: "panes-air-fryer",
+    name: "Panes Air Fryer",
+    icon: "zap",
+    description: "Panes rápidos y prácticos en freidora de aire",
+    image: panesAirFryerImage
   }
 ];
 
@@ -2355,6 +2363,561 @@ export const recipes: Recipe[] = [
     servings: "Para 1 tarta o 10 empanadas",
     chefTip: "Para versión dulce, agregá 1 cdta. de miel o azúcar mascabado."
   },
+
+  // Categoría: Panes Air Fryer (20)
+  {
+    id: "121",
+    title: "🥖 Pan básico de arroz en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Fécula de maíz: 50 g",
+      "Psyllium husk: 8 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Agua tibia: 240 ml",
+      "Aceite de oliva: 20 ml",
+      "Vinagre de manzana: 5 ml"
+    ],
+    instructions: [
+      "En un bol, mezcla todos los ingredientes secos.",
+      "Agrega el agua, el aceite y el vinagre. Mezcla con espátula hasta obtener una masa suave.",
+      "Coloca la masa en un molde pequeño apto para air fryer (forrado con papel).",
+      "Cocina en la air fryer a 170 °C durante 25–30 min. Si se dora demasiado rápido, cubre con papel aluminio los últimos 10 minutos.",
+      "Deja enfriar 10 minutos antes de desmoldar."
+    ],
+    expectedTexture: "Corteza ligeramente crujiente, miga tierna y esponjosa.",
+    prepTime: "10 min",
+    cookTime: "25-30 min",
+    servings: "6-8 rebanadas",
+    chefTip: "Si tu air fryer es pequeña, divide la masa en dos moldes y cocina por separado."
+  },
+  {
+    id: "122",
+    title: "🥖 Pan de avena certificada GF express",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de avena certificada GF: 200 g",
+      "Fécula de tapioca: 40 g",
+      "Psyllium husk: 6 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Leche vegetal: 200 ml",
+      "Huevo: 1 u",
+      "Aceite: 15 ml",
+      "Miel: 10 ml"
+    ],
+    instructions: [
+      "Mezcla los ingredientes secos.",
+      "Bate la leche, el huevo, el aceite y la miel. Incorpora a los secos.",
+      "Coloca en un molde apto para air fryer y alisa la superficie.",
+      "Cocina a 160 °C por 20–25 min.",
+      "Deja reposar 10 min antes de cortar."
+    ],
+    expectedTexture: "Miga suave, levemente dulce, perfecta para desayunos.",
+    prepTime: "8 min",
+    cookTime: "20-25 min",
+    servings: "6-8 rebanadas",
+    chefTip: "Agrega semillas de chía o lino arriba antes de cocinar para extra textura."
+  },
+  {
+    id: "123",
+    title: "🥖 Pan de almendra low-carb en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de almendra: 180 g",
+      "Harina de coco: 30 g",
+      "Psyllium husk: 8 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Huevos: 3 u",
+      "Agua: 100 ml",
+      "Aceite de oliva: 20 ml"
+    ],
+    instructions: [
+      "Mezcla los secos en un bol.",
+      "Bate los huevos con el agua y el aceite. Integra con los secos.",
+      "Vierte en un molde pequeño forrado.",
+      "Cocina a 160 °C durante 20–25 min. Si la superficie se dora mucho, cubre con papel.",
+      "Enfría 15 min antes de cortar."
+    ],
+    expectedTexture: "Miga densa, húmeda, ideal para tostadas.",
+    prepTime: "10 min",
+    cookTime: "20-25 min",
+    servings: "6-8 rebanadas",
+    chefTip: "Perfecto para quienes buscan reducir carbohidratos sin renunciar al pan."
+  },
+  {
+    id: "124",
+    title: "🥖 Pan de yogur y semillas en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de arroz: 150 g",
+      "Harina de avena GF: 70 g",
+      "Fécula de maíz: 40 g",
+      "Psyllium husk: 6 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Yogur vegetal natural: 200 g",
+      "Agua: 80 ml",
+      "Aceite: 20 ml",
+      "Mix de semillas (chía, lino, girasol): 30 g"
+    ],
+    instructions: [
+      "Mezcla los ingredientes secos.",
+      "Agrega el yogur, el agua y el aceite. Incorpora las semillas (reserva un poco para decorar).",
+      "Coloca en molde apto air fryer.",
+      "Cocina a 170 °C por 25 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Miga esponjosa con toques crujientes de semillas.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "El yogur aporta humedad y elasticidad a la miga."
+  },
+  {
+    id: "125",
+    title: "🥖 Pan de papa y romero en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Puré de papa cocida: 150 g",
+      "Harina de arroz: 120 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Romero seco: 2 g",
+      "Agua: 80 ml",
+      "Aceite de oliva: 25 ml"
+    ],
+    instructions: [
+      "Mezcla el puré con el agua y el aceite hasta integrar.",
+      "Añade los ingredientes secos y el romero. Mezcla bien.",
+      "Coloca en un molde pequeño forrado.",
+      "Cocina a 170 °C por 20–25 min.",
+      "Deja reposar antes de desmoldar."
+    ],
+    expectedTexture: "Miga tierna, aromática y reconfortante.",
+    prepTime: "10 min",
+    cookTime: "20-25 min",
+    servings: "6-8 rebanadas",
+    chefTip: "Puedes añadir aceitunas picadas o queso rallado para una versión más gourmet."
+  },
+  {
+    id: "126",
+    title: "🥖 Pan de calabaza especiado en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Puré de calabaza cocida: 180 g",
+      "Harina de arroz: 120 g",
+      "Harina de garbanzo: 50 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Comino molido: 1 g",
+      "Cúrcuma: 1 g",
+      "Aceite: 20 ml",
+      "Agua: 60 ml"
+    ],
+    instructions: [
+      "Mezcla los ingredientes secos.",
+      "Agrega el puré de calabaza, el aceite y el agua. Mezcla hasta integrar.",
+      "Vierte en molde forrado.",
+      "Cocina a 160 °C por 25 min.",
+      "Enfría antes de rebanar."
+    ],
+    expectedTexture: "Suave, con color dorado natural y aroma especiado.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Ideal para acompañar sopas o ensaladas. Decora con semillas de calabaza antes de cocinar."
+  },
+  {
+    id: "127",
+    title: "🥖 Pan de cebolla y orégano en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de arroz: 150 g",
+      "Harina de maíz fina: 70 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Cebolla picada fina: 80 g",
+      "Orégano seco: 2 g",
+      "Agua: 180 ml",
+      "Aceite de oliva: 30 ml"
+    ],
+    instructions: [
+      "Sofríe la cebolla con 10 ml de aceite hasta transparentar. Enfría.",
+      "Mezcla los ingredientes secos.",
+      "Agrega el agua, el aceite restante y la cebolla.",
+      "Vierte en molde o extiende en bandeja pequeña apta para air fryer.",
+      "Cocina a 170 °C por 20–25 min.",
+      "Enfría 10 min antes de cortar."
+    ],
+    expectedTexture: "Bordes dorados, centro tierno con aroma a cebolla caramelizada.",
+    prepTime: "12 min",
+    cookTime: "20-25 min",
+    servings: "6-8 porciones",
+    chefTip: "Sirve como pan de mesa o base de mini pizzas."
+  },
+  {
+    id: "128",
+    title: "🥖 Pan tipo focaccia de garbanzo en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de garbanzo: 200 g",
+      "Agua: 350 ml",
+      "Aceite de oliva: 40 ml",
+      "Sal: 5 g",
+      "Polvo de hornear: 3 g",
+      "Romero seco: 2 g",
+      "Opcional: tomatitos cherry, aceitunas"
+    ],
+    instructions: [
+      "Bate la harina de garbanzo con el agua, 30 ml de aceite, sal, polvo de hornear y romero hasta que no haya grumos. Reposa 10 min.",
+      "Vierte la mezcla en un molde bajo forrado apto air fryer. Agrega tomatitos o aceitunas.",
+      "Rocía con 10 ml de aceite por encima.",
+      "Cocina a 180 °C durante 18–20 min hasta dorar los bordes.",
+      "Deja entibiar 5 min antes de cortar."
+    ],
+    expectedTexture: "Bordes crujientes, centro jugoso y aromático.",
+    prepTime: "15 min",
+    cookTime: "18-20 min",
+    servings: "6-8 porciones",
+    chefTip: "Puedes cortar en cuadrados y servir como aperitivo o acompañamiento."
+  },
+  {
+    id: "129",
+    title: "🥖 Pan integral de arroz y avena en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de arroz integral: 140 g",
+      "Harina de avena GF: 100 g",
+      "Fécula de maíz: 40 g",
+      "Psyllium husk: 8 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Agua tibia: 260 ml",
+      "Aceite de oliva: 20 ml",
+      "Vinagre de manzana: 5 ml",
+      "Semillas mixtas: 25 g"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Agrega el agua, aceite y vinagre. Incorpora la mitad de las semillas.",
+      "Vierte en molde, alisa y espolvorea el resto de semillas.",
+      "Cocina a 170 °C por 25–28 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Miga densa, ideal para tostadas o sándwiches.",
+    prepTime: "10 min",
+    cookTime: "25-28 min",
+    servings: "8-10 rebanadas",
+    chefTip: "Congela rebanadas individuales para tener siempre listo."
+  },
+  {
+    id: "130",
+    title: "🥖 Pan de linaza en air fryer (alto en fibra)",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Linaza molida: 100 g",
+      "Harina de almendra: 80 g",
+      "Harina de coco: 20 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Huevos: 3 u",
+      "Agua: 100 ml",
+      "Aceite de oliva: 15 ml"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Bate los huevos con el agua y el aceite.",
+      "Integra todo y deja reposar 5 min (la linaza absorbe líquido).",
+      "Coloca en molde pequeño forrado.",
+      "Cocina a 160 °C por 20–25 min.",
+      "Enfría sobre rejilla."
+    ],
+    expectedTexture: "Densa, saciante, perfecta para tostar.",
+    prepTime: "10 min",
+    cookTime: "20-25 min",
+    servings: "6-8 rebanadas",
+    chefTip: "Si buscas más humedad, agrega 1 cda. extra de agua."
+  },
+  {
+    id: "131",
+    title: "🥖 Pan de coco salado en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de coco: 50 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 5 g",
+      "Sal: 3 g",
+      "Huevos: 3 u",
+      "Leche vegetal: 120 ml",
+      "Aceite de coco: 20 ml"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Bate huevos, leche y aceite. Integra.",
+      "Vierte en molde pequeño.",
+      "Cocina a 160 °C por 20 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Ligera, aromática, con textura suave.",
+    prepTime: "8 min",
+    cookTime: "20 min",
+    servings: "6 rebanadas",
+    chefTip: "Ideal para acompañar comidas livianas. Agrega orégano si deseas un toque más salado."
+  },
+  {
+    id: "132",
+    title: "🥖 Pan de queso en air fryer (estilo pão de queijo)",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Fécula de mandioca o tapioca: 150 g",
+      "Queso rallado: 100 g",
+      "Huevo: 1 u",
+      "Leche: 80 ml",
+      "Aceite: 20 ml",
+      "Polvo de hornear: 4 g",
+      "Sal: 3 g"
+    ],
+    instructions: [
+      "Mezcla la fécula, el queso, el polvo de hornear y la sal.",
+      "Agrega el huevo, la leche y el aceite. Mezcla hasta formar una masa pegajosa.",
+      "Con las manos húmedas, forma bollitos y colócalos en la canasta de la air fryer con papel.",
+      "Cocina a 180 °C por 12–15 min hasta dorar.",
+      "Sirve tibios."
+    ],
+    expectedTexture: "Exterior crujiente, interior elástico y quesoso.",
+    prepTime: "10 min",
+    cookTime: "12-15 min",
+    servings: "8-10 bollitos",
+    chefTip: "Puedes congelar la masa en bolitas y cocinarlos directamente desde el freezer."
+  },
+  {
+    id: "133",
+    title: "🥖 Pan de hierbas mediterráneas en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de arroz: 150 g",
+      "Harina de sorgo: 80 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Romero, orégano y tomillo secos: 2 g de cada uno",
+      "Agua tibia: 220 ml",
+      "Aceite de oliva: 30 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, polvo de hornear, sal y hierbas.",
+      "Agrega agua y aceite. Mezcla hasta integrar.",
+      "Vierte en molde forrado.",
+      "Cocina a 170 °C por 25 min.",
+      "Enfría 10 min antes de cortar."
+    ],
+    expectedTexture: "Aromática, perfecta para acompañar sopas o ensaladas.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Rocía aceite con romero fresco al final para más aroma."
+  },
+  {
+    id: "134",
+    title: "🥖 Pan de zanahoria y comino en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Zanahoria rallada fina: 100 g",
+      "Harina de arroz: 120 g",
+      "Harina de garbanzo: 50 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Comino molido: 2 g",
+      "Agua: 150 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Agrega la zanahoria, el agua y el aceite.",
+      "Vierte en molde forrado.",
+      "Cocina a 160 °C por 25 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Húmeda, con dulzor natural de zanahoria y toque especiado.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Perfecto para untar con hummus o queso crema vegetal."
+  },
+  {
+    id: "135",
+    title: "🥖 Pan de remolacha y semillas en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Puré de remolacha cocida: 120 g",
+      "Harina de arroz: 120 g",
+      "Fécula de maíz: 50 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Agua: 100 ml",
+      "Aceite: 20 ml",
+      "Semillas de amapola o sésamo: 15 g"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Agrega el puré de remolacha, agua y aceite. Mezcla bien.",
+      "Incorpora la mitad de las semillas.",
+      "Vierte en molde y espolvorea el resto de semillas.",
+      "Cocina a 170 °C por 25 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Color rosa intenso, miga tierna y levemente dulce.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Ideal para presentaciones originales en picadas o brunch."
+  },
+  {
+    id: "136",
+    title: "🥖 Pan de lentejas rojas en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Lentejas rojas cocidas (sin sal): 200 g",
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Comino: 1 g",
+      "Agua: 80 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Procesa las lentejas cocidas hasta formar un puré.",
+      "Mezcla los secos.",
+      "Agrega el puré de lentejas, agua y aceite. Mezcla bien.",
+      "Vierte en molde forrado.",
+      "Cocina a 160 °C por 25–28 min.",
+      "Enfría antes de rebanar."
+    ],
+    expectedTexture: "Miga densa, alta en proteínas y fibra.",
+    prepTime: "12 min",
+    cookTime: "25-28 min",
+    servings: "8 rebanadas",
+    chefTip: "Perfecto para veganos o quienes buscan pan rico en proteínas vegetales."
+  },
+  {
+    id: "137",
+    title: "🥖 Pan de espinaca y queso en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Espinaca picada cocida (escurrida): 100 g",
+      "Harina de arroz: 120 g",
+      "Fécula de maíz: 50 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Queso rallado: 80 g",
+      "Huevo: 1 u",
+      "Agua: 100 ml",
+      "Aceite: 15 ml"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Agrega la espinaca, el queso, el huevo, el agua y el aceite.",
+      "Vierte en molde forrado.",
+      "Cocina a 170 °C por 20–25 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Miga verde, sabrosa y con trozos de queso fundido.",
+    prepTime: "10 min",
+    cookTime: "20-25 min",
+    servings: "8 rebanadas",
+    chefTip: "Ideal para niños o para incluir más vegetales en la dieta."
+  },
+  {
+    id: "138",
+    title: "🥖 Pan de maíz dulce en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de maíz fina: 150 g",
+      "Harina de arroz: 80 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 3 g",
+      "Granos de maíz dulce: 100 g",
+      "Huevo: 1 u",
+      "Leche vegetal: 150 ml",
+      "Aceite: 20 ml",
+      "Azúcar o miel: 15 g"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Bate el huevo con la leche, el aceite y el azúcar.",
+      "Integra todo y agrega los granos de maíz.",
+      "Vierte en molde forrado.",
+      "Cocina a 170 °C por 25 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Miga esponjosa con dulzor natural del maíz.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Sirve con mantequilla o queso crema para desayuno o merienda."
+  },
+  {
+    id: "139",
+    title: "🥖 Pan de quinoa cocida en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Quinoa cocida: 180 g",
+      "Harina de arroz: 100 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Agua: 100 ml",
+      "Aceite: 20 ml",
+      "Semillas de sésamo: 15 g"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Agrega la quinoa cocida, el agua y el aceite. Mezcla bien.",
+      "Vierte en molde forrado y espolvorea sésamo.",
+      "Cocina a 170 °C por 25 min.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Miga con textura granulada y alta en proteínas.",
+    prepTime: "10 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Ideal para deportistas o quienes buscan pan nutritivo."
+  },
+  {
+    id: "140",
+    title: "🥖 Pan de tomate seco y albahaca en air fryer",
+    categoryId: "panes-air-fryer",
+    ingredients: [
+      "Harina de arroz: 140 g",
+      "Harina de garbanzo: 60 g",
+      "Fécula de maíz: 40 g",
+      "Polvo de hornear: 6 g",
+      "Sal: 4 g",
+      "Tomates secos picados: 50 g",
+      "Albahaca seca: 2 g",
+      "Agua: 200 ml",
+      "Aceite de oliva: 25 ml"
+    ],
+    instructions: [
+      "Hidrata los tomates secos en agua tibia 10 min. Escurre y pica.",
+      "Mezcla los secos con la albahaca.",
+      "Agrega el agua, el aceite y los tomates.",
+      "Vierte en molde forrado.",
+      "Cocina a 170 °C por 25 min.",
+      "Enfría antes de rebanar."
+    ],
+    expectedTexture: "Sabor mediterráneo intenso, perfecto para bruschetta o como acompañamiento.",
+    prepTime: "15 min",
+    cookTime: "25 min",
+    servings: "8 rebanadas",
+    chefTip: "Acompaña con aceite de oliva extra virgen y un toque de sal gruesa."
+  }
 
 ];
 
