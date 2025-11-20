@@ -78,6 +78,13 @@ export const categories: Category[] = [
     image: panesLatinoamericanosImage
   },
   {
+    id: "panes-air-fryer",
+    name: "Panes Air Fryer",
+    icon: "zap",
+    description: "Panes rápidos y prácticos en freidora de aire",
+    image: panesAirFryerImage
+  },
+  {
     id: "pizzas-sin-gluten",
     name: "🍕 BONO 1 – RECETARIO DE PIZZAS SIN GLUTEN",
     icon: "pizza",
@@ -97,13 +104,6 @@ export const categories: Category[] = [
     icon: "wheat",
     description: "Cómo reemplazar harinas y convertir recetas tradicionales en versiones sin gluten",
     image: guiaSustitucionImage
-  },
-  {
-    id: "panes-air-fryer",
-    name: "Panes Air Fryer",
-    icon: "zap",
-    description: "Panes rápidos y prácticos en freidora de aire",
-    image: panesAirFryerImage
   }
 ];
 
