@@ -1251,7 +1251,7 @@ export const recipes: Recipe[] = [
 
   // Categoría 6: Panes Dulces (12)
   { 
-    id: "68", 
+    id: "69",
     title: "Pan dulce de naranja y almendra (glaseado ligero)",
     categoryId: "panes-dulces", 
     ingredients: [
@@ -1281,8 +1281,8 @@ export const recipes: Recipe[] = [
     chefTip: "Aroma cítrico y textura húmeda. Perfecto con una taza de té o café. Podés sumar chips de chocolate o nueces."
   },
   { 
-    id: "60", 
-    title: "60. 🥛 Pan tipo \"milk bread\" sin gluten (suave)", 
+    id: "69", 
+    title: "Pan tipo \"milk bread\" sin gluten (suave)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz: 180 g",
@@ -1310,8 +1310,8 @@ export const recipes: Recipe[] = [
     chefTip: "Pan suave y ligeramente dulce. Ideal para tostadas con manteca o mermelada. Podés hacerlo sin huevo: sumá 60 ml más de leche y 5 ml de aceite."
   },
   { 
-    id: "61", 
-    title: "61. 🍫 Pan de chocolate marmolado (molde)", 
+    id: "70", 
+    title: "Pan de chocolate marmolado (molde)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz: 180 g",
@@ -1339,8 +1339,8 @@ export const recipes: Recipe[] = [
     chefTip: "Textura húmeda, sabor equilibrado. Perfecto para meriendas o desayunos especiales. Podés añadir chips de chocolate o ralladura de naranja."
   },
   { 
-    id: "62", 
-    title: "62. 🍌 Pan de banana (banana bread) sin gluten", 
+    id: "71", 
+    title: "Pan de banana (banana bread) sin gluten",
     categoryId: "panes-dulces", 
     ingredients: [
       "Bananas maduras: 3 u (≈ 300 g)",
@@ -1367,8 +1367,8 @@ export const recipes: Recipe[] = [
     chefTip: "Clásico, húmedo y aromático. Cuanto más maduras las bananas, mejor sabor. Perfecto para congelar en rebanadas."
   },
   { 
-    id: "63", 
-    title: "63. 🥥 Pan de coco dulce (rebanado)", 
+    id: "72", 
+    title: "Pan de coco dulce (rebanado)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de coco: 60 g",
@@ -1394,8 +1394,8 @@ export const recipes: Recipe[] = [
     chefTip: "Pan húmedo, de sabor tropical. Podés decorarlo con coco rallado encima. Ideal para desayunos o colaciones."
   },
   { 
-    id: "64", 
-    title: "64. 🍇 Pan de pasas y canela (sin trigo)", 
+    id: "73", 
+    title: "Pan de pasas y canela (sin trigo)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz integral: 150 g",
@@ -1422,8 +1422,8 @@ export const recipes: Recipe[] = [
     chefTip: "Miga húmeda y aroma especiado. Si querés textura más suave, hidratá las pasas 10 min antes. Perfecto con manteca o miel."
   },
   { 
-    id: "65", 
-    title: "65. 🍎 Pan de manzana y nuez (especiado)", 
+    id: "74", 
+    title: "Pan de manzana y nuez (especiado)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz: 160 g",
@@ -1452,8 +1452,8 @@ export const recipes: Recipe[] = [
     chefTip: "Aroma cálido y miga húmeda. Ideal con café o té de la tarde. Podés reemplazar nueces por almendras o pasas."
   },
   { 
-    id: "66", 
-    title: "66. 🍯 Pan brioche rápido sin gluten (en molde)", 
+    id: "75", 
+    title: "Pan brioche rápido sin gluten (en molde)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz: 180 g",
@@ -1480,8 +1480,8 @@ export const recipes: Recipe[] = [
     chefTip: "Miga tierna y ligeramente dulce. Podés sumarle ralladura de limón o chips de chocolate. Perfecto para rebanar y tostar."
   },
   { 
-    id: "67", 
-    title: "67. 🍯 Pan dulce de miel (textura tierna)", 
+    id: "76", 
+    title: "Pan dulce de miel (textura tierna)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz integral: 150 g",
@@ -1507,8 +1507,8 @@ export const recipes: Recipe[] = [
     chefTip: "Dulzura natural y aroma suave. Si querés más esponjoso, batí los huevos 2–3 min antes de mezclar. Ideal para acompañar con mantequilla o frutas frescas."
   },
   { 
-    id: "68", 
-    title: "68. 🥕 Pan de zanahoria dulce (fácil)", 
+    id: "77", 
+    title: "Pan de zanahoria dulce (fácil)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Zanahoria rallada fina: 150 g",
@@ -1534,8 +1534,8 @@ export const recipes: Recipe[] = [
     chefTip: "Pan dulce y colorido, ideal para meriendas. Podés sumarle nueces o coco rallado. Si lo querés más húmedo, aumentá 10 ml de aceite."
   },
   { 
-    id: "69", 
-    title: "69. 🍮 Pan \"colchón de vainilla\" (esponjoso, corteza suave)", 
+    id: "78", 
+    title: "Pan \"colchón de vainilla\" (esponjoso, corteza suave)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz: 150 g",
@@ -1561,8 +1561,8 @@ export const recipes: Recipe[] = [
     chefTip: "Pan aireado y liviano, tipo bizcochuelo suave. Podés servirlo con frutas o crema vegetal. No lo sobrecocines, o perderá su ternura."
   },
   { 
-    id: "70", 
-    title: "70. 🌸 Pan dulce de anís (tradicional adaptado)", 
+    id: "79", 
+    title: "Pan dulce de anís (tradicional adaptado)",
     categoryId: "panes-dulces", 
     ingredients: [
       "Harina de arroz: 180 g",
