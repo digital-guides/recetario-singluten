@@ -889,10 +889,33 @@ export const recipes: Recipe[] = [
     servings: "1 pan pequeño",
     chefTip: "Es uno de los panes exprés más aireados. Perfecto para quienes quieren una opción más ligera o alta en proteína."
   },
+  { 
+    id: "35", 
+    title: "Pan pita exprés al microondas (plano)", 
+    categoryId: "panes-microondas", 
+    ingredients: [
+      "Harina de arroz: 60 g",
+      "Fécula de maíz: 20 g",
+      "Polvo de hornear: 3 g",
+      "Sal: 2 g",
+      "Agua: 70 ml",
+      "Aceite: 5 ml"
+    ], 
+    instructions: [
+      "Mezcla todo hasta formar una masa blanda, no pegajosa.",
+      "Divide en 2 bolitas y estira con las manos hasta ½ cm de grosor.",
+      "Coloca una por vez en un plato cubierto con papel vegetal.",
+      "Cocina 1 min 30 seg por cada lado (volteando a la mitad)."
+    ], 
+    prepTime: "3 min", 
+    cookTime: "5 min", 
+    servings: "2 unidades medianas",
+    chefTip: "Quedan flexibles, tipo tortilla. Perfectas para wraps, tacos o fajitas. Puedes refrigerarlas y calentar 15 seg antes de usar."
+  },
 
   // Categoría 3: Panes de Sartén/Plancha (15)
   { 
-    id: "35",
+    id: "36",
     title: "Bejú clásico de almidón de yuca (Paraguay)", 
     categoryId: "panes-sarten", 
     ingredients: ["Almidón de yuca o mandioca (tapioca granulada): 250 g", "Queso rallado (semicurado o mozzarella): 150 g", "Sal: 3 g", "Manteca o aceite: 20 g", "Agua o leche: 80 ml"], 
@@ -902,9 +925,9 @@ export const recipes: Recipe[] = [
     servings: "6 unidades pequeñas" 
   },
   { 
-    id: "36", 
+    id: "37",
     title: "Tortillas de maíz 100% GF (plancha)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de maíz nixtamalizada (masa harina): 200 g", "Agua tibia: 220 ml", "Sal: 4 g"], 
     instructions: ["Mezclá harina y sal.", "Agregá el agua poco a poco mientras amasás hasta obtener una masa blanda y lisa.", "Dividí en 8 bolitas y cubrilas con paño húmedo.", "Estirá cada bolita entre dos papeles hasta 2 mm de espesor.", "Cociná en plancha caliente 1 min por lado.", "Consejos: Si se agrietan, les falta agua: agregá de a cucharadas. Mantenelas cubiertas con paño limpio para que no se sequen. Perfectas para tacos o quesadillas."], 
     prepTime: "10 min", 
@@ -912,9 +935,9 @@ export const recipes: Recipe[] = [
     servings: "8 tortillas medianas" 
   },
   { 
-    id: "37", 
+    id: "38",
     title: "Tortillas de yuca (cassava tortillas)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Yuca cocida y hecha puré: 300 g", "Fécula de mandioca o tapioca: 30 g", "Sal: 3 g", "Aceite: 10 ml"], 
     instructions: ["Mezclá la yuca tibia con la fécula, sal y aceite.", "Amasá hasta obtener masa suave, no pegajosa.", "Dividí en 6 bolitas y aplastá hasta 3–4 mm.", "Cociná 2 min por lado en sartén caliente sin grasa.", "Consejos: Textura flexible, ideal para wraps. Si se endurecen, tapalas con paño húmedo apenas salgan del fuego. También podés hacerlas con yuca congelada (descongelá y escurrí bien)."], 
     prepTime: "15 min", 
@@ -922,9 +945,9 @@ export const recipes: Recipe[] = [
     servings: "6 unidades" 
   },
   { 
-    id: "38", 
+    id: "39",
     title: "Tortillas de garbanzo (socca fina en sartén)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de garbanzo: 100 g", "Agua: 180 ml", "Sal: 3 g", "Aceite de oliva: 10 ml", "Especias al gusto (romero, pimienta, cúrcuma, ajo en polvo)"], 
     instructions: ["Mezclá harina, agua, sal y aceite.", "Dejá reposar 10 min para que espese un poco.", "Verté una capa fina en sartén caliente engrasada.", "Cociná 2 min por lado hasta bordes dorados.", "Consejos: Es una versión sin gluten de la \"socca\" italiana. Podés usarla como base de pizza rápida. Si querés textura más firme, horneala 5 min más después."], 
     prepTime: "12 min", 
@@ -932,9 +955,9 @@ export const recipes: Recipe[] = [
     servings: "4 tortillas finas" 
   },
   { 
-    id: "39", 
+    id: "40",
     title: "Arepas clásicas de maíz precocido (plancha)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de maíz precocida blanca o amarilla: 250 g", "Agua tibia: 300 ml", "Sal: 5 g", "Aceite o manteca: 15 ml"], 
     instructions: ["En un bol, mezclá harina y sal.", "Agregá el agua poco a poco y amasá hasta que la masa quede suave y no se pegue.", "Hacé bolitas y aplastalas hasta 1,5 cm de grosor.", "Cociná 5 min por lado en plancha o sartén con un poco de aceite.", "Consejos: Si se agrietan al formar, agregá 1–2 cdas de agua. Cuando las golpeás y suenan huecas, están listas. Podés rellenarlas con queso, aguacate, pollo o lo que más te guste."], 
     prepTime: "10 min", 
@@ -942,9 +965,9 @@ export const recipes: Recipe[] = [
     servings: "6 unidades" 
   },
   { 
-    id: "40", 
+    id: "41",
     title: "Pan pita de sartén sin gluten",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de arroz: 100 g", "Fécula de maíz: 80 g", "Harina de avena GF o sorgo: 40 g", "Polvo de hornear: 4 g", "Sal: 3 g", "Psyllium en polvo: 6 g", "Agua tibia: 140 ml", "Aceite: 10 ml"], 
     instructions: ["Mezclá todos los secos en un bol.", "Agregá el agua y el aceite, y mezclá hasta obtener una masa suave y elástica.", "Dividí en 4 bolitas y estirá cada una de 3–4 mm.", "Calentá una sartén antiadherente y cociná cada pan 2–3 min por lado.", "Cuando se inflan un poco y toman color, ya están listos.", "Consejos: Son ideales para rellenar con hummus, falafel o vegetales. Guardalos envueltos en paño limpio; se mantienen suaves. Si los querés más elásticos, agregá 10 ml más de agua."], 
     prepTime: "15 min", 
@@ -952,9 +975,9 @@ export const recipes: Recipe[] = [
     servings: "4 unidades medianas" 
   },
   { 
-    id: "41", 
+    id: "42",
     title: "Naan sin gluten a la sartén (versión con yogurt vegetal)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de arroz: 120 g", "Harina de tapioca: 60 g", "Polvo de hornear: 5 g", "Sal: 3 g", "Yogurt vegetal natural: 100 g", "Agua tibia: 60 ml", "Aceite: 15 ml"], 
     instructions: ["Mezclá harinas, polvo de hornear y sal.", "Agregá yogurt, agua y aceite; amasá hasta masa blanda.", "Dividí en 6 porciones y estirá en forma de disco fino.", "Cociná cada naan 2 min por lado en sartén caliente.", "Pincelá con aceite o manteca derretida apenas salgan.", "Consejos: Quedan suaves y fragantes. Perfectos para acompañar curry o guisos. Si querés versión sin yogurt, reemplazalo por 100 ml de leche vegetal y 5 ml más de aceite."], 
     prepTime: "15 min", 
@@ -962,9 +985,9 @@ export const recipes: Recipe[] = [
     servings: "6 unidades pequeñas" 
   },
   { 
-    id: "42", 
+    id: "43",
     title: "Focaccia plana a la plancha (estilo torta al testo)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de arroz: 150 g", "Harina de maíz fina: 50 g", "Fécula de tapioca: 30 g", "Psyllium: 6 g", "Polvo de hornear: 5 g", "Sal: 4 g", "Agua tibia: 160 ml", "Aceite de oliva: 25 ml", "Hierbas secas (romero, orégano): 2 g"], 
     instructions: ["Mezclá todos los secos en un bol.", "Agregá el agua tibia y el aceite.", "Formá una masa húmeda pero maleable.", "Dividí en dos discos de 1 cm de espesor.", "Cociná cada uno en sartén a fuego medio 6–7 min por lado, tapando los primeros minutos.", "Consejos: Miga húmeda y sabor a oliva irresistible. Podés rellenarla con tomate seco y aceitunas antes de cocinar. Si la querés más crujiente, destapá los últimos 2 minutos."], 
     prepTime: "10 min", 
@@ -972,9 +995,9 @@ export const recipes: Recipe[] = [
     servings: "2 panes medianos" 
   },
   { 
-    id: "43", 
+    id: "44",
     title: "Pan chapati sin gluten (mezcla arroz + tapioca)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de arroz: 100 g", "Fécula de tapioca: 80 g", "Sal: 3 g", "Agua caliente: 150 ml", "Aceite: 5 ml"], 
     instructions: ["Mezclá harina, tapioca y sal.", "Agregá el agua caliente (de a poco) y el aceite.", "Amasá hasta que no se pegue.", "Dividí en 6 bolitas y estirá fino (2–3 mm).", "Cociná 1–2 min por lado hasta que se formen manchitas doradas.", "Consejos: Son suaves, flexibles y perfectos para enrollar. Mantenelos envueltos en paño para que no se sequen. Podés añadir 1 cda de yogurt vegetal si los querés más tiernos."], 
     prepTime: "10 min", 
@@ -982,9 +1005,9 @@ export const recipes: Recipe[] = [
     servings: "6 unidades finas" 
   },
   { 
-    id: "44", 
+    id: "45",
     title: "Pan tipo \"piadina\" sin gluten",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de arroz: 100 g", "Harina de avena GF: 80 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Aceite de oliva: 20 ml", "Agua tibia: 100 ml"], 
     instructions: ["Mezclá harinas, polvo de hornear y sal.", "Agregá el aceite y el agua, y formá masa suave.", "Dividí en 4 bolitas y estirá finas (2–3 mm).", "Cociná 1–2 min por lado en plancha caliente.", "Serví tibias con rellenos salados.", "Consejos: Perfectas para wraps o paninis. Quedan muy tiernas si las tapás apenas salgan. También podés hacer mini piadinas para picadas."], 
     prepTime: "10 min", 
@@ -992,9 +1015,9 @@ export const recipes: Recipe[] = [
     servings: "4 unidades medianas" 
   },
   { 
-    id: "45", 
+    id: "46",
     title: "Pan plano de quinua (ligero y flexible)",
-    categoryId: "panes-sarten", 
+    categoryId: "panes-sarten",
     ingredients: ["Harina de quinua: 100 g", "Fécula de tapioca: 50 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Agua tibia: 120 ml", "Aceite: 10 ml"], 
     instructions: ["Mezclá harinas, polvo de hornear y sal.", "Agregá agua y aceite; mezclá hasta masa suave.", "Dividí en 4 partes y estirá de 3 mm.", "Cociná 2 min por lado en sartén antiadherente caliente.", "Consejos: Pan de sabor suave y textura elástica. Ideal para tacos, wraps o acompañar sopas. Si lo querés más tierno, sumá 1 cucharada extra de agua o aceite."], 
     prepTime: "10 min", 
@@ -1002,40 +1025,40 @@ export const recipes: Recipe[] = [
     servings: "4 unidades medianas" 
   },
   { 
-    id: "46", 
+    id: "47",
     title: "Pan de sarraceno en sartén (galette base)",
-    categoryId: "panes-sarten", 
-    ingredients: ["Harina de trigo sarraceno: 100 g", "Agua: 200 ml", "Sal: 2 g", "Aceite: 5 ml"], 
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de trigo sarraceno: 100 g", "Agua: 200 ml", "Sal: 2 g", "Aceite: 5 ml"],
     instructions: ["Mezclá harina, sal y agua hasta que no queden grumos.", "Reposá 10 min para que espese un poco.", "Verté una capa fina en sartén antiadherente engrasada.", "Cociná 2–3 min por lado hasta dorar.", "Consejos: Quedan finas, tipo crepe salado francés. Podés rellenarlas con verduras salteadas o jamón y queso. Si querés sabor más neutro, mezclá mitad sarraceno y mitad arroz."], 
     prepTime: "12 min", 
     cookTime: "6 min", 
     servings: "3 galettes grandes" 
   },
   { 
-    id: "47", 
+    id: "48",
     title: "Pan de batata (láminas flexibles en plancha)",
-    categoryId: "panes-sarten", 
-    ingredients: ["Puré de batata cocida: 200 g", "Harina de arroz: 80 g", "Fécula de maíz: 30 g", "Sal: 3 g", "Aceite: 10 ml"], 
+    categoryId: "panes-sarten",
+    ingredients: ["Puré de batata cocida: 200 g", "Harina de arroz: 80 g", "Fécula de maíz: 30 g", "Sal: 3 g", "Aceite: 10 ml"],
     instructions: ["Mezclá el puré con la harina, fécula, sal y aceite.", "Formá masa blanda. Si está muy seca, agregá 1–2 cdas de agua.", "Dividí en 4 bolitas y estirá fino (3 mm).", "Cociná 2–3 min por lado hasta dorar.", "Consejos: Miga suave y ligeramente dulce. Perfecto para combinar con sabores salados (queso, palta, hummus). También podés usar puré de zapallo o papa en lugar de batata."], 
     prepTime: "15 min", 
     cookTime: "10 min", 
     servings: "4 unidades medianas" 
   },
   { 
-    id: "48", 
+    id: "49",
     title: "Pan árabe fino sin gluten (plancha rápida)",
-    categoryId: "panes-sarten", 
-    ingredients: ["Harina de arroz: 100 g", "Harina de maíz fina: 50 g", "Fécula de tapioca: 50 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Agua tibia: 140 ml", "Aceite: 10 ml"], 
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de arroz: 100 g", "Harina de maíz fina: 50 g", "Fécula de tapioca: 50 g", "Polvo de hornear: 3 g", "Sal: 3 g", "Agua tibia: 140 ml", "Aceite: 10 ml"],
     instructions: ["Mezclá harinas, polvo de hornear y sal.", "Incorporá agua y aceite hasta lograr masa blanda y elástica.", "Dividí en 4 bolitas y estirá finas (2–3 mm).", "Cociná 1–2 min por lado hasta dorar.", "Consejos: Livianos, flexibles y deliciosos. Si los querés con burbujas, subí un poco el fuego. Mantenelos tapados para conservar su suavidad."], 
     prepTime: "10 min", 
     cookTime: "10 min", 
     servings: "4 unidades medianas" 
   },
   { 
-    id: "49", 
+    id: "50",
     title: "Pan \"arepa dulce\" (panecillo dulce de plancha)",
-    categoryId: "panes-sarten", 
-    ingredients: ["Harina de maíz precocida: 200 g", "Agua tibia: 220 ml", "Azúcar mascabo o miel: 25 g", "Canela en polvo: 1 g", "Sal: 1 pizca", "Aceite o manteca: 15 ml"], 
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de maíz precocida: 200 g", "Agua tibia: 220 ml", "Azúcar mascabo o miel: 25 g", "Canela en polvo: 1 g", "Sal: 1 pizca", "Aceite o manteca: 15 ml"],
     instructions: ["Mezclá harina, azúcar, canela y sal.", "Agregá el agua y formá masa suave.", "Armá bollitos y aplastá hasta 1 cm.", "Cociná en plancha engrasada 4–5 min por lado.", "Consejos: Deliciosas para desayuno o merienda. Podés rellenarlas con queso o mermelada. Si querés más dulces, añadí 1 cda extra de miel."], 
     prepTime: "10 min", 
     cookTime: "15 min", 
@@ -1044,7 +1067,7 @@ export const recipes: Recipe[] = [
 
   // Categoría 4: Panes con Fermentación Corta (10)
   { 
-    id: "50",
+    id: "51",
     title: "Pan de molde esponjoso (arroz + tapioca + psyllium)", 
     categoryId: "panes-fermentacion", 
     ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 100 g", "Psyllium en polvo: 8 g", "Levadura seca instantánea: 6 g", "Azúcar: 10 g", "Sal: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Vinagre de manzana: 10 ml"], 
@@ -1054,50 +1077,50 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas" 
   },
   { 
-    id: "51", 
+    id: "52",
     title: "Pan baguette corta fermentación (sin gluten)",
-    categoryId: "panes-fermentacion", 
-    ingredients: ["Harina de arroz: 180 g", "Fécula de maíz: 100 g", "Fécula de papa: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 20 ml"], 
+    categoryId: "panes-fermentacion",
+    ingredients: ["Harina de arroz: 180 g", "Fécula de maíz: 100 g", "Fécula de papa: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 20 ml"],
     instructions: ["Mezclá todos los secos.", "Agregá agua y aceite, mezclá con batidor o espátula hasta masa uniforme.", "Formá dos bastones con las manos húmedas y colocá sobre bandeja con papel.", "Dejá levar 30 min tapado.", "Horneá 25–30 min a 200 °C con un vasito de agua en la base del horno para vapor.", "Consejos: Corteza crujiente, interior tierno. Podés espolvorear harina de arroz encima antes del horneado. Si querés textura más alveolada, añadí 1 clara extra."], 
     prepTime: "40 min", 
     cookTime: "30 min", 
     servings: "2 baguettes medianas" 
   },
   { 
-    id: "52", 
+    id: "53",
     title: "Pan rústico con corteza crujiente (levadura instantánea)",
-    categoryId: "panes-fermentacion", 
-    ingredients: ["Harina de arroz integral: 150 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 50 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 8 g", "Agua tibia: 280 ml", "Aceite de oliva: 25 ml"], 
+    categoryId: "panes-fermentacion",
+    ingredients: ["Harina de arroz integral: 150 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 50 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 8 g", "Agua tibia: 280 ml", "Aceite de oliva: 25 ml"],
     instructions: ["Mezclá harinas, psyllium, levadura, sal y azúcar.", "Agregá agua y aceite; mezclá hasta obtener masa húmeda y algo pegajosa.", "Verté sobre molde o formá una bola con las manos enharinadas.", "Dejá levar 45 min tapado.", "Horneá 35–40 min a 200 °C.", "Consejos: Corteza firme y miga húmeda. Perfecto para sopas o guisos. Podés agregar 1 cda de semillas para textura extra."], 
     prepTime: "50 min", 
     cookTime: "40 min", 
     servings: "1 pan mediano" 
   },
   { 
-    id: "53", 
+    id: "54",
     title: "Pan con aceitunas y romero (una fermentación)",
-    categoryId: "panes-fermentacion", 
-    ingredients: ["Harina de arroz: 200 g", "Fécula de maíz: 80 g", "Harina de garbanzo: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 5 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Aceitunas verdes picadas: 50 g", "Romero fresco o seco: 2 g"], 
+    categoryId: "panes-fermentacion",
+    ingredients: ["Harina de arroz: 200 g", "Fécula de maíz: 80 g", "Harina de garbanzo: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 5 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Aceitunas verdes picadas: 50 g", "Romero fresco o seco: 2 g"],
     instructions: ["Mezclá harinas, psyllium, levadura, azúcar y sal.", "Agregá agua y aceite. Mezclá hasta obtener masa espesa.", "Incorporá aceitunas y romero.", "Verté en molde o bandeja y alisá.", "Levá 40 min tapado, luego horneá 35 min a 190 °C.", "Consejos: Aromático y con sabor mediterráneo. Si usás romero fresco, agregalo picado fino. Servilo tibio con aceite de oliva extra virgen."], 
     prepTime: "45 min", 
     cookTime: "35 min", 
     servings: "8-10 rebanadas" 
   },
   { 
-    id: "54", 
+    id: "55",
     title: "Pan ciabatta sin gluten (hidratación media)",
-    categoryId: "panes-fermentacion", 
-    ingredients: ["Harina de arroz: 150 g", "Fécula de tapioca: 80 g", "Harina de sorgo: 70 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 25 ml"], 
+    categoryId: "panes-fermentacion",
+    ingredients: ["Harina de arroz: 150 g", "Fécula de tapioca: 80 g", "Harina de sorgo: 70 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 25 ml"],
     instructions: ["Mezclá los secos en un bol.", "Agregá agua y aceite, mezclá hasta masa elástica y pegajosa.", "Verté sobre bandeja enharinada y formá dos panes alargados.", "Dejá levar 40 min tapado.", "Horneá 30–35 min a 200 °C.", "Consejos: Miga aireada, perfecta para sándwiches. Si querés más corteza, rociá con agua antes de hornear. Dejalo enfriar 20 min antes de cortar."], 
     prepTime: "45 min", 
     cookTime: "35 min", 
     servings: "2 panes medianos" 
   },
   { 
-    id: "55", 
+    id: "56",
     title: "Pan de campo simple (molde alargado)",
-    categoryId: "panes-fermentacion", 
-    ingredients: ["Harina de arroz: 180 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 60 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 25 ml"], 
+    categoryId: "panes-fermentacion",
+    ingredients: ["Harina de arroz: 180 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 60 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 25 ml"],
     instructions: ["Mezclá los ingredientes secos en un bol grande.", "Agregá el agua y el aceite, mezclá bien.", "Verté la masa (de consistencia densa) en un molde alargado.", "Tapá y dejá levar 40–50 min en lugar cálido.", "Horneá 35–40 min a 190 °C.", "Enfriá sobre rejilla antes de cortar.", "Consejos: Pan básico, ideal para iniciarse en la panificación sin gluten. Si querés sabor más rústico, usá harina de arroz integral. También podés aromatizar con 1 cda de semillas o hierbas secas."], 
     prepTime: "50 min", 
     cookTime: "40 min", 
