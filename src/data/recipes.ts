@@ -1591,7 +1591,7 @@ export const recipes: Recipe[] = [
   // Categoría 7: Panes Festivos (10)
   { 
     id: "71", 
-    title: "71. 🎀 Rosca dulce sin gluten (trenzada)", 
+    title: "Rosca dulce sin gluten (trenzada)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -1622,7 +1622,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "72", 
-    title: "72. 🍊 Panettone sin gluten (frutas y cítricos)", 
+    title: "Panettone sin gluten (frutas y cítricos)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -1654,7 +1654,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "73", 
-    title: "73. 🎄 Pan de Pascua sin gluten (especias y frutos secos)", 
+    title: "Pan de Pascua sin gluten (especias y frutos secos)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz integral: 180 g",
@@ -1684,7 +1684,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "74", 
-    title: "74. 🎅 Stollen sin gluten (relleno de mazapán)", 
+    title: "Stollen sin gluten (relleno de mazapán)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -1717,7 +1717,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "75", 
-    title: "75. 🍫 Babka de chocolate sin gluten (trenza)", 
+    title: "Babka de chocolate sin gluten (trenza)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -1748,7 +1748,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "76", 
-    title: "76. 🌼 Challah sin gluten (trenzado enriquecido)", 
+    title: "Challah sin gluten (trenzado enriquecido)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -1778,7 +1778,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "77", 
-    title: "77. 🎁 Roscones individuales sin gluten", 
+    title: "Roscones individuales sin gluten", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 180 g",
@@ -1809,7 +1809,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "78", 
-    title: "78. 🌸 Pan dulce de cardamomo (estilo nórdico)", 
+    title: "Pan dulce de cardamomo (estilo nórdico)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -1840,7 +1840,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "79", 
-    title: "79. 🕊️ Colomba pascual sin gluten", 
+    title: "Colomba pascual sin gluten", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz: 180 g",
@@ -1871,7 +1871,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "80", 
-    title: "80. 🍂 Pan especiado de jengibre (tipo loaf festivo)", 
+    title: "Pan especiado de jengibre (tipo loaf festivo)", 
     categoryId: "panes-festivos", 
     ingredients: [
       "Harina de arroz integral: 150 g",
@@ -1902,7 +1902,7 @@ export const recipes: Recipe[] = [
   // Categoría 8: High-Protein / Low-Carb (8)
   { 
     id: "81", 
-    title: "81. 💪 Pan proteico de clara y almendra (keto)", 
+    title: "Pan proteico de clara y almendra (keto)", 
     categoryId: "high-protein", 
     ingredients: [
       "Harina de almendra: 150 g",
@@ -1927,7 +1927,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "82", 
-    title: "82. 🌿 Pan de garbanzo y sésamo (alto en proteína)", 
+    title: "Pan de garbanzo y sésamo (alto en proteína)", 
     categoryId: "high-protein", 
     ingredients: [
       "Harina de garbanzo: 200 g",
@@ -1951,7 +1951,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "83", 
-    title: "83. 🥣 Pan de yogurt griego vegetal + chía (low-carb)", 
+    title: "Pan de yogurt griego vegetal + chía (low-carb)", 
     categoryId: "high-protein", 
     ingredients: [
       "Harina de almendra: 120 g",
@@ -1976,7 +1976,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "84", 
-    title: "84. 🌻 Pan de linaza dorada (ultra fibra)", 
+    title: "Pan de linaza dorada (ultra fibra)", 
     categoryId: "high-protein", 
     ingredients: [
       "Linaza dorada molida: 120 g",
@@ -1999,7 +1999,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "85", 
-    title: "85. 🥜 Pan de semillas al completo (sin harinas)", 
+    title: "Pan de semillas al completo (sin harinas)", 
     categoryId: "high-protein", 
     ingredients: [
       "Semillas de girasol: 80 g",
@@ -2023,7 +2023,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "86", 
-    title: "86. 🥥 Pan de coco y proteína (suero/vegana)", 
+    title: "Pan de coco y proteína (suero/vegana)", 
     categoryId: "high-protein", 
     ingredients: [
       "Harina de coco: 40 g",
@@ -2047,7 +2047,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "87", 
-    title: "87. ☁️ Pan tipo \"cloud bread\" (sin harinas, esponjoso)", 
+    title: "Pan tipo \"cloud bread\" (sin harinas, esponjoso)", 
     categoryId: "high-protein", 
     ingredients: [
       "Huevos: 3 u (separadas claras y yemas)",
@@ -2069,7 +2069,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "88", 
-    title: "88. 🥒 Pan de calabacín rallado (low-carb, húmedo)", 
+    title: "Pan de calabacín rallado (low-carb, húmedo)", 
     categoryId: "high-protein", 
     ingredients: [
       "Calabacín rallado y escurrido: 150 g",
@@ -2095,7 +2095,7 @@ export const recipes: Recipe[] = [
   // Categoría 9: Regionales LATAM (12)
   { 
     id: "89", 
-    title: "89. 🇧🇷 Pão de queijo (pan de queso brasileño) sin gluten", 
+    title: "Pão de queijo (pan de queso brasileño) sin gluten", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Fécula de mandioca dulce: 250 g",
@@ -2118,7 +2118,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "90", 
-    title: "90. 🇵🇾 Chipa paraguaya (quesuda, almidón de yuca)", 
+    title: "Chipa paraguaya (quesuda, almidón de yuca)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Fécula de mandioca: 250 g",
@@ -2141,7 +2141,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "91", 
-    title: "91. 🧀 Cachitos de yuca (rellenos salados)", 
+    title: "Cachitos de yuca (rellenos salados)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Yuca cocida y pisada: 300 g",
@@ -2164,7 +2164,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "92", 
-    title: "92. 🥔 Pan andino de papa (sin gluten)", 
+    title: "Pan andino de papa (sin gluten)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Papa cocida y pisada: 250 g",
@@ -2187,7 +2187,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "93", 
-    title: "93. 🇪🇨 Pan de yuca horneado (Ecuador/Colombia)", 
+    title: "Pan de yuca horneado (Ecuador/Colombia)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Fécula de yuca: 250 g",
@@ -2208,7 +2208,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "94", 
-    title: "94. 🇨🇴 Pan de bono sin gluten (versión casera)", 
+    title: "Pan de bono sin gluten (versión casera)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Fécula de yuca: 200 g",
@@ -2231,7 +2231,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "95", 
-    title: "95. 🌾 Pan campesino costeño (adaptado GF)", 
+    title: "Pan campesino costeño (adaptado GF)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -2257,7 +2257,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "96", 
-    title: "96. 🇲🇽 Pan telera sin gluten (adaptación mexicana)", 
+    title: "Pan telera sin gluten (adaptación mexicana)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -2283,7 +2283,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "97", 
-    title: "97. 🇫🇷 Pan francés casero sin gluten (básico)", 
+    title: "Pan francés casero sin gluten (básico)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -2307,7 +2307,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "98", 
-    title: "98. 🇪🇸 Pan gallego sin gluten (miga húmeda)", 
+    title: "Pan gallego sin gluten (miga húmeda)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Harina de arroz integral: 180 g",
@@ -2333,7 +2333,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "99", 
-    title: "99. 🇮🇹 Pan tipo ciabatta latino (con aceite y sal)", 
+    title: "Pan tipo ciabatta latino (con aceite y sal)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Harina de arroz: 180 g",
@@ -2358,7 +2358,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "100", 
-    title: "100. 🇦🇷 Pan bollo dulce criollo (sin gluten, aromático)", 
+    title: "Pan bollo dulce criollo (sin gluten, aromático)", 
     categoryId: "regionales-latam", 
     ingredients: [
       "Harina de arroz: 200 g",
@@ -2388,7 +2388,7 @@ export const recipes: Recipe[] = [
   // Categoría 10: Pizzas Sin Gluten (10)
   { 
     id: "101", 
-    title: "1️⃣ Pizza Napolitana Sin Gluten (masa fina y borde dorado)",
+    title: "Pizza Napolitana Sin Gluten (masa fina y borde dorado)",
     categoryId: "pizzas-sin-gluten",
     description: "Inspirada en la clásica pizza italiana, con base delgada y borde aireado. Su masa combina harinas ligeras que logran una textura crocante por fuera y suave al centro.",
     ingredients: [
@@ -2417,7 +2417,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "102", 
-    title: "2️⃣ Pizza de Sartén Exprés (sin horno, lista en minutos)",
+    title: "Pizza de Sartén Exprés (sin horno, lista en minutos)",
     categoryId: "pizzas-sin-gluten",
     description: "Ideal para días de apuro: se cocina directamente en sartén antiadherente, sin necesidad de levado.",
     ingredients: [
@@ -2444,7 +2444,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "103", 
-    title: "3️⃣ Pizza de Coliflor Low-Carb (base vegetal y ligera)",
+    title: "Pizza de Coliflor Low-Carb (base vegetal y ligera)",
     categoryId: "pizzas-sin-gluten",
     description: "Una versión sin harinas, rica en fibra y sabor. Perfecta para dietas bajas en carbohidratos.",
     ingredients: [
@@ -2468,7 +2468,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "104", 
-    title: "4️⃣ Pizza de Harina de Yuca y Queso (estilo brasileño)",
+    title: "Pizza de Harina de Yuca y Queso (estilo brasileño)",
     categoryId: "pizzas-sin-gluten",
     description: "Una base elástica y sabrosa, inspirada en el 'pão de queijo'. Crocante afuera y masticable al centro.",
     ingredients: [
@@ -2493,7 +2493,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "105", 
-    title: "5️⃣ Pizza de Avena y Semillas (rica en fibra y proteínas)",
+    title: "Pizza de Avena y Semillas (rica en fibra y proteínas)",
     categoryId: "pizzas-sin-gluten",
     description: "Combina harinas integrales sin gluten y semillas que aportan textura y saciedad.",
     ingredients: [
@@ -2519,7 +2519,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "106", 
-    title: "6️⃣ Pizza Integral Sin Gluten (masa rústica y aireada)",
+    title: "Pizza Integral Sin Gluten (masa rústica y aireada)",
     categoryId: "pizzas-sin-gluten",
     description: "Una base robusta, rica en fibra, con sabor artesanal. Ideal para quienes disfrutan masas más densas y nutritivas.",
     ingredients: [
@@ -2548,7 +2548,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "107", 
-    title: "7️⃣ Pizza de Almendra y Linaza (versión keto y sin lácteos)",
+    title: "Pizza de Almendra y Linaza (versión keto y sin lácteos)",
     categoryId: "pizzas-sin-gluten",
     description: "Masa baja en carbohidratos, rica en grasas saludables y con sabor a frutos secos.",
     ingredients: [
@@ -2575,7 +2575,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "108", 
-    title: "8️⃣ Pizza Mediterránea con Aceitunas y Hierbas",
+    title: "Pizza Mediterránea con Aceitunas y Hierbas",
     categoryId: "pizzas-sin-gluten",
     description: "Aroma a campo italiano: masa ligera y perfumada con orégano, romero y aceitunas negras.",
     ingredients: [
@@ -2604,7 +2604,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "109", 
-    title: "9️⃣ Mini Pizzas Individuales (listas para congelar)",
+    title: "Mini Pizzas Individuales (listas para congelar)",
     categoryId: "pizzas-sin-gluten",
     description: "Porciones pequeñas, ideales para preparar, congelar y recalentar sin perder textura.",
     ingredients: [
@@ -2664,7 +2664,7 @@ export const recipes: Recipe[] = [
   // Categoría 11: Empanadas y Tartas Sin Gluten (10)
   { 
     id: "111", 
-    title: "1️⃣ Empanadas Clásicas Sin Gluten (masa flexible y dorada)",
+    title: "Empanadas Clásicas Sin Gluten (masa flexible y dorada)",
     categoryId: "empanadas-tartas",
     description: "La versión sin gluten de la empanada tradicional argentina. Masa elástica que se dobla sin romperse y dorado perfecto.",
     ingredients: [
@@ -2692,7 +2692,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "112", 
-    title: "2️⃣ Empanadas de Yuca y Pollo Especiado",
+    title: "Empanadas de Yuca y Pollo Especiado",
     categoryId: "empanadas-tartas",
     description: "Masa elástica y ligeramente chiclosa con sabor neutro. Relleno jugoso y especiado.",
     ingredients: [
@@ -2717,7 +2717,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "113", 
-    title: "3️⃣ Empanaditas de Queso y Cebolla (versión rápida al horno o air fryer)",
+    title: "Empanaditas de Queso y Cebolla (versión rápida al horno o air fryer)",
     categoryId: "empanadas-tartas",
     description: "Masa liviana con base de avena y arroz, dorada y con sabor mantecoso.",
     ingredients: [
@@ -2745,7 +2745,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "114", 
-    title: "4️⃣ Empanadas Criollas Veganas (masa con garbanzo y aceite de oliva)",
+    title: "Empanadas Criollas Veganas (masa con garbanzo y aceite de oliva)",
     categoryId: "empanadas-tartas",
     description: "Sin lácteos, sin huevo, con masa rica en proteínas vegetales y sabor mediterráneo.",
     ingredients: [
@@ -2771,7 +2771,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "115", 
-    title: "5️⃣ Empanadas de Papa y Arroz (económicas y suaves)",
+    title: "Empanadas de Papa y Arroz (económicas y suaves)",
     categoryId: "empanadas-tartas",
     description: "Textura tierna y suave, perfecta para rellenos cremosos.",
     ingredients: [
@@ -2795,7 +2795,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "116", 
-    title: "6️⃣ Empanadas Dulces de Manzana y Canela",
+    title: "Empanadas Dulces de Manzana y Canela",
     categoryId: "empanadas-tartas",
     description: "Versión de postre con masa base neutra y relleno especiado.",
     ingredients: [
@@ -2820,7 +2820,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "117", 
-    title: "7️⃣ Tarta de Espinaca y Queso Vegetal",
+    title: "Tarta de Espinaca y Queso Vegetal",
     categoryId: "empanadas-tartas",
     description: "Masa firme y base sin grietas, ideal para rellenos húmedos.",
     ingredients: [
@@ -2845,7 +2845,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "118", 
-    title: "8️⃣ Tarta Rústica de Verduras Asadas",
+    title: "Tarta Rústica de Verduras Asadas",
     categoryId: "empanadas-tartas",
     description: "Aroma casero y textura firme con sabor a campo.",
     ingredients: [
@@ -2870,7 +2870,7 @@ export const recipes: Recipe[] = [
   },
   { 
     id: "119", 
-    title: "9️⃣ Mini Quiches Sin Gluten",
+    title: "Mini Quiches Sin Gluten",
     categoryId: "empanadas-tartas",
     description: "Versión individual con base firme y relleno cremoso.",
     ingredients: [
