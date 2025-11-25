@@ -1064,12 +1064,168 @@ export const recipes: Recipe[] = [
     cookTime: "15 min", 
     servings: "6 unidades" 
   },
+  { 
+    id: "51",
+    title: "Panqueque verde de espinaca (flexible y suave)",
+    categoryId: "panes-sarten",
+    ingredients: ["Espinaca cruda: 30 g (1 taza)", "Harina de arroz: 70 g", "Fécula de tapioca: 30 g", "Huevo: 1 unidad", "Agua o leche vegetal: 120 ml", "Aceite: 5 ml", "Sal: 2 g"],
+    instructions: ["Licúa agua/leche con la espinaca hasta obtener líquido verde homogéneo.", "Mezcla harinas, sal y huevo.", "Incorpora el licuado verde y mezcla hasta obtener una crema fluida.", "Cocina en sartén antiadherente 1 min por lado."],
+    expectedTexture: "Súper flexible para wraps.",
+    chefTip: "Si lo quieres más verde, añade 10 g extra de espinaca.",
+    prepTime: "12 min",
+    cookTime: "8 min",
+    servings: "4 unidades"
+  },
+  { 
+    id: "52",
+    title: "Panqueque rosa de remolacha (color intenso)",
+    categoryId: "panes-sarten",
+    ingredients: ["Remolacha cocida: 80 g", "Harina de arroz: 60 g", "Fécula de maíz: 20 g", "Agua: 100 ml", "Huevo: 1 unidad", "Aceite: 5 ml", "Sal: pizca"],
+    instructions: ["Procesa la remolacha con el agua.", "Mezcla todo hasta obtener una crema uniforme y espesa.", "Cocina discos finos 1 min por lado."],
+    expectedTexture: "Color rosa intenso, textura flexible.",
+    chefTip: "Perfecto para sándwiches coloridos. Añade comino o ajo si lo quieres salado y aromático.",
+    prepTime: "12 min",
+    cookTime: "6 min",
+    servings: "3-4 unidades"
+  },
+  { 
+    id: "53",
+    title: "🍯 Panqueque dulce de vainilla (tipo crepe)",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de arroz: 60 g", "Fécula de maíz: 20 g", "Huevo: 1 unidad", "Leche vegetal: 140 ml", "Azúcar o miel: 15 g", "Vainilla: ½ cdta", "Aceite: 5 ml"],
+    instructions: ["Mezcla secos, añade líquidos y bate bien.", "Cocina finos, 40–50 seg por lado."],
+    expectedTexture: "Miga suave tipo crepe francés.",
+    chefTip: "Relleno perfecto: mermeladas, frutas, crema.",
+    prepTime: "10 min",
+    cookTime: "8 min",
+    servings: "4 unidades"
+  },
+  { 
+    id: "54",
+    title: "🍞 Pan plano de arroz y psyllium (extra flexible)",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de arroz: 100 g", "Psyllium: 4 g", "Aceite: 10 ml", "Sal: 3 g", "Agua caliente: 130 ml"],
+    instructions: ["Mezcla secos.", "Agrega agua caliente y aceite.", "Amasa hasta masa suave y no pegajosa.", "Estira 2–3 mm y cocina 1–2 min por lado."],
+    expectedTexture: "Muy similar a tortilla suave.",
+    chefTip: "Si se seca, cubre con paño húmedo.",
+    prepTime: "15 min",
+    cookTime: "8 min",
+    servings: "4 discos"
+  },
+  { 
+    id: "55",
+    title: "Tortita de maíz y queso (rápida y esponjosa)",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de maíz precocida: 100 g", "Queso rallado o vegetal: 40 g", "Agua tibia: 120 ml", "Sal: pizca", "Aceite: 10 ml"],
+    instructions: ["Mezcla harina, queso y sal.", "Añade agua y aceite.", "Forma discos de 1 cm.", "Cocina 3 min por lado."],
+    expectedTexture: "Tiernas con capa crocante.",
+    chefTip: "Úsalas como base de mini pizzas.",
+    prepTime: "12 min",
+    cookTime: "12 min",
+    servings: "4 tortitas"
+  },
+  { 
+    id: "56",
+    title: "Pan de papa en sartén (blando y húmedo)",
+    categoryId: "panes-sarten",
+    ingredients: ["Papa pisada: 150 g", "Harina de arroz: 60 g", "Fécula de maíz: 20 g", "Sal: 3 g", "Aceite: 10 ml", "Agua: 20–30 ml según humedad"],
+    instructions: ["Mezcla papa, harinas, sal y aceite.", "Ajusta con agua hasta masa suave.", "Cocina 2–3 min por lado."],
+    expectedTexture: "Miga húmeda y suave.",
+    chefTip: "Perfecto para rellenos cremosos. Si lo quieres más elástico, agrega 1 cda de tapioca.",
+    prepTime: "15 min",
+    cookTime: "10 min",
+    servings: "4 discos medianos"
+  },
+  { 
+    id: "57",
+    title: "Pan plano de garbanzo y cebolla",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de garbanzo: 80 g", "Cebolla muy picada: 40 g", "Agua: 120 ml", "Sal: 2 g", "Aceite: 5 ml"],
+    instructions: ["Mezcla harina, agua y sal; reposa 10 min.", "Añade cebolla.", "Cocina discos finos hasta dorar."],
+    expectedTexture: "Tipo socca rústica.",
+    chefTip: "Delicioso con hummus o tomate.",
+    prepTime: "18 min",
+    cookTime: "12 min",
+    servings: "3 unidades"
+  },
+  { 
+    id: "58",
+    title: "Pan dulce de coco (aromático)",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de arroz: 60 g", "Harina de coco: 15 g", "Huevo: 1 unidad", "Leche vegetal: 80 ml", "Azúcar o miel: 15 g", "Aceite de coco: 5 ml", "Polvo de hornear: ½ cdta"],
+    instructions: ["Mezcla todo.", "Vierte porciones pequeñas.", "Cocina 2 min por lado."],
+    expectedTexture: "Suaves y perfumados.",
+    chefTip: "Ideales con café.",
+    prepTime: "10 min",
+    cookTime: "12 min",
+    servings: "4 unidades"
+  },
+  { 
+    id: "59",
+    title: "Pan tipo \"focaccina\" de sartén",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de arroz: 120 g", "Fécula de tapioca: 30 g", "Aceite de oliva: 20 ml", "Agua tibia: 130 ml", "Sal: 3 g", "Romero: 1 cdta"],
+    instructions: ["Mezcla secos.", "Añade agua y aceite; forma masa húmeda.", "Extiende de 1 cm.", "Cocina tapado 5 min por lado."],
+    expectedTexture: "Húmeda y aromática.",
+    chefTip: "Final ideal: un chorrito de aceite y sal gruesa.",
+    prepTime: "18 min",
+    cookTime: "10 min",
+    servings: "1 pan plano grande"
+  },
+  { 
+    id: "60",
+    title: "🧄 Pan plano de arroz y ajo",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de arroz: 80 g", "Fécula de maíz: 20 g", "Agua: 120 ml", "Ajo rallado: 1 diente", "Aceite: 5 ml", "Sal: 2 g"],
+    instructions: ["Mezcla todo hasta lograr crema espesa.", "Cocina discos finos 1 min por lado."],
+    expectedTexture: "Flexible con aroma intenso a ajo.",
+    chefTip: "Perfecto para acompañar sopas o como base de bruschetta.",
+    prepTime: "10 min",
+    cookTime: "8 min",
+    servings: "4 unidades"
+  },
+  { 
+    id: "61",
+    title: "Pan de avena GF y chía en sartén",
+    categoryId: "panes-sarten",
+    ingredients: ["Harina de avena GF: 60 g", "Semillas de chía: 10 g", "Harina de arroz: 20 g", "Agua tibia: 110 ml", "Aceite: 5 ml", "Sal: 2 g"],
+    instructions: ["Mezcla avena, arroz, chía y sal.", "Añade agua y aceite; reposa 5 min.", "Cocina 1–2 min por lado."],
+    expectedTexture: "Miga tierna con fibra extra.",
+    chefTip: "Para más elasticidad, añade 1 cda de tapioca.",
+    prepTime: "10 min",
+    cookTime: "8 min",
+    servings: "3 unidades"
+  },
+  { 
+    id: "62",
+    title: "Pan de tomate en sartén (suave y aromático)",
+    categoryId: "panes-sarten",
+    ingredients: ["Puré de tomate espeso: 100 g", "Harina de arroz: 70 g", "Fécula de tapioca: 20 g", "Sal: 2 g", "Aceite: 5 ml", "Orégano: pizca"],
+    instructions: ["Mezcla todo hasta masa suave.", "Forma discos de 1 cm.", "Cocina 2 min por lado."],
+    expectedTexture: "Suave con sabor intenso a tomate.",
+    chefTip: "Ideal para bruschetta o como base de pizza.",
+    prepTime: "12 min",
+    cookTime: "8 min",
+    servings: "4 discos"
+  },
+  { 
+    id: "63",
+    title: "🍠 Pan de zapallo express en sartén",
+    categoryId: "panes-sarten",
+    ingredients: ["Puré de zapallo: 120 g", "Harina de arroz: 70 g", "Fécula de maíz: 20 g", "Aceite: 10 ml", "Sal: pizca"],
+    instructions: ["Mezcla todo hasta obtener masa blanda.", "Forma discos de 1 cm.", "Cocina 3 min por lado."],
+    expectedTexture: "Miga húmeda y sabor suave.",
+    chefTip: "Excelente como base de tostadas saladas.",
+    prepTime: "10 min",
+    cookTime: "12 min",
+    servings: "4 unidades"
+  },
 
   // Categoría 4: Panes con Fermentación Corta (10)
   { 
-    id: "51",
+    id: "64",
     title: "Pan de molde esponjoso (arroz + tapioca + psyllium)", 
-    categoryId: "panes-fermentacion", 
+    categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 100 g", "Psyllium en polvo: 8 g", "Levadura seca instantánea: 6 g", "Azúcar: 10 g", "Sal: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Vinagre de manzana: 10 ml"], 
     instructions: ["En un bol grande, mezclá harinas, psyllium, levadura, azúcar y sal.", "Agregá agua tibia, aceite y vinagre. Mezclá bien con espátula; la masa será espesa y húmeda.", "Verté al molde, alisá con espátula mojada.", "Tapá y dejá levar 30–40 min hasta que suba casi al borde.", "Horneá 35 min a 190 °C.", "Desmoldá y enfriá sobre rejilla.", "Consejos: Miga suave y esponjosa, perfecta para tostadas. Si querés más dorado, pincelá con aceite antes de hornear. No sobrelevés, o colapsará al enfriar."], 
     prepTime: "40 min", 
@@ -1077,7 +1233,7 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas" 
   },
   { 
-    id: "52",
+    id: "65",
     title: "Pan baguette corta fermentación (sin gluten)",
     categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 180 g", "Fécula de maíz: 100 g", "Fécula de papa: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 20 ml"],
@@ -1087,7 +1243,7 @@ export const recipes: Recipe[] = [
     servings: "2 baguettes medianas" 
   },
   { 
-    id: "53",
+    id: "66",
     title: "Pan rústico con corteza crujiente (levadura instantánea)",
     categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz integral: 150 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 50 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 8 g", "Agua tibia: 280 ml", "Aceite de oliva: 25 ml"],
@@ -1097,7 +1253,7 @@ export const recipes: Recipe[] = [
     servings: "1 pan mediano" 
   },
   { 
-    id: "54",
+    id: "67",
     title: "Pan con aceitunas y romero (una fermentación)",
     categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 200 g", "Fécula de maíz: 80 g", "Harina de garbanzo: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 5 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite de oliva: 30 ml", "Aceitunas verdes picadas: 50 g", "Romero fresco o seco: 2 g"],
@@ -1107,7 +1263,7 @@ export const recipes: Recipe[] = [
     servings: "8-10 rebanadas" 
   },
   { 
-    id: "55",
+    id: "68",
     title: "Pan ciabatta sin gluten (hidratación media)",
     categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 150 g", "Fécula de tapioca: 80 g", "Harina de sorgo: 70 g", "Psyllium: 8 g", "Levadura seca: 5 g", "Sal: 4 g", "Azúcar: 5 g", "Agua tibia: 260 ml", "Aceite de oliva: 25 ml"],
@@ -1117,7 +1273,7 @@ export const recipes: Recipe[] = [
     servings: "2 panes medianos" 
   },
   { 
-    id: "56",
+    id: "69",
     title: "Pan de campo simple (molde alargado)",
     categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 180 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 60 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 8 g", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 25 ml"],
@@ -1127,9 +1283,9 @@ export const recipes: Recipe[] = [
     servings: "10-12 rebanadas" 
   },
   { 
-    id: "56", 
+    id: "70", 
     title: "Pan de centeno \"fake\" (saborizado sin centeno)",
-    categoryId: "panes-fermentacion", 
+    categoryId: "panes-fermentacion",
     ingredients: ["Harina de sorgo: 150 g", "Harina de arroz integral: 100 g", "Fécula de papa: 60 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Cacao sin azúcar: 5 g", "Café instantáneo: 1 g (opcional)", "Sal: 5 g", "Agua tibia: 280 ml", "Aceite: 25 ml", "Vinagre: 10 ml"], 
     instructions: ["Mezclá las harinas, psyllium, levadura, azúcar, cacao, café y sal.", "Incorporá agua, aceite y vinagre. Mezclá bien.", "Verté en molde y alisá.", "Dejá levar 40–45 min.", "Horneá 35–40 min a 190 °C.", "Consejos: El cacao y el café imitan el color y aroma del centeno clásico. Ideal con manteca o quesos fuertes. Conservá en la heladera hasta 5 días o congelado en rebanadas."], 
     prepTime: "50 min", 
@@ -1137,9 +1293,9 @@ export const recipes: Recipe[] = [
     servings: "10 rebanadas" 
   },
   { 
-    id: "57", 
+    id: "71", 
     title: "Pan de sándwich tierno (rebanado fino)",
-    categoryId: "panes-fermentacion", 
+    categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 180 g", "Fécula de tapioca: 100 g", "Fécula de maíz: 50 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Sal: 5 g", "Leche vegetal tibia: 260 ml", "Aceite: 30 ml", "Vinagre: 10 ml"], 
     instructions: ["Mezclá todos los secos.", "Agregá leche, aceite y vinagre.", "Batí 1–2 min hasta mezcla homogénea.", "Verté en molde de pan inglés, tapá y dejá levar 35–40 min.", "Horneá 35 min a 190 °C.", "Consejos: Pan de miga muy suave, tipo \"pan lactal\". Si lo querés más alto, usá molde pequeño o sumá 10% de ingredientes. Perfecto para sándwiches o tostadas dulces."], 
     prepTime: "40 min", 
@@ -1147,9 +1303,9 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas finas" 
   },
   { 
-    id: "58", 
+    id: "72", 
     title: "Pan estilo bollo de hamburguesa (fermentación corta)",
-    categoryId: "panes-fermentacion", 
+    categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 80 g", "Fécula de maíz: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite: 30 ml", "Semillas de sésamo (opcional): 10 g"], 
     instructions: ["Mezclá los secos.", "Agregá el agua y el aceite.", "Mezclá hasta que la masa quede espesa.", "Con las manos húmedas, formá 6 bollos y colocá en bandeja.", "Dejá levar 30–40 min tapados.", "Espolvoreá semillas y horneá 25–30 min a 190 °C.", "Consejos: Miga suave y corteza fina. Podés pintarlos con huevo o aceite para mejor dorado. Si los querés tipo pan de hot dog, formá alargados en lugar de redondos."], 
     prepTime: "40 min", 
@@ -1157,9 +1313,9 @@ export const recipes: Recipe[] = [
     servings: "6 bollos grandes" 
   },
   { 
-    id: "59", 
+    id: "73", 
     title: "Pan de hot dog sin gluten (molde individual)",
-    categoryId: "panes-fermentacion", 
+    categoryId: "panes-fermentacion",
     ingredients: ["Harina de arroz: 200 g", "Fécula de tapioca: 80 g", "Fécula de maíz: 40 g", "Psyllium: 8 g", "Levadura seca: 6 g", "Azúcar: 10 g", "Sal: 4 g", "Agua tibia: 260 ml", "Aceite: 30 ml"], 
     instructions: ["Mezclá los secos.", "Agregá agua y aceite.", "Verté en moldes individuales o formá panes alargados.", "Dejá levar 40 min.", "Horneá 25–30 min a 190 °C.", "Consejos: Miga tierna, perfecta para hot dogs o mini sándwiches. Si querés más elásticos, agregá 1 clara batida. Se pueden congelar después del horneado, envueltos en film."], 
     prepTime: "45 min", 
@@ -1169,9 +1325,9 @@ export const recipes: Recipe[] = [
 
   // Categoría 5: Panes de Masa Madre (8)
   { 
-    id: "60", 
+    id: "74", 
     title: "Pan rústico de masa madre (arroz + sorgo)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de arroz: 200 g", "Harina de sorgo: 150 g", "Fécula de tapioca: 80 g", "Psyllium: 8 g", "Sal: 6 g", "Masa madre sin gluten activa: 120 g", "Agua a temperatura ambiente: 280–300 ml", "Aceite de oliva: 20 ml"], 
     instructions: ["En un bol grande, mezclá las harinas, fécula, psyllium y sal.", "Agregá la masa madre y el agua, y mezclá bien con espátula o batidor.", "Sumá el aceite y mezclá hasta lograr una masa húmeda, sin grumos.", "Verté en molde o bol engrasado, tapá y dejá fermentar 8–10 h a temperatura ambiente (o en heladera 12 h).", "Horneá a 200 °C durante 40–45 min, hasta dorar.", "Dejá enfriar completamente antes de cortar.", "Consejos: Textura húmeda y corteza crujiente. Si tu ambiente es frío, dejá fermentar cerca del horno apagado. Podés añadir 1 cda de semillas para más sabor y fibra."], 
     prepTime: "8-10h fermentación", 
@@ -1179,9 +1335,9 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas" 
   },
   { 
-    id: "61", 
+    id: "75", 
     title: "Pan integral de masa madre (mijo + avena GF)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de mijo: 180 g", "Harina de avena GF: 120 g", "Fécula de papa: 80 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 280 ml", "Aceite: 20 ml", "Semillas (opcional): 30 g"], 
     instructions: ["Mezclá harinas, fécula, psyllium y sal.", "Agregá la masa madre, el agua y el aceite.", "Mezclá hasta obtener masa húmeda y uniforme.", "Verté en molde o fuente.", "Tapá y dejá fermentar 10–12 h hasta que aumente visiblemente.", "Horneá 40–45 min a 190 °C.", "Consejos: Aroma suave y sabor levemente dulce. Perfecto para tostadas o sandwiches saludables. Guardá rebanadas congeladas para tener pan fresco siempre."], 
     prepTime: "10-12h fermentación", 
@@ -1189,9 +1345,9 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas" 
   },
   { 
-    id: "62", 
+    id: "76", 
     title: "Pan de semillas con masa madre (alto en fibra)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de arroz integral: 150 g", "Harina de trigo sarraceno: 100 g", "Fécula de tapioca: 70 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 280 ml", "Aceite de oliva: 20 ml", "Semillas mixtas: 50 g (chía, lino, girasol)"], 
     instructions: ["Mezclá los secos.", "Agregá masa madre, agua y aceite.", "Agregá las semillas y mezclá.", "Verté en molde y alisá.", "Dejá fermentar 10–12 h.", "Horneá 45 min a 190 °C.", "Consejos: Pan denso, húmedo y muy saciante. Ideal para desayuno con palta o queso crema. Si usás semillas grandes, remojalas 1 h antes."], 
     prepTime: "10-12h fermentación", 
@@ -1199,9 +1355,9 @@ export const recipes: Recipe[] = [
     servings: "10-12 rebanadas" 
   },
   { 
-    id: "63", 
+    id: "77", 
     title: "Pan de molde de masa madre (suave)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de arroz: 200 g", "Harina de tapioca: 100 g", "Fécula de papa: 50 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 120 g", "Agua: 280 ml", "Aceite: 25 ml", "Miel o sirope (opcional): 10 g"], 
     instructions: ["Mezclá harinas, fécula, psyllium y sal.", "Agregá masa madre, agua, aceite y miel.", "Mezclá hasta lograr textura cremosa.", "Verté en molde, alisá y tapá.", "Fermentá 8–10 h o hasta que suba al borde.", "Horneá 40 min a 190 °C.", "Consejos: Pan suave y tierno, ideal para el día a día. Si querés sabor más neutro, omití la miel. Conservá en heladera envuelto en paño seco."], 
     prepTime: "8-10h fermentación", 
@@ -1209,9 +1365,9 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas" 
   },
   { 
-    id: "64", 
+    id: "78", 
     title: "Pan de teff de masa madre (aroma profundo)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de teff: 200 g", "Harina de arroz integral: 120 g", "Fécula de papa: 80 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 120 g", "Agua: 300 ml", "Aceite: 20 ml"], 
     instructions: ["En un bol grande, mezclá las harinas, fécula, psyllium y sal.", "Incorporá la masa madre, el agua y el aceite. Mezclá hasta obtener masa uniforme.", "Verté en molde, alisá y tapá.", "Dejá fermentar 10–12 h a temperatura ambiente (menos si hace calor).", "Horneá 45 min a 190 °C.", "Consejos: Sabor intenso, ligeramente a nuez, típico del teff. Ideal para panes tostados o sandwiches gourmet. Conserva su humedad durante varios días."], 
     prepTime: "10-12h fermentación", 
@@ -1219,9 +1375,9 @@ export const recipes: Recipe[] = [
     servings: "12 rebanadas" 
   },
   { 
-    id: "65", 
+    id: "79", 
     title: "Baguette de masa madre sin gluten",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de arroz: 180 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 60 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 280 ml", "Aceite: 20 ml"], 
     instructions: ["Mezclá harinas, fécula, psyllium y sal.", "Agregá masa madre, agua y aceite. Mezclá bien hasta masa espesa.", "Formá dos bastones sobre bandeja enharinada.", "Tapá y fermentá 10–12 h.", "Horneá 35–40 min a 200 °C con vapor (colocá una bandejita con agua caliente en la base).", "Consejos: Corteza crujiente y aroma intenso. Si querés mayor color, pincelá con aceite antes de hornear. Enfriá completamente antes de cortar para conservar estructura."], 
     prepTime: "10-12h fermentación", 
@@ -1229,9 +1385,9 @@ export const recipes: Recipe[] = [
     servings: "2 baguettes medianas" 
   },
   { 
-    id: "66", 
+    id: "80", 
     title: "Pan de batata fermentado (miga húmeda)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Puré de batata cocida: 150 g", "Harina de arroz: 150 g", "Harina de sorgo: 100 g", "Fécula de tapioca: 50 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 240 ml", "Aceite: 25 ml"], 
     instructions: ["Mezclá las harinas, fécula, psyllium y sal.", "Agregá el puré de batata, la masa madre, el agua y el aceite.", "Mezclá hasta obtener masa húmeda y densa.", "Verté en molde, tapá y fermentá 8–10 h.", "Horneá 40–45 min a 190 °C.", "Consejos: Pan de miga húmeda, dulce y aromática. Ideal para desayunos o meriendas. La batata aporta color y dulzor natural."], 
     prepTime: "8-10h fermentación", 
@@ -1239,9 +1395,9 @@ export const recipes: Recipe[] = [
     servings: "10-12 rebanadas" 
   },
   { 
-    id: "67", 
+    id: "81", 
     title: "Pan campesino con corteza oscura (masa madre)",
-    categoryId: "masa-madre", 
+    categoryId: "masa-madre",
     ingredients: ["Harina de arroz integral: 180 g", "Harina de trigo sarraceno: 100 g", "Fécula de tapioca: 80 g", "Psyllium: 8 g", "Cacao sin azúcar (para color): 5 g", "Sal: 5 g", "Masa madre activa: 120 g", "Agua: 300 ml", "Aceite: 20 ml"], 
     instructions: ["Mezclá harinas, fécula, psyllium, cacao y sal.", "Agregá la masa madre, el agua y el aceite. Mezclá bien.", "Verté en molde o formá pan redondo.", "Fermentá 10–12 h tapado.", "Horneá 45–50 min a 190 °C.", "Consejos: Corteza oscura, miga compacta y sabor profundo. Ideal para tablas de quesos o sopas. Podés espolvorear harina encima antes del horneado para aspecto rústico."], 
     prepTime: "10-12h fermentación", 
@@ -1251,9 +1407,9 @@ export const recipes: Recipe[] = [
 
   // Categoría 6: Panes Dulces (12)
   { 
-    id: "69",
+    id: "82",
     title: "Pan dulce de naranja y almendra (glaseado ligero)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de almendra: 150 g",
       "Harina de arroz: 100 g",
@@ -1281,9 +1437,9 @@ export const recipes: Recipe[] = [
     chefTip: "Aroma cítrico y textura húmeda. Perfecto con una taza de té o café. Podés sumar chips de chocolate o nueces."
   },
   { 
-    id: "69", 
+    id: "83", 
     title: "Pan tipo \"milk bread\" sin gluten (suave)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz: 180 g",
       "Fécula de papa: 80 g",
@@ -1310,9 +1466,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan suave y ligeramente dulce. Ideal para tostadas con manteca o mermelada. Podés hacerlo sin huevo: sumá 60 ml más de leche y 5 ml de aceite."
   },
   { 
-    id: "70", 
+    id: "84", 
     title: "Pan de chocolate marmolado (molde)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz: 180 g",
       "Fécula de maíz: 60 g",
@@ -1339,9 +1495,9 @@ export const recipes: Recipe[] = [
     chefTip: "Textura húmeda, sabor equilibrado. Perfecto para meriendas o desayunos especiales. Podés añadir chips de chocolate o ralladura de naranja."
   },
   { 
-    id: "71", 
+    id: "85", 
     title: "Pan de banana (banana bread) sin gluten",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Bananas maduras: 3 u (≈ 300 g)",
       "Huevo: 1 u",
@@ -1367,9 +1523,9 @@ export const recipes: Recipe[] = [
     chefTip: "Clásico, húmedo y aromático. Cuanto más maduras las bananas, mejor sabor. Perfecto para congelar en rebanadas."
   },
   { 
-    id: "72", 
+    id: "86", 
     title: "Pan de coco dulce (rebanado)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de coco: 60 g",
       "Fécula de maíz: 40 g",
@@ -1394,9 +1550,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan húmedo, de sabor tropical. Podés decorarlo con coco rallado encima. Ideal para desayunos o colaciones."
   },
   { 
-    id: "73", 
+    id: "87", 
     title: "Pan de pasas y canela (sin trigo)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz integral: 150 g",
       "Fécula de maíz: 70 g",
@@ -1422,9 +1578,9 @@ export const recipes: Recipe[] = [
     chefTip: "Miga húmeda y aroma especiado. Si querés textura más suave, hidratá las pasas 10 min antes. Perfecto con manteca o miel."
   },
   { 
-    id: "74", 
+    id: "88", 
     title: "Pan de manzana y nuez (especiado)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz: 160 g",
       "Fécula de maíz: 60 g",
@@ -1452,9 +1608,9 @@ export const recipes: Recipe[] = [
     chefTip: "Aroma cálido y miga húmeda. Ideal con café o té de la tarde. Podés reemplazar nueces por almendras o pasas."
   },
   { 
-    id: "75", 
+    id: "89", 
     title: "Pan brioche rápido sin gluten (en molde)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz: 180 g",
       "Fécula de papa: 80 g",
@@ -1480,9 +1636,9 @@ export const recipes: Recipe[] = [
     chefTip: "Miga tierna y ligeramente dulce. Podés sumarle ralladura de limón o chips de chocolate. Perfecto para rebanar y tostar."
   },
   { 
-    id: "76", 
+    id: "90", 
     title: "Pan dulce de miel (textura tierna)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz integral: 150 g",
       "Fécula de maíz: 70 g",
@@ -1507,9 +1663,9 @@ export const recipes: Recipe[] = [
     chefTip: "Dulzura natural y aroma suave. Si querés más esponjoso, batí los huevos 2–3 min antes de mezclar. Ideal para acompañar con mantequilla o frutas frescas."
   },
   { 
-    id: "77", 
+    id: "91", 
     title: "Pan de zanahoria dulce (fácil)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Zanahoria rallada fina: 150 g",
       "Harina de arroz: 150 g",
@@ -1534,9 +1690,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan dulce y colorido, ideal para meriendas. Podés sumarle nueces o coco rallado. Si lo querés más húmedo, aumentá 10 ml de aceite."
   },
   { 
-    id: "78", 
+    id: "92", 
     title: "Pan \"colchón de vainilla\" (esponjoso, corteza suave)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz: 150 g",
       "Fécula de maíz: 60 g",
@@ -1561,9 +1717,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan aireado y liviano, tipo bizcochuelo suave. Podés servirlo con frutas o crema vegetal. No lo sobrecocines, o perderá su ternura."
   },
   { 
-    id: "79", 
+    id: "93", 
     title: "Pan dulce de anís (tradicional adaptado)",
-    categoryId: "panes-dulces", 
+    categoryId: "panes-dulces",
     ingredients: [
       "Harina de arroz: 180 g",
       "Fécula de papa: 80 g",
@@ -1870,9 +2026,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan liviano y aromático, símbolo de Pascua. Podés agregar chips de chocolate o frutas confitadas. Conservá cubierto en paño seco."
   },
   { 
-    id: "80", 
+    id: "94", 
     title: "Pan especiado de jengibre (tipo loaf festivo)", 
-    categoryId: "panes-festivos", 
+    categoryId: "panes-festivos",
     ingredients: [
       "Harina de arroz integral: 150 g",
       "Fécula de maíz: 80 g",
@@ -1901,9 +2057,9 @@ export const recipes: Recipe[] = [
 
   // Categoría 8: High-Protein / Low-Carb (8)
   { 
-    id: "81", 
+    id: "95", 
     title: "Pan proteico de clara y almendra (keto)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Harina de almendra: 150 g",
       "Polvo de hornear: 8 g",
@@ -1926,9 +2082,9 @@ export const recipes: Recipe[] = [
     chefTip: "Miga húmeda y liviana, perfecta para tostar. Podés añadir hierbas o queso rallado. Guardá en heladera hasta 5 días."
   },
   { 
-    id: "82", 
+    id: "96", 
     title: "Pan de garbanzo y sésamo (alto en proteína)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Harina de garbanzo: 200 g",
       "Polvo de hornear: 6 g",
@@ -1950,9 +2106,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan rico en fibra y proteínas vegetales. Ideal para acompañar hummus o sopas. Podés tostar las semillas para más aroma."
   },
   { 
-    id: "83", 
+    id: "97", 
     title: "Pan de yogurt griego vegetal + chía (low-carb)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Harina de almendra: 120 g",
       "Psyllium: 6 g",
@@ -1975,9 +2131,9 @@ export const recipes: Recipe[] = [
     chefTip: "Miga elástica y húmeda. Podés usar yogurt de coco o soya. Perfecto para desayunos saludables."
   },
   { 
-    id: "84", 
+    id: "98", 
     title: "Pan de linaza dorada (ultra fibra)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Linaza dorada molida: 120 g",
       "Polvo de hornear: 6 g",
@@ -1998,9 +2154,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan denso y saciante. Excelente fuente de omega 3. Podés hacerlo en microondas: 2–3 min por porción."
   },
   { 
-    id: "85", 
+    id: "99", 
     title: "Pan de semillas al completo (sin harinas)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Semillas de girasol: 80 g",
       "Semillas de calabaza: 50 g",
@@ -2022,9 +2178,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan crujiente, tipo \"multisemillas\". Sin harinas, solo semillas y fibra. Perfecto para untar o comer con sopas."
   },
   { 
-    id: "86", 
+    id: "100", 
     title: "Pan de coco y proteína (suero/vegana)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Harina de coco: 40 g",
       "Proteína en polvo (vegetal o whey): 30 g",
@@ -2046,9 +2202,9 @@ export const recipes: Recipe[] = [
     chefTip: "Miga húmeda y sabor suave. Aporta proteína y saciedad. También podés hacerlo en formato muffin."
   },
   { 
-    id: "87", 
+    id: "101", 
     title: "Pan tipo \"cloud bread\" (sin harinas, esponjoso)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Huevos: 3 u (separadas claras y yemas)",
       "Yogurt vegetal o queso crema: 60 g",
@@ -2068,9 +2224,9 @@ export const recipes: Recipe[] = [
     chefTip: "Ligeros como nubes, sin harinas. Perfectos para sandwiches o mini pizzas. Guardalos en heladera hasta 3 días."
   },
   { 
-    id: "88", 
+    id: "102", 
     title: "Pan de calabacín rallado (low-carb, húmedo)", 
-    categoryId: "high-protein", 
+    categoryId: "high-protein",
     ingredients: [
       "Calabacín rallado y escurrido: 150 g",
       "Harina de almendra: 120 g",
@@ -2094,9 +2250,9 @@ export const recipes: Recipe[] = [
 
   // Categoría 9: Regionales LATAM (12)
   { 
-    id: "89", 
+    id: "103", 
     title: "Pão de queijo (pan de queso brasileño) sin gluten", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Fécula de mandioca dulce: 250 g",
       "Leche vegetal: 120 ml",
@@ -2117,9 +2273,9 @@ export const recipes: Recipe[] = [
     chefTip: "Textura elástica y corazón tierno. Se pueden congelar antes de hornear. Servilos recién hechos, aún tibios."
   },
   { 
-    id: "90", 
+    id: "104", 
     title: "Chipa paraguaya (quesuda, almidón de yuca)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Fécula de mandioca: 250 g",
       "Queso rallado: 150 g",
@@ -2140,9 +2296,9 @@ export const recipes: Recipe[] = [
     chefTip: "Corteza crocante, miga suave. Podés usar mezcla de quesos duros y blandos. Clásico de mate o café paraguayo."
   },
   { 
-    id: "91", 
+    id: "105", 
     title: "Cachitos de yuca (rellenos salados)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Yuca cocida y pisada: 300 g",
       "Fécula de maíz: 40 g",
@@ -2163,9 +2319,9 @@ export const recipes: Recipe[] = [
     chefTip: "Suaves y dorados. Podés hacerlos dulces con relleno de guayaba. Se recalientan perfecto en air fryer."
   },
   { 
-    id: "92", 
+    id: "106", 
     title: "Pan andino de papa (sin gluten)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Papa cocida y pisada: 250 g",
       "Harina de arroz: 100 g",
@@ -2186,9 +2342,9 @@ export const recipes: Recipe[] = [
     chefTip: "Textura húmeda y sabor delicado. Ideal para acompañar sopas o guisos. También podés cocinarlos en plancha."
   },
   { 
-    id: "93", 
+    id: "107", 
     title: "Pan de yuca horneado (Ecuador/Colombia)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Fécula de yuca: 250 g",
       "Queso fresco rallado: 150 g",
@@ -2207,9 +2363,9 @@ export const recipes: Recipe[] = [
     chefTip: "Dorados por fuera, tiernos por dentro. Se pueden hacer mini para picadas. Si querés más crocantes, terminá 3 min en air fryer."
   },
   { 
-    id: "94", 
+    id: "108", 
     title: "Pan de bono sin gluten (versión casera)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Fécula de yuca: 200 g",
       "Harina de maíz precocida: 50 g",
@@ -2230,9 +2386,9 @@ export const recipes: Recipe[] = [
     chefTip: "Aroma irresistible al salir del horno. Crujientes por fuera, suaves por dentro. Servilos tibios."
   },
   { 
-    id: "95", 
+    id: "109", 
     title: "Pan campesino costeño (adaptado GF)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Harina de arroz: 200 g",
       "Harina de maíz: 80 g",
@@ -2256,9 +2412,9 @@ export const recipes: Recipe[] = [
     chefTip: "Sabor suave y miga dorada. Ideal para acompañar comidas típicas. Podés sumar semillas o coco rallado."
   },
   { 
-    id: "96", 
+    id: "110", 
     title: "Pan telera sin gluten (adaptación mexicana)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Harina de arroz: 200 g",
       "Fécula de papa: 80 g",
@@ -2282,9 +2438,9 @@ export const recipes: Recipe[] = [
     chefTip: "Pan suave, ideal para tortas mexicanas. Si querés dorado extra, pincelá con aceite antes del horno. Se congela muy bien."
   },
   { 
-    id: "97", 
+    id: "111", 
     title: "Pan francés casero sin gluten (básico)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Harina de arroz: 200 g",
       "Fécula de tapioca: 100 g",
@@ -2306,9 +2462,9 @@ export const recipes: Recipe[] = [
     chefTip: "Corteza fina, interior tierno. Si querés más crocante, rociá con agua antes del horneado. Ideal para sándwiches o bruschettas."
   },
   { 
-    id: "98", 
+    id: "112", 
     title: "Pan gallego sin gluten (miga húmeda)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Harina de arroz integral: 180 g",
       "Harina de maíz: 100 g",
@@ -2332,9 +2488,9 @@ export const recipes: Recipe[] = [
     chefTip: "Miga húmeda y corteza firme. Perfecto para sopas o comidas saladas. Se conserva 3 días envuelto en paño."
   },
   { 
-    id: "99", 
+    id: "113", 
     title: "Pan tipo ciabatta latino (con aceite y sal)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Harina de arroz: 180 g",
       "Fécula de maíz: 80 g",
