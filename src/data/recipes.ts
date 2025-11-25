@@ -2618,7 +2618,7 @@ export const recipes: Recipe[] = [
 
   // Categoría 9: Regionales LATAM (12)
   { 
-    id: "103", 
+    id: "118", 
     title: "Pão de queijo (pan de queso brasileño) sin gluten", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2641,7 +2641,7 @@ export const recipes: Recipe[] = [
     chefTip: "Textura elástica y corazón tierno. Se pueden congelar antes de hornear. Servilos recién hechos, aún tibios."
   },
   { 
-    id: "104", 
+    id: "119", 
     title: "Chipa paraguaya (quesuda, almidón de yuca)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2664,7 +2664,7 @@ export const recipes: Recipe[] = [
     chefTip: "Corteza crocante, miga suave. Podés usar mezcla de quesos duros y blandos. Clásico de mate o café paraguayo."
   },
   { 
-    id: "105", 
+    id: "120", 
     title: "Cachitos de yuca (rellenos salados)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2687,7 +2687,7 @@ export const recipes: Recipe[] = [
     chefTip: "Suaves y dorados. Podés hacerlos dulces con relleno de guayaba. Se recalientan perfecto en air fryer."
   },
   { 
-    id: "106", 
+    id: "121", 
     title: "Pan andino de papa (sin gluten)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2710,7 +2710,7 @@ export const recipes: Recipe[] = [
     chefTip: "Textura húmeda y sabor delicado. Ideal para acompañar sopas o guisos. También podés cocinarlos en plancha."
   },
   { 
-    id: "107", 
+    id: "122", 
     title: "Pan de yuca horneado (Ecuador/Colombia)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2731,7 +2731,7 @@ export const recipes: Recipe[] = [
     chefTip: "Dorados por fuera, tiernos por dentro. Se pueden hacer mini para picadas. Si querés más crocantes, terminá 3 min en air fryer."
   },
   { 
-    id: "108", 
+    id: "123", 
     title: "Pan de bono sin gluten (versión casera)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2754,7 +2754,7 @@ export const recipes: Recipe[] = [
     chefTip: "Aroma irresistible al salir del horno. Crujientes por fuera, suaves por dentro. Servilos tibios."
   },
   { 
-    id: "109", 
+    id: "124", 
     title: "Pan campesino costeño (adaptado GF)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2780,7 +2780,7 @@ export const recipes: Recipe[] = [
     chefTip: "Sabor suave y miga dorada. Ideal para acompañar comidas típicas. Podés sumar semillas o coco rallado."
   },
   { 
-    id: "110", 
+    id: "125", 
     title: "Pan telera sin gluten (adaptación mexicana)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2806,7 +2806,7 @@ export const recipes: Recipe[] = [
     chefTip: "Pan suave, ideal para tortas mexicanas. Si querés dorado extra, pincelá con aceite antes del horno. Se congela muy bien."
   },
   { 
-    id: "111", 
+    id: "126", 
     title: "Pan francés casero sin gluten (básico)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2830,7 +2830,7 @@ export const recipes: Recipe[] = [
     chefTip: "Corteza fina, interior tierno. Si querés más crocante, rociá con agua antes del horneado. Ideal para sándwiches o bruschettas."
   },
   { 
-    id: "112", 
+    id: "127", 
     title: "Pan gallego sin gluten (miga húmeda)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2856,7 +2856,7 @@ export const recipes: Recipe[] = [
     chefTip: "Miga húmeda y corteza firme. Perfecto para sopas o comidas saladas. Se conserva 3 días envuelto en paño."
   },
   { 
-    id: "113", 
+    id: "128", 
     title: "Pan tipo ciabatta latino (con aceite y sal)", 
     categoryId: "regionales-latam",
     ingredients: [
@@ -2881,9 +2881,9 @@ export const recipes: Recipe[] = [
     chefTip: "Textura aireada y suave aroma a oliva. Perfecto para bruschettas o focaccias. Rocialo con sal gruesa y aceite antes de hornear."
   },
   { 
-    id: "100", 
+    id: "129", 
     title: "Pan bollo dulce criollo (sin gluten, aromático)", 
-    categoryId: "regionales-latam", 
+    categoryId: "regionales-latam",
     ingredients: [
       "Harina de arroz: 200 g",
       "Fécula de papa: 80 g",
@@ -2911,7 +2911,7 @@ export const recipes: Recipe[] = [
 
   // Categoría 10: Pizzas Sin Gluten (10)
   { 
-    id: "101", 
+    id: "130", 
     title: "Pizza Napolitana Sin Gluten (masa fina y borde dorado)",
     categoryId: "pizzas-sin-gluten",
     description: "Inspirada en la clásica pizza italiana, con base delgada y borde aireado. Su masa combina harinas ligeras que logran una textura crocante por fuera y suave al centro.",
@@ -2940,7 +2940,7 @@ export const recipes: Recipe[] = [
     chefTip: "Para versión vegana, usá queso vegetal rallado y aceite de oliva infusionado con ajo."
   },
   { 
-    id: "102", 
+    id: "131", 
     title: "Pizza de Sartén Exprés (sin horno, lista en minutos)",
     categoryId: "pizzas-sin-gluten",
     description: "Ideal para días de apuro: se cocina directamente en sartén antiadherente, sin necesidad de levado.",
@@ -2967,7 +2967,7 @@ export const recipes: Recipe[] = [
     chefTip: "Usá sartén gruesa para evitar que se queme el fondo."
   },
   { 
-    id: "103", 
+    id: "132", 
     title: "Pizza de Coliflor Low-Carb (base vegetal y ligera)",
     categoryId: "pizzas-sin-gluten",
     description: "Una versión sin harinas, rica en fibra y sabor. Perfecta para dietas bajas en carbohidratos.",
@@ -2991,7 +2991,7 @@ export const recipes: Recipe[] = [
     chefTip: "Podés reemplazar el queso por mezcla de lino molido y levadura nutricional (opción vegana)."
   },
   { 
-    id: "104", 
+    id: "133", 
     title: "Pizza de Harina de Yuca y Queso (estilo brasileño)",
     categoryId: "pizzas-sin-gluten",
     description: "Una base elástica y sabrosa, inspirada en el 'pão de queijo'. Crocante afuera y masticable al centro.",
@@ -3016,7 +3016,7 @@ export const recipes: Recipe[] = [
     chefTip: "Perfecta para air fryer: 190 °C por 10 min."
   },
   { 
-    id: "105", 
+    id: "134", 
     title: "Pizza de Avena y Semillas (rica en fibra y proteínas)",
     categoryId: "pizzas-sin-gluten",
     description: "Combina harinas integrales sin gluten y semillas que aportan textura y saciedad.",
@@ -3042,7 +3042,7 @@ export const recipes: Recipe[] = [
     servings: "2 pizzas"
   },
   { 
-    id: "106", 
+    id: "135", 
     title: "Pizza Integral Sin Gluten (masa rústica y aireada)",
     categoryId: "pizzas-sin-gluten",
     description: "Una base robusta, rica en fibra, con sabor artesanal. Ideal para quienes disfrutan masas más densas y nutritivas.",
@@ -3071,7 +3071,7 @@ export const recipes: Recipe[] = [
     chefTip: "Agregá 1 cucharadita de miel para favorecer el dorado sin usar azúcar refinada."
   },
   { 
-    id: "107", 
+    id: "136", 
     title: "Pizza de Almendra y Linaza (versión keto y sin lácteos)",
     categoryId: "pizzas-sin-gluten",
     description: "Masa baja en carbohidratos, rica en grasas saludables y con sabor a frutos secos.",
@@ -3098,7 +3098,7 @@ export const recipes: Recipe[] = [
     chefTip: "Ideal para base de pizza blanca (sin salsa de tomate), con topping de vegetales grillados."
   },
   { 
-    id: "108", 
+    id: "137", 
     title: "Pizza Mediterránea con Aceitunas y Hierbas",
     categoryId: "pizzas-sin-gluten",
     description: "Aroma a campo italiano: masa ligera y perfumada con orégano, romero y aceitunas negras.",
@@ -3127,7 +3127,7 @@ export const recipes: Recipe[] = [
     servings: "2 pizzas"
   },
   { 
-    id: "109", 
+    id: "138", 
     title: "Mini Pizzas Individuales (listas para congelar)",
     categoryId: "pizzas-sin-gluten",
     description: "Porciones pequeñas, ideales para preparar, congelar y recalentar sin perder textura.",
@@ -3155,7 +3155,7 @@ export const recipes: Recipe[] = [
     chefTip: "Congelá las bases prehorneadas envueltas en film y recalentá 5 min al servir."
   },
   { 
-    id: "110", 
+    id: "139", 
     title: "🔟 Pizza Dulce de Manzana y Canela",
     categoryId: "pizzas-sin-gluten",
     description: "Una versión gourmet, perfecta como postre o desayuno. La masa neutra se cubre con manzanas especiadas y miel.",
@@ -3187,7 +3187,7 @@ export const recipes: Recipe[] = [
 
   // Categoría 11: Empanadas y Tartas Sin Gluten (10)
   { 
-    id: "111", 
+    id: "140", 
     title: "Empanadas Clásicas Sin Gluten (masa flexible y dorada)",
     categoryId: "empanadas-tartas",
     description: "La versión sin gluten de la empanada tradicional argentina. Masa elástica que se dobla sin romperse y dorado perfecto.",
@@ -3215,7 +3215,7 @@ export const recipes: Recipe[] = [
     chefTip: "Para dorado extra, pincelá con yema o leche vegetal."
   },
   { 
-    id: "112", 
+    id: "141", 
     title: "Empanadas de Yuca y Pollo Especiado",
     categoryId: "empanadas-tartas",
     description: "Masa elástica y ligeramente chiclosa con sabor neutro. Relleno jugoso y especiado.",
@@ -3240,7 +3240,7 @@ export const recipes: Recipe[] = [
     chefTip: "Podés hacer mini empanadas y congelarlas crudas."
   },
   { 
-    id: "113", 
+    id: "142", 
     title: "Empanaditas de Queso y Cebolla (versión rápida al horno o air fryer)",
     categoryId: "empanadas-tartas",
     description: "Masa liviana con base de avena y arroz, dorada y con sabor mantecoso.",
@@ -3268,7 +3268,7 @@ export const recipes: Recipe[] = [
     chefTip: "Podés agregar una pizca de cúrcuma a la masa para un color dorado natural."
   },
   { 
-    id: "114", 
+    id: "143", 
     title: "Empanadas Criollas Veganas (masa con garbanzo y aceite de oliva)",
     categoryId: "empanadas-tartas",
     description: "Sin lácteos, sin huevo, con masa rica en proteínas vegetales y sabor mediterráneo.",
@@ -3294,7 +3294,7 @@ export const recipes: Recipe[] = [
     chefTip: "Pincelá con mezcla de aceite + cúrcuma para dorado vegetal."
   },
   { 
-    id: "115", 
+    id: "144", 
     title: "Empanadas de Papa y Arroz (económicas y suaves)",
     categoryId: "empanadas-tartas",
     description: "Textura tierna y suave, perfecta para rellenos cremosos.",
@@ -3318,7 +3318,7 @@ export const recipes: Recipe[] = [
     chefTip: "Perfecta para rellenos de verdura o queso."
   },
   { 
-    id: "116", 
+    id: "145", 
     title: "Empanadas Dulces de Manzana y Canela",
     categoryId: "empanadas-tartas",
     description: "Versión de postre con masa base neutra y relleno especiado.",
@@ -3343,7 +3343,7 @@ export const recipes: Recipe[] = [
     chefTip: "Espolvoreá con azúcar mascabado antes de hornear."
   },
   { 
-    id: "117", 
+    id: "146", 
     title: "Tarta de Espinaca y Queso Vegetal",
     categoryId: "empanadas-tartas",
     description: "Masa firme y base sin grietas, ideal para rellenos húmedos.",
@@ -3368,7 +3368,7 @@ export const recipes: Recipe[] = [
     chefTip: "Dejá enfriar antes de cortar para mejor presentación."
   },
   { 
-    id: "118", 
+    id: "147", 
     title: "Tarta Rústica de Verduras Asadas",
     categoryId: "empanadas-tartas",
     description: "Aroma casero y textura firme con sabor a campo.",
@@ -3393,7 +3393,7 @@ export const recipes: Recipe[] = [
     chefTip: "Decorá con semillas antes de hornear."
   },
   { 
-    id: "119", 
+    id: "148", 
     title: "Mini Quiches Sin Gluten",
     categoryId: "empanadas-tartas",
     description: "Versión individual con base firme y relleno cremoso.",
@@ -3417,7 +3417,7 @@ export const recipes: Recipe[] = [
     chefTip: "Congelá ya horneadas y recalentá 10 min antes de servir."
   },
   { 
-    id: "120", 
+    id: "149", 
     title: "🔟 Base 'Todo Uso' para Tartas y Empanadas",
     categoryId: "empanadas-tartas",
     description: "Una receta comodín que sirve tanto para masas saladas como dulces.",
@@ -3441,7 +3441,7 @@ export const recipes: Recipe[] = [
 
   // Categoría: Panes Air Fryer (20)
   {
-    id: "121",
+    id: "150",
     title: "🥖 Pan básico de arroz en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3468,7 +3468,7 @@ export const recipes: Recipe[] = [
     chefTip: "Si tu air fryer es pequeña, divide la masa en dos moldes y cocina por separado."
   },
   {
-    id: "122",
+    id: "151",
     title: "🥖 Pan de avena certificada GF express",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3496,7 +3496,7 @@ export const recipes: Recipe[] = [
     chefTip: "Agrega semillas de chía o lino arriba antes de cocinar para extra textura."
   },
   {
-    id: "123",
+    id: "152",
     title: "🥖 Pan de almendra low-carb en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3523,7 +3523,7 @@ export const recipes: Recipe[] = [
     chefTip: "Perfecto para quienes buscan reducir carbohidratos sin renunciar al pan."
   },
   {
-    id: "124",
+    id: "153",
     title: "🥖 Pan de yogur y semillas en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3552,7 +3552,7 @@ export const recipes: Recipe[] = [
     chefTip: "El yogur aporta humedad y elasticidad a la miga."
   },
   {
-    id: "125",
+    id: "154",
     title: "🥖 Pan de papa y romero en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3579,7 +3579,7 @@ export const recipes: Recipe[] = [
     chefTip: "Puedes añadir aceitunas picadas o queso rallado para una versión más gourmet."
   },
   {
-    id: "126",
+    id: "155",
     title: "🥖 Pan de calabaza especiado en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3607,7 +3607,7 @@ export const recipes: Recipe[] = [
     chefTip: "Ideal para acompañar sopas o ensaladas. Decora con semillas de calabaza antes de cocinar."
   },
   {
-    id: "127",
+    id: "156",
     title: "🥖 Pan de cebolla y orégano en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3636,7 +3636,7 @@ export const recipes: Recipe[] = [
     chefTip: "Sirve como pan de mesa o base de mini pizzas."
   },
   {
-    id: "128",
+    id: "157",
     title: "🥖 Pan tipo focaccia de garbanzo en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3662,7 +3662,7 @@ export const recipes: Recipe[] = [
     chefTip: "Puedes cortar en cuadrados y servir como aperitivo o acompañamiento."
   },
   {
-    id: "129",
+    id: "158",
     title: "🥖 Pan integral de arroz y avena en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3691,7 +3691,7 @@ export const recipes: Recipe[] = [
     chefTip: "Congela rebanadas individuales para tener siempre listo."
   },
   {
-    id: "130",
+    id: "159",
     title: "🥖 Pan de linaza en air fryer (alto en fibra)",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3719,7 +3719,7 @@ export const recipes: Recipe[] = [
     chefTip: "Si buscas más humedad, agrega 1 cda. extra de agua."
   },
   {
-    id: "131",
+    id: "160",
     title: "🥖 Pan de coco salado en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3745,7 +3745,7 @@ export const recipes: Recipe[] = [
     chefTip: "Ideal para acompañar comidas livianas. Agrega orégano si deseas un toque más salado."
   },
   {
-    id: "132",
+    id: "161",
     title: "🥖 Pan de queso en air fryer (estilo pão de queijo)",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3771,7 +3771,7 @@ export const recipes: Recipe[] = [
     chefTip: "Puedes congelar la masa en bolitas y cocinarlos directamente desde el freezer."
   },
   {
-    id: "133",
+    id: "162",
     title: "🥖 Pan de hierbas mediterráneas en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3798,7 +3798,7 @@ export const recipes: Recipe[] = [
     chefTip: "Rocía aceite con romero fresco al final para más aroma."
   },
   {
-    id: "134",
+    id: "163",
     title: "🥖 Pan de zanahoria y comino en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3825,7 +3825,7 @@ export const recipes: Recipe[] = [
     chefTip: "Perfecto para untar con hummus o queso crema vegetal."
   },
   {
-    id: "135",
+    id: "164",
     title: "🥖 Pan de remolacha y semillas en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3853,7 +3853,7 @@ export const recipes: Recipe[] = [
     chefTip: "Ideal para presentaciones originales en picadas o brunch."
   },
   {
-    id: "136",
+    id: "165",
     title: "🥖 Pan de lentejas rojas en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3881,7 +3881,7 @@ export const recipes: Recipe[] = [
     chefTip: "Perfecto para veganos o quienes buscan pan rico en proteínas vegetales."
   },
   {
-    id: "137",
+    id: "166",
     title: "🥖 Pan de espinaca y queso en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3909,7 +3909,7 @@ export const recipes: Recipe[] = [
     chefTip: "Ideal para niños o para incluir más vegetales en la dieta."
   },
   {
-    id: "138",
+    id: "167",
     title: "🥖 Pan de maíz dulce en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3938,7 +3938,7 @@ export const recipes: Recipe[] = [
     chefTip: "Sirve con mantequilla o queso crema para desayuno o merienda."
   },
   {
-    id: "139",
+    id: "168",
     title: "🥖 Pan de quinoa cocida en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
@@ -3965,7 +3965,7 @@ export const recipes: Recipe[] = [
     chefTip: "Ideal para deportistas o quienes buscan pan nutritivo."
   },
   {
-    id: "140",
+    id: "169",
     title: "🥖 Pan de tomate seco y albahaca en air fryer",
     categoryId: "panes-air-fryer",
     ingredients: [
