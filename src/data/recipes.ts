@@ -1323,86 +1323,564 @@ export const recipes: Recipe[] = [
     servings: "6 unidades" 
   },
 
-  // Categoría 5: Panes de Masa Madre (8)
+  // Categoría 5: Panes de Masa Madre (19)
   { 
     id: "74", 
     title: "Pan rústico de masa madre (arroz + sorgo)",
     categoryId: "masa-madre",
-    ingredients: ["Harina de arroz: 200 g", "Harina de sorgo: 150 g", "Fécula de tapioca: 80 g", "Psyllium: 8 g", "Sal: 6 g", "Masa madre sin gluten activa: 120 g", "Agua a temperatura ambiente: 280–300 ml", "Aceite de oliva: 20 ml"], 
-    instructions: ["En un bol grande, mezclá las harinas, fécula, psyllium y sal.", "Agregá la masa madre y el agua, y mezclá bien con espátula o batidor.", "Sumá el aceite y mezclá hasta lograr una masa húmeda, sin grumos.", "Verté en molde o bol engrasado, tapá y dejá fermentar 8–10 h a temperatura ambiente (o en heladera 12 h).", "Horneá a 200 °C durante 40–45 min, hasta dorar.", "Dejá enfriar completamente antes de cortar.", "Consejos: Textura húmeda y corteza crujiente. Si tu ambiente es frío, dejá fermentar cerca del horno apagado. Podés añadir 1 cda de semillas para más sabor y fibra."], 
-    prepTime: "8-10h fermentación", 
-    cookTime: "40-45 min", 
-    servings: "12 rebanadas" 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Harina de sorgo: 150 g",
+      "Fécula/almidón de tapioca: 80 g",
+      "Psyllium en polvo: 8 g",
+      "Sal: 6 g",
+      "Masa madre sin gluten (activa): 200 g",
+      "Agua tibia: 280–300 ml",
+      "Aceite de oliva: 20 ml",
+      "Miel o sirope: 10 g (opcional)"
+    ],
+    instructions: [
+      "Mezcla los secos. Combina harina de arroz, sorgo, tapioca, psyllium y sal. Este paso evita grumos y asegura hidratación uniforme.",
+      "Agrega masa madre y líquidos. Incorpora la masa madre, el aceite y 250 ml de agua. Mezcla 1 minuto. Añade el resto del agua hasta obtener una masa tipo crema espesa, no amasable.",
+      "Activa la estructura. Bate 2–3 minutos con espátula o batidora. Esto permite que el psyllium gelifique y dé soporte real al pan.",
+      "Fermentación. Tapa y deja fermentar 6–10 horas, o hasta que aumente 70–100 % de su volumen. Señal de éxito: superficie ligeramente abombada y burbujas visibles en los bordes.",
+      "Moldeado sin amasado. Engrasa un molde (20×10 cm), coloca la masa y alisa la superficie con una espátula húmeda.",
+      "Horneado. Hornea 40–45 min a 190 °C. Si quieres más corteza, retira el papel los últimos 10 minutos.",
+      "Enfriado. Deja enfriar 1 hora antes de cortar para que la miga termine de asentarse."
+    ],
+    expectedTexture: "Miga húmeda y corteza crujiente.",
+    prepTime: "8-12h fermentación",
+    cookTime: "40-45 min",
+    servings: "1 pan mediano",
+    chefTip: "Para corteza más rústica, rocía un poco de agua en las paredes del horno al inicio."
   },
   { 
     id: "75", 
     title: "Pan integral de masa madre (mijo + avena GF)",
     categoryId: "masa-madre",
-    ingredients: ["Harina de mijo: 180 g", "Harina de avena GF: 120 g", "Fécula de papa: 80 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 280 ml", "Aceite: 20 ml", "Semillas (opcional): 30 g"], 
-    instructions: ["Mezclá harinas, fécula, psyllium y sal.", "Agregá la masa madre, el agua y el aceite.", "Mezclá hasta obtener masa húmeda y uniforme.", "Verté en molde o fuente.", "Tapá y dejá fermentar 10–12 h hasta que aumente visiblemente.", "Horneá 40–45 min a 190 °C.", "Consejos: Aroma suave y sabor levemente dulce. Perfecto para tostadas o sandwiches saludables. Guardá rebanadas congeladas para tener pan fresco siempre."], 
-    prepTime: "10-12h fermentación", 
-    cookTime: "40-45 min", 
-    servings: "12 rebanadas" 
+    ingredients: [
+      "Harina de mijo: 200 g",
+      "Harina de avena certificada: 150 g",
+      "Tapioca: 70 g",
+      "Psyllium: 8 g",
+      "Sal: 6 g",
+      "Masa madre activa: 200 g",
+      "Agua tibia: 300–320 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, tapioca, psyllium y sal.",
+      "Añade la masa madre, el aceite y 260 ml de agua. Mezcla.",
+      "Agrega más agua según sea necesario: la avena absorbe bastante, por lo que la textura debe quedar como pasta espesa.",
+      "Bate 3 minutos para activar el psyllium.",
+      "Fermenta 8–12 horas, o hasta que aumente cerca del 80 %.",
+      "Pasa la masa al molde y alisa.",
+      "Hornea 40 minutos a 190 °C.",
+      "Enfría 1 hora antes de cortar."
+    ],
+    expectedTexture: "Miga suave con aroma levemente dulce.",
+    prepTime: "8-12h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "Unos 20–30 ml extra de agua darán una miga más suave si usas avena muy fina."
   },
   { 
     id: "76", 
-    title: "Pan de semillas con masa madre (alto en fibra)",
+    title: "Pan de semillas (alto en fibra)",
     categoryId: "masa-madre",
-    ingredients: ["Harina de arroz integral: 150 g", "Harina de trigo sarraceno: 100 g", "Fécula de tapioca: 70 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 280 ml", "Aceite de oliva: 20 ml", "Semillas mixtas: 50 g (chía, lino, girasol)"], 
-    instructions: ["Mezclá los secos.", "Agregá masa madre, agua y aceite.", "Agregá las semillas y mezclá.", "Verté en molde y alisá.", "Dejá fermentar 10–12 h.", "Horneá 45 min a 190 °C.", "Consejos: Pan denso, húmedo y muy saciante. Ideal para desayuno con palta o queso crema. Si usás semillas grandes, remojalas 1 h antes."], 
-    prepTime: "10-12h fermentación", 
-    cookTime: "45 min", 
-    servings: "10-12 rebanadas" 
+    ingredients: [
+      "Harina de arroz integral: 150 g",
+      "Harina de teff: 120 g",
+      "Tapioca: 80 g",
+      "Psyllium: 10 g",
+      "Sal: 6 g",
+      "Semillas mixtas (chía, girasol, lino): 50 g",
+      "Agua tibia: 300–330 ml",
+      "Masa madre activa: 200 g",
+      "Aceite: 20 ml",
+      "Miel: 5 g (opcional)"
+    ],
+    instructions: [
+      "Mezcla las harinas, tapioca, psyllium y sal.",
+      "Hidrata las semillas con 2–3 cucharadas de agua (evita que sequen la miga).",
+      "Mezcla masa madre, aceite y 260 ml de agua.",
+      "Incorpora los secos y ajusta con más agua hasta obtener crema espesa.",
+      "Bate 3 minutos.",
+      "Añade las semillas ya hidratadas.",
+      "Fermenta 6–10 horas, hasta que la mezcla se vea aireada y haya subido 70–90 %.",
+      "Hornea 45 min a 190 °C.",
+      "Enfría completamente antes de cortar."
+    ],
+    expectedTexture: "Pan denso, húmedo y muy saciante.",
+    prepTime: "8-10h fermentación",
+    cookTime: "45 min",
+    servings: "1 pan",
+    chefTip: "Si la masa se despega de las paredes del bol, le falta agua. Añade 10–20 ml más."
   },
   { 
     id: "77", 
-    title: "Pan de molde de masa madre (suave)",
+    title: "Pan de molde suave de masa madre",
     categoryId: "masa-madre",
-    ingredients: ["Harina de arroz: 200 g", "Harina de tapioca: 100 g", "Fécula de papa: 50 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 120 g", "Agua: 280 ml", "Aceite: 25 ml", "Miel o sirope (opcional): 10 g"], 
-    instructions: ["Mezclá harinas, fécula, psyllium y sal.", "Agregá masa madre, agua, aceite y miel.", "Mezclá hasta lograr textura cremosa.", "Verté en molde, alisá y tapá.", "Fermentá 8–10 h o hasta que suba al borde.", "Horneá 40 min a 190 °C.", "Consejos: Pan suave y tierno, ideal para el día a día. Si querés sabor más neutro, omití la miel. Conservá en heladera envuelto en paño seco."], 
-    prepTime: "8-10h fermentación", 
-    cookTime: "40 min", 
-    servings: "12 rebanadas" 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Tapioca: 100 g",
+      "Fécula de papa: 50 g",
+      "Psyllium: 8 g",
+      "Sal: 5 g",
+      "Masa madre activa: 200 g",
+      "Agua: 280–300 ml",
+      "Aceite: 25 ml",
+      "Miel o sirope (opcional): 10 g"
+    ],
+    instructions: [
+      "Mezcla todos los ingredientes secos.",
+      "Integra masa madre, líquidos y mezcla hasta lograr una crema espesa que cae lentamente de la cuchara.",
+      "Bate 2 minutos para activar psyllium y airear la mezcla.",
+      "Fermenta 5–8 h, o hasta que aumente visiblemente de volumen.",
+      "Vierte en molde engrasado y alisa.",
+      "Hornear 40 min a 185 °C.",
+      "Deja enfriar completamente."
+    ],
+    expectedTexture: "Miga suave tipo molde, ideal para tostar.",
+    prepTime: "6-8h fermentación",
+    cookTime: "40 min",
+    servings: "1 molde pequeño",
+    chefTip: "Ideal para tostar: su miga suave obtiene un dorado perfecto."
   },
   { 
     id: "78", 
-    title: "Pan de teff de masa madre (aroma profundo)",
+    title: "Pan de teff de masa madre",
     categoryId: "masa-madre",
-    ingredients: ["Harina de teff: 200 g", "Harina de arroz integral: 120 g", "Fécula de papa: 80 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 120 g", "Agua: 300 ml", "Aceite: 20 ml"], 
-    instructions: ["En un bol grande, mezclá las harinas, fécula, psyllium y sal.", "Incorporá la masa madre, el agua y el aceite. Mezclá hasta obtener masa uniforme.", "Verté en molde, alisá y tapá.", "Dejá fermentar 10–12 h a temperatura ambiente (menos si hace calor).", "Horneá 45 min a 190 °C.", "Consejos: Sabor intenso, ligeramente a nuez, típico del teff. Ideal para panes tostados o sandwiches gourmet. Conserva su humedad durante varios días."], 
-    prepTime: "10-12h fermentación", 
-    cookTime: "45 min", 
-    servings: "12 rebanadas" 
+    ingredients: [
+      "Harina de teff: 200 g",
+      "Harina de arroz integral: 120 g",
+      "Fécula de papa: 80 g",
+      "Psyllium: 8 g",
+      "Sal: 5 g",
+      "Masa madre activa: 200 g",
+      "Agua: 300 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, tapioca, psyllium y sal.",
+      "Añade masa madre, agua y aceite.",
+      "Bate 3 minutos (harinas densas como el teff lo necesitan para activar la estructura).",
+      "Fermenta 8–12 h.",
+      "Hornea 45 min a 190 °C.",
+      "Enfría completamente antes de cortar."
+    ],
+    expectedTexture: "Sabor intenso, ligeramente a nuez.",
+    prepTime: "8-12h fermentación",
+    cookTime: "45 min",
+    servings: "1 pan",
+    chefTip: "El teff desarrolla mejor sabor si el pan se corta una vez totalmente frío."
   },
   { 
     id: "79", 
-    title: "Baguette de masa madre sin gluten",
+    title: "Baguettes sin gluten de masa madre (versión profesional real)",
     categoryId: "masa-madre",
-    ingredients: ["Harina de arroz: 180 g", "Harina de maíz fina: 100 g", "Fécula de tapioca: 60 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 280 ml", "Aceite: 20 ml"], 
-    instructions: ["Mezclá harinas, fécula, psyllium y sal.", "Agregá masa madre, agua y aceite. Mezclá bien hasta masa espesa.", "Formá dos bastones sobre bandeja enharinada.", "Tapá y fermentá 10–12 h.", "Horneá 35–40 min a 200 °C con vapor (colocá una bandejita con agua caliente en la base).", "Consejos: Corteza crujiente y aroma intenso. Si querés mayor color, pincelá con aceite antes de hornear. Enfriá completamente antes de cortar para conservar estructura."], 
-    prepTime: "10-12h fermentación", 
-    cookTime: "35-40 min", 
-    servings: "2 baguettes medianas" 
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Tapioca: 120 g",
+      "Harina de sorgo o mijo: 100 g",
+      "Psyllium: 12 g",
+      "Sal: 6 g",
+      "Agua tibia: 300–330 ml",
+      "Masa madre activa: 200 g",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, psyllium y sal.",
+      "Añade masa madre, aceite y 280 ml de agua. Integra.",
+      "Ajusta con más agua hasta obtener una masa espesa pero maleable con espátula.",
+      "Bate 3 minutos.",
+      "Fermenta 5–8 h, o hasta que suba alrededor del 70 %.",
+      "Sobre papel vegetal, forma las baguettes con una espátula húmeda, dando forma alargada (no se amasa ni se enrolla).",
+      "Hornea 10 min a 220 °C con vapor.",
+      "Reduce a 200 °C y hornea 25–30 min más.",
+      "Enfría 1 h."
+    ],
+    expectedTexture: "Corteza crujiente, miga aireada.",
+    prepTime: "6-9h fermentación",
+    cookTime: "35-40 min",
+    servings: "2 baguettes",
+    chefTip: "Si quieres la corteza más crujiente, abre ligeramente la puerta del horno en los últimos 5 minutos."
   },
   { 
     id: "80", 
-    title: "Pan de batata fermentado (miga húmeda)",
+    title: "Pan de batata fermentado",
     categoryId: "masa-madre",
-    ingredients: ["Puré de batata cocida: 150 g", "Harina de arroz: 150 g", "Harina de sorgo: 100 g", "Fécula de tapioca: 50 g", "Psyllium: 8 g", "Sal: 5 g", "Masa madre activa: 100 g", "Agua: 240 ml", "Aceite: 25 ml"], 
-    instructions: ["Mezclá las harinas, fécula, psyllium y sal.", "Agregá el puré de batata, la masa madre, el agua y el aceite.", "Mezclá hasta obtener masa húmeda y densa.", "Verté en molde, tapá y fermentá 8–10 h.", "Horneá 40–45 min a 190 °C.", "Consejos: Pan de miga húmeda, dulce y aromática. Ideal para desayunos o meriendas. La batata aporta color y dulzor natural."], 
-    prepTime: "8-10h fermentación", 
-    cookTime: "40-45 min", 
-    servings: "10-12 rebanadas" 
+    ingredients: [
+      "Puré de batata: 200 g",
+      "Harina de arroz: 200 g",
+      "Tapioca: 80 g",
+      "Psyllium: 8 g",
+      "Sal: 6 g",
+      "Masa madre: 200 g",
+      "Agua: 240–280 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, psyllium y sal.",
+      "Agrega puré de batata, masa madre, aceite y 200 ml de agua.",
+      "Ajusta con el resto del agua hasta obtener una crema espesa y uniforme.",
+      "Bate 3 minutos.",
+      "Fermenta 6–10 h, hasta que se vea aireado.",
+      "Hornea 40 min a 180–185 °C.",
+      "Reposa 1–2 h antes de cortar (la batata retiene humedad y necesita ese tiempo)."
+    ],
+    expectedTexture: "Miga húmeda, dulce y aromática.",
+    prepTime: "6-10h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "Si la batata es muy seca, agrega 20–30 ml extra de agua para que la miga quede tierna."
   },
   { 
     id: "81", 
-    title: "Pan campesino con corteza oscura (masa madre)",
+    title: "Pan campesino con cacao",
     categoryId: "masa-madre",
-    ingredients: ["Harina de arroz integral: 180 g", "Harina de trigo sarraceno: 100 g", "Fécula de tapioca: 80 g", "Psyllium: 8 g", "Cacao sin azúcar (para color): 5 g", "Sal: 5 g", "Masa madre activa: 120 g", "Agua: 300 ml", "Aceite: 20 ml"], 
-    instructions: ["Mezclá harinas, fécula, psyllium, cacao y sal.", "Agregá la masa madre, el agua y el aceite. Mezclá bien.", "Verté en molde o formá pan redondo.", "Fermentá 10–12 h tapado.", "Horneá 45–50 min a 190 °C.", "Consejos: Corteza oscura, miga compacta y sabor profundo. Ideal para tablas de quesos o sopas. Podés espolvorear harina encima antes del horneado para aspecto rústico."], 
-    prepTime: "10-12h fermentación", 
-    cookTime: "45-50 min", 
-    servings: "12 rebanadas" 
+    ingredients: [
+      "Harina de arroz integral: 180 g",
+      "Harina de trigo sarraceno: 100 g",
+      "Fécula de tapioca: 80 g",
+      "Psyllium: 8 g",
+      "Cacao sin azúcar: 5 g",
+      "Sal: 5 g",
+      "Masa madre activa: 200 g",
+      "Agua: 310–320 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla los secos incluidos cacao.",
+      "Agrega masa madre, agua y aceite.",
+      "Mezcla y bate 3 minutos.",
+      "Fermenta hasta aumento del 70 %.",
+      "Hornea 40–45 min a 190 °C.",
+      "Enfría 1 h."
+    ],
+    expectedTexture: "Corteza oscura, miga compacta y sabor profundo.",
+    prepTime: "6-10h fermentación",
+    cookTime: "40-45 min",
+    servings: "1 pan",
+    chefTip: "El cacao oscurece la corteza y aporta aroma profundo: combina perfecto con mermelada de frutos rojos."
+  },
+  { 
+    id: "158", 
+    title: "Pan de quinoa y arroz (miga suave y muy nutritiva)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de quinoa: 150 g",
+      "Harina de arroz: 150 g",
+      "Tapioca: 100 g",
+      "Psyllium: 10 g",
+      "Sal: 6 g",
+      "Masa madre activa: 200 g",
+      "Agua tibia: 300–330 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, tapioca, psyllium y sal.",
+      "Añade masa madre, aceite y 270 ml de agua. Mezcla.",
+      "Ajusta con más agua hasta lograr crema espesa.",
+      "Bate 3 minutos.",
+      "Fermenta 6–10 h (aumento 70 %).",
+      "Hornea 40 min a 190 °C.",
+      "Enfría 1 h."
+    ],
+    expectedTexture: "Miga suave con sabor tostado.",
+    prepTime: "8-12h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "La quinoa aporta un sabor tostado increíble. Combina perfecto con mantequilla vegetal o palta."
+  },
+  { 
+    id: "159", 
+    title: "Pan maíz dorado de masa madre (tipo campo suave)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de maíz fina NO precocida: 150 g",
+      "Harina de arroz: 200 g",
+      "Tapioca: 80 g",
+      "Psyllium: 8 g",
+      "Sal: 6 g",
+      "Miel: 15 g",
+      "Masa madre: 200 g",
+      "Agua: 300–330 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla los secos.",
+      "Incorpora miel, masa madre, aceite y 270 ml de agua.",
+      "Ajusta hidratación hasta textura cremosa.",
+      "Bate 2–3 min.",
+      "Fermenta 6–9 h.",
+      "Hornea 40 min a 185 °C.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Suave, dorado y ligeramente dulce.",
+    prepTime: "6-9h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "El maíz aporta color dorado y textura suave. Perfecto con manteca y miel."
+  },
+  { 
+    id: "160", 
+    title: "Pan rústico de papa + masa madre (extra húmedo)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Puré de papa: 200 g",
+      "Harina de arroz: 180 g",
+      "Harina de sorgo: 120 g",
+      "Tapioca: 80 g",
+      "Psyllium: 10 g",
+      "Sal: 6 g",
+      "Masa madre: 200 g",
+      "Agua: 240–280 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Agrega puré + masa madre + aceite + 200 ml de agua.",
+      "Ajusta el agua según humedad de la papa.",
+      "Bate 2–3 min.",
+      "Fermenta 6–10 h.",
+      "Hornea 40 min a 185 °C."
+    ],
+    expectedTexture: "Miga muy tierna y aromática con elasticidad natural.",
+    prepTime: "6-10h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "La papa aporta elasticidad natural. La miga queda muy tierna y aromática."
+  },
+  { 
+    id: "161", 
+    title: "Pan de batata y cúrcuma (color brillante + miga suave)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Puré de batata: 200 g",
+      "Harina de arroz: 180 g",
+      "Harina de mijo: 120 g",
+      "Tapioca: 80 g",
+      "Cúrcuma: 1 cdta",
+      "Psyllium: 8 g",
+      "Sal: 6 g",
+      "Masa madre: 200 g",
+      "Agua: 240–280 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla secos con la cúrcuma.",
+      "Agrega puré de batata, masa madre, aceite y agua.",
+      "Bate 2–3 minutos.",
+      "Fermenta 8–12 h.",
+      "Hornea 40 min a 185 °C.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Color brillante, miga suave y aromática.",
+    prepTime: "8-12h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "La cúrcuma intensifica el color y el aroma. Perfecto para tostadas saladas."
+  },
+  { 
+    id: "162", 
+    title: "Pan de castaña y arroz (gourmet, húmedo y aromático)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de castaña: 150 g",
+      "Harina de arroz: 180 g",
+      "Tapioca: 70 g",
+      "Psyllium: 10 g",
+      "Sal: 6 g",
+      "Masa madre: 200 g",
+      "Agua: 300–330 ml",
+      "Aceite: 20 ml",
+      "Miel: 10 g (opcional)"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Añade masa madre, aceite, miel y agua.",
+      "Bate 3 minutos.",
+      "Fermenta hasta aumento del 70 %.",
+      "Hornea 40 min a 185 °C.",
+      "Enfría completamente antes de cortar."
+    ],
+    expectedTexture: "Húmedo, aromático y naturalmente dulce.",
+    prepTime: "8-12h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "Ideal para panes dulces y desayunos. La harina de castaña es naturalmente dulce y aromática."
+  },
+  { 
+    id: "163", 
+    title: "Pan tipo brioche sin gluten (masa madre, suave y ligeramente dulce)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Tapioca: 120 g",
+      "Harina de almendra: 40 g",
+      "Psyllium: 10 g",
+      "Sal: 5 g",
+      "Azúcar o miel: 30 g",
+      "Masa madre: 200 g",
+      "Agua o leche vegetal tibia: 260–290 ml",
+      "Aceite o mantequilla vegetal: 40 ml",
+      "Vainilla: ½ cdta"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Añade masa madre, endulzante y líquidos.",
+      "Bate 3 min.",
+      "Fermenta hasta aumento del 70 %.",
+      "Hornea 40 min a 180 °C."
+    ],
+    expectedTexture: "Suave, aromático y con miga de hilos cortos.",
+    prepTime: "8-12h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "Queda suave, aromático y con miga de 'hilos cortos'. Funciona increíble como pan francés."
+  },
+  { 
+    id: "164", 
+    title: "Pan 100% integral (arroz integral + mijo + teff)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de arroz integral: 150 g",
+      "Harina de mijo: 120 g",
+      "Harina de teff: 100 g",
+      "Tapioca: 60 g",
+      "Psyllium: 12 g",
+      "Sal: 6 g",
+      "Masa madre: 220 g",
+      "Agua: 320–350 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Añade masa madre, aceite y agua.",
+      "Bate 3–4 min (las harinas integrales necesitan más).",
+      "Fermenta 10–14 h.",
+      "Hornea 45 min a 190 °C."
+    ],
+    expectedTexture: "Pan robusto, nutritivo y aromático.",
+    prepTime: "10-14h fermentación",
+    cookTime: "45 min",
+    servings: "1 pan",
+    chefTip: "Pan robusto, nutritivo y aromático. Perfecto para sándwiches."
+  },
+  { 
+    id: "165", 
+    title: "Pan de garbanzo + masa madre (alto en proteína, muy saciante)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de garbanzo: 150 g",
+      "Harina de arroz: 150 g",
+      "Tapioca: 80 g",
+      "Psyllium: 10 g",
+      "Sal: 6 g",
+      "Comino o cúrcuma: pizca (opcional)",
+      "Masa madre: 200 g",
+      "Agua: 300–330 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Añade masa madre, aceite y agua.",
+      "Bate 3 minutos.",
+      "Fermenta 6–10 h.",
+      "Hornea 40–45 min a 185 °C.",
+      "Enfría antes de cortar."
+    ],
+    expectedTexture: "Denso, saciante y rico en proteínas.",
+    prepTime: "6-10h fermentación",
+    cookTime: "40-45 min",
+    servings: "1 pan",
+    chefTip: "El garbanzo da estructura y saciedad. Perfecto para tostadas saladas."
+  },
+  { 
+    id: "166", 
+    title: "Pan alemán (tipo Vollkornbrot sin gluten)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de teff: 200 g",
+      "Harina de arroz integral: 150 g",
+      "Avena GF entera remojada: 80 g",
+      "Semillas (girasol, lino): 60 g",
+      "Psyllium: 12 g",
+      "Sal: 7 g",
+      "Masa madre: 220 g",
+      "Agua: 320–360 ml",
+      "Miel: 15 g"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Hidrata avena y semillas 30 min.",
+      "Incorpora masa madre, miel y agua.",
+      "Bate 3 minutos.",
+      "Fermenta 10–18 h (fermentación lenta).",
+      "Hornea 60 min a 180 °C."
+    ],
+    expectedTexture: "Pan denso, húmedo y súper aromático.",
+    prepTime: "12-18h fermentación",
+    cookTime: "60 min",
+    servings: "1 pan",
+    chefTip: "Pan denso, húmedo y súper aromático. Se corta mejor al día siguiente."
+  },
+  { 
+    id: "167", 
+    title: "Pan campesino con ajo asado + masa madre",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de arroz: 200 g",
+      "Harina de sorgo: 150 g",
+      "Tapioca: 80 g",
+      "Psyllium: 8 g",
+      "Sal: 6 g",
+      "Ajo asado en pasta: 1–2 dientes grandes",
+      "Masa madre: 200 g",
+      "Agua: 280–310 ml",
+      "Aceite: 20 ml"
+    ],
+    instructions: [
+      "Mezcla harinas, psyllium y sal.",
+      "Añade ajo asado, masa madre, aceite y agua.",
+      "Bate 2–3 min.",
+      "Fermenta 6–10 h.",
+      "Hornea 40 min a 190 °C."
+    ],
+    expectedTexture: "Sabor profundo sin agresión.",
+    prepTime: "6-10h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "Aporta sabor profundo sin agresión. Ideal con sopas o hummus."
+  },
+  { 
+    id: "168", 
+    title: "Pan estilo sándwich (masa madre + textura muy suave)",
+    categoryId: "masa-madre",
+    ingredients: [
+      "Harina de arroz: 180 g",
+      "Tapioca: 100 g",
+      "Harina de avena GF: 80 g",
+      "Psyllium: 8 g",
+      "Sal: 5 g",
+      "Miel o azúcar: 20 g",
+      "Masa madre: 200 g",
+      "Agua: 300–330 ml",
+      "Aceite: 30 ml"
+    ],
+    instructions: [
+      "Mezcla secos.",
+      "Añade masa madre, aceite, endulzante y agua.",
+      "Bate 2–3 minutos.",
+      "Fermenta 6–8 h hasta aumento visible.",
+      "Hornea 40 min a 185 °C."
+    ],
+    expectedTexture: "Muy suave, ideal para tostadas y sándwiches.",
+    prepTime: "6-8h fermentación",
+    cookTime: "40 min",
+    servings: "1 pan",
+    chefTip: "Queda muy suave, ideal para tostadas, sándwiches y panes de desayuno."
   },
 
   // Categoría 6: Panes Dulces (12)
