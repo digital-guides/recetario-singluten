@@ -2060,31 +2060,35 @@ export const recipes: Recipe[] = [
     id: "95", 
     title: "Pan proteico de clara y almendra (keto)", 
     categoryId: "high-protein",
+    description: "Pan keto suave y liviano, alto en proteína vegetal.",
     ingredients: [
-      "Harina de almendra: 150 g",
+      "Harina de almendra fina: 150 g",
       "Polvo de hornear: 8 g",
       "Sal: 3 g",
-      "Claras de huevo: 5 u (≈ 160 g)",
+      "Claras de huevo: 5 unidades (≈ 160 g)",
       "Aceite de oliva: 20 ml",
       "Agua: 40 ml",
       "Semillas (opcional): 20 g"
     ], 
     instructions: [
-      "Precalentá el horno a 180 °C.",
-      "Batí ligeramente las claras hasta espumar.",
-      "Agregá aceite y agua.",
-      "Incorporá la harina, el polvo de hornear y la sal.",
-      "Mezclá suave, verté en molde y horneá 25–30 min."
+      "Precalienta el horno a 180 °C. Engrasa un molde pequeño.",
+      "Bate ligeramente las claras hasta que estén espumosas (no a nieve).",
+      "Añade el aceite y el agua, mezclando suavemente.",
+      "Incorpora la harina de almendra, el polvo de hornear y la sal. Mezcla hasta obtener una masa cremosa y espesa, sin grumos.",
+      "Vierte en el molde y hornea 25–30 minutos, hasta que la superficie esté firme y dorada.",
+      "Enfría 10 minutos antes de cortar."
     ], 
+    expectedTexture: "Miga suave y aireada, tipo budín liviano. No queda tan esponjoso como un pan clásico, pero sí muy húmedo y tostable. La superficie debe sentirse elástica al presionar. Al cortar, la miga no se desmorona.",
     prepTime: "10 min", 
     cookTime: "25-30 min", 
     servings: "8 rebanadas",
-    chefTip: "Miga húmeda y liviana, perfecta para tostar. Podés añadir hierbas o queso rallado. Guardá en heladera hasta 5 días."
+    chefTip: "Añade 1 cdta de jugo de limón para potenciar el efecto del polvo de hornear. Si deseas más sabor, agrega hierbas secas o queso rallado."
   },
   { 
     id: "96", 
     title: "Pan de garbanzo y sésamo (alto en proteína)", 
     categoryId: "high-protein",
+    description: "Pan denso y nutritivo, rico en proteínas vegetales.",
     ingredients: [
       "Harina de garbanzo: 200 g",
       "Polvo de hornear: 6 g",
@@ -2095,20 +2099,24 @@ export const recipes: Recipe[] = [
       "Comino o cúrcuma (opcional): ½ cdta"
     ], 
     instructions: [
-      "Mezclá todos los ingredientes hasta obtener masa cremosa.",
-      "Verté en molde engrasado.",
-      "Horneá 30–35 min a 190 °C.",
-      "Enfriá antes de cortar."
+      "Mezcla la harina, el polvo de hornear, la sal y las especias.",
+      "Añade el agua y el aceite poco a poco hasta obtener una masa cremosa y homogénea, ligeramente espesa.",
+      "Agrega las semillas y mezcla.",
+      "Vierte en un molde engrasado.",
+      "Hornea 30–35 minutos a 190 °C.",
+      "Enfría antes de cortar."
     ], 
+    expectedTexture: "Pan de miga densa y nutritiva, tipo torta salada suave. Los bordes se separan ligeramente del molde. Si al pinchar el centro sale húmedo, hornea 5 minutos más.",
     prepTime: "10 min", 
     cookTime: "30-35 min", 
     servings: "8-10 rebanadas",
-    chefTip: "Pan rico en fibra y proteínas vegetales. Ideal para acompañar hummus o sopas. Podés tostar las semillas para más aroma."
+    chefTip: "Tostar las semillas antes de añadirlas realza mucho el aroma. Si la mezcla te queda demasiado líquida, añade 1 cda extra de harina de garbanzo."
   },
   { 
     id: "97", 
-    title: "Pan de yogurt griego vegetal + chía (low-carb)", 
+    title: "Pan de yogurt vegetal + chía (low-carb)", 
     categoryId: "high-protein",
+    description: "Pan húmedo y elástico con proteína vegetal.",
     ingredients: [
       "Harina de almendra: 120 g",
       "Psyllium: 6 g",
@@ -2116,136 +2124,496 @@ export const recipes: Recipe[] = [
       "Sal: 3 g",
       "Yogurt vegetal alto en proteína: 150 g",
       "Agua: 80 ml",
-      "Chía: 15 g",
+      "Semillas de chía: 15 g",
       "Aceite: 20 ml"
     ], 
     instructions: [
-      "Mezclá secos: harina, psyllium, polvo de hornear, sal y chía.",
-      "Agregá yogurt, agua y aceite.",
-      "Mezclá y verté en molde pequeño.",
-      "Horneá 30 min a 180 °C."
+      "Mezcla los ingredientes secos: almendra, psyllium, polvo de hornear, sal y chía.",
+      "Añade el yogurt, el agua y el aceite. Mezcla bien.",
+      "Deja reposar 5 minutos para que la chía espese.",
+      "Vierte la masa en molde.",
+      "Hornea 30 minutos a 180 °C.",
+      "Enfría sobre rejilla."
     ], 
-    prepTime: "10 min", 
+    expectedTexture: "Muy húmedo y elástico, con miga estable. La superficie se eleva ligeramente. El pan se siente flexible al presionar con el dedo.",
+    prepTime: "15 min", 
     cookTime: "30 min", 
     servings: "8 rebanadas",
-    chefTip: "Miga elástica y húmeda. Podés usar yogurt de coco o soya. Perfecto para desayunos saludables."
+    chefTip: "Usa yogurt de coco o soya para mayor cremosidad. Si lo quieres más firme, reduce el agua a 60 ml."
   },
   { 
     id: "98", 
     title: "Pan de linaza dorada (ultra fibra)", 
     categoryId: "high-protein",
+    description: "Pan denso, rico en fibra y omega 3.",
     ingredients: [
       "Linaza dorada molida: 120 g",
       "Polvo de hornear: 6 g",
       "Sal: 3 g",
-      "Huevo: 4 u",
+      "Huevos: 4 unidades",
       "Agua: 80 ml",
       "Aceite: 20 ml"
     ], 
     instructions: [
-      "Mezclá todos los ingredientes.",
-      "Verté en molde pequeño.",
-      "Horneá 25–30 min a 180 °C.",
-      "Dejá enfriar antes de cortar."
+      "Precalienta el horno a 180 °C.",
+      "Mezcla todos los ingredientes hasta obtener una masa espesa.",
+      "Vierte en un molde pequeño.",
+      "Hornea 25–30 minutos.",
+      "Enfría antes de cortar."
     ], 
+    expectedTexture: "Pan muy saciante, miga firme y ligeramente húmeda. La superficie se agrieta ligeramente (normal en pan keto). Al cortar, la miga no debe desarmarse.",
     prepTime: "10 min", 
     cookTime: "25-30 min", 
     servings: "8 rebanadas",
-    chefTip: "Pan denso y saciante. Excelente fuente de omega 3. Podés hacerlo en microondas: 2–3 min por porción."
+    chefTip: "Si la mezcla queda muy densa, añade 1–2 cdas extra de agua. Puedes preparar porciones individuales en microondas (2–3 min cada una)."
   },
   { 
     id: "99", 
-    title: "Pan de semillas al completo (sin harinas)", 
+    title: "🥜 Pan de semillas al completo (sin harinas)", 
     categoryId: "high-protein",
+    description: "Pan tipo multisemillas europeo, crujiente y nutritivo.",
     ingredients: [
       "Semillas de girasol: 80 g",
       "Semillas de calabaza: 50 g",
       "Chía: 20 g",
       "Linaza molida: 50 g",
-      "Avena GF en hojuelas: 30 g (opcional)",
+      "Avena GF en hojuelas (opcional): 30 g",
       "Agua: 250 ml",
       "Aceite: 20 ml",
       "Sal: 4 g"
     ], 
     instructions: [
-      "Mezclá todo y dejá reposar 30 min hasta que espese.",
-      "Verté en molde y alisá.",
-      "Horneá 40–45 min a 190 °C."
+      "Mezcla todas las semillas con la sal.",
+      "Añade el agua y el aceite; mezcla bien.",
+      "Deja reposar 30 minutos hasta que espese y se forme una masa compacta.",
+      "Vierte en un molde pequeño y presiona para nivelar.",
+      "Hornea 40–45 minutos a 190 °C."
     ], 
+    expectedTexture: "Pan tipo 'multisemillas europeo', crujiente y muy firme. Al presionar la superficie debe sentirse compacta. Se despega fácilmente del borde del molde.",
     prepTime: "40 min", 
     cookTime: "40-45 min", 
     servings: "12 rebanadas",
-    chefTip: "Pan crujiente, tipo \"multisemillas\". Sin harinas, solo semillas y fibra. Perfecto para untar o comer con sopas."
+    chefTip: "Usa molde pequeño para mayor altura. Si no usas avena, aumenta 10 g de linaza molida."
   },
   { 
     id: "100", 
-    title: "Pan de coco y proteína (suero/vegana)", 
+    title: "Pan de coco y proteína", 
     categoryId: "high-protein",
+    description: "Pan húmedo con proteína, ideal para deportistas.",
     ingredients: [
       "Harina de coco: 40 g",
       "Proteína en polvo (vegetal o whey): 30 g",
       "Polvo de hornear: 6 g",
       "Sal: 2 g",
-      "Huevos: 4 u",
+      "Huevos: 4 unidades",
       "Agua: 100 ml",
-      "Aceite de coco: 20 ml"
+      "Aceite: 20 ml"
     ], 
     instructions: [
-      "Mezclá secos.",
-      "Batí huevos, agua y aceite.",
-      "Uní ambas mezclas y verté en molde.",
-      "Horneá 25–30 min a 180 °C."
+      "Mezcla harina de coco, proteína, polvo de hornear y sal.",
+      "En otro bol, bate huevos, agua y aceite.",
+      "Une ambas mezclas hasta lograr una masa espesa pero homogénea.",
+      "Si queda muy densa, añade 20–30 ml extra de agua.",
+      "Vierte en molde y hornea 25–30 min a 180 °C."
     ], 
+    expectedTexture: "Miga húmeda, suave y aromática. Puede quedar un poco más seco si la proteína es whey. El centro debe sentirse firme pero húmedo. Al cortar, la miga se mantiene compacta.",
     prepTime: "10 min", 
     cookTime: "25-30 min", 
     servings: "8 rebanadas",
-    chefTip: "Miga húmeda y sabor suave. Aporta proteína y saciedad. También podés hacerlo en formato muffin."
+    chefTip: "En formato muffin queda espectacular. Ideal para desayunos low-carb."
   },
   { 
     id: "101", 
-    title: "Pan tipo \"cloud bread\" (sin harinas, esponjoso)", 
+    title: "Pan nube horneado (batch para sándwich)", 
     categoryId: "high-protein",
+    description: "Pan ligero tipo cloud bread, sin harinas.",
     ingredients: [
-      "Huevos: 3 u (separadas claras y yemas)",
+      "Huevos: 3 unidades (separar claras y yemas)",
       "Yogurt vegetal o queso crema: 60 g",
       "Polvo de hornear: 3 g",
-      "Sal: 1 pizca"
+      "Sal: pizca"
     ], 
     instructions: [
-      "Batí las claras a nieve.",
-      "Mezclá las yemas con el yogurt y el polvo de hornear.",
-      "Integrá con movimientos suaves.",
-      "Colocá cucharadas sobre bandeja.",
-      "Horneá 20–22 min a 180 °C."
+      "Bate claras a nieve firme.",
+      "Mezcla queso crema con polvo de hornear.",
+      "Une con movimientos envolventes.",
+      "Hornea 15–18 min."
     ], 
+    expectedTexture: "Ligeros, suaves y muy flexibles. Al levantarlos, se despegan fácilmente del papel.",
     prepTime: "10 min", 
-    cookTime: "20-22 min", 
+    cookTime: "15-18 min", 
     servings: "6 discos",
-    chefTip: "Ligeros como nubes, sin harinas. Perfectos para sandwiches o mini pizzas. Guardalos en heladera hasta 3 días."
+    chefTip: "Añade ½ cdta de vinagre al batido para mayor estabilidad."
   },
   { 
     id: "102", 
-    title: "Pan de calabacín rallado (low-carb, húmedo)", 
+    title: "Pan de calabacín rallado (low-carb y húmedo)", 
     categoryId: "high-protein",
+    description: "Pan vegetal bajo en carbohidratos, muy húmedo.",
     ingredients: [
       "Calabacín rallado y escurrido: 150 g",
       "Harina de almendra: 120 g",
       "Psyllium: 6 g",
       "Polvo de hornear: 8 g",
       "Sal: 3 g",
-      "Huevo: 3 u",
+      "Huevos: 3 unidades",
       "Aceite: 30 ml",
       "Semillas (opcional): 20 g"
     ], 
     instructions: [
-      "Mezclá huevos, aceite y calabacín.",
-      "Agregá secos y mezclá.",
-      "Verté en molde y horneá 35–40 min a 180 °C."
+      "Ralla el calabacín y exprímelo MUY bien.",
+      "Mezcla huevos, aceite y calabacín.",
+      "Añade la almendra, el psyllium, el polvo de hornear y la sal.",
+      "Mezcla hasta obtener una masa espesa y húmeda.",
+      "Si queda demasiado húmedo, añade 1–2 cdas de almendra extra.",
+      "Vierte en molde y hornea 35–40 min a 180 °C."
     ], 
+    expectedTexture: "Pan húmedo con miga suave y esponjosa. El calabacín aporta mucha humedad natural.",
     prepTime: "15 min", 
     cookTime: "35-40 min", 
     servings: "10 rebanadas",
-    chefTip: "Pan húmedo, sabroso y bajo en carbohidratos. Perfecto para tostar o servir con hummus. Escurrí bien el calabacín para que no quede aguado."
+    chefTip: "Escurre muy bien el calabacín para evitar exceso de agua. Agrega queso rallado para más sabor."
+  },
+
+  // Nuevas recetas Low Carb (103-117)
+  { 
+    id: "103", 
+    title: "🍞 Pan keto básico de almendra (molde clásico)", 
+    categoryId: "high-protein",
+    description: "Pan keto básico con miga suave y compacta.",
+    ingredients: [
+      "Harina de almendra: 150 g",
+      "Huevos: 4 unidades",
+      "Polvo de hornear: 8 g",
+      "Psyllium: 6 g",
+      "Aceite: 20 ml",
+      "Agua tibia: 60 ml",
+      "Sal: 3 g"
+    ], 
+    instructions: [
+      "Precalienta el horno a 180 °C.",
+      "Mezcla almendra, psyllium, polvo de hornear y sal.",
+      "Añade huevo, aceite y agua.",
+      "Mezcla hasta obtener masa densa pero húmeda.",
+      "Vierte en molde y hornea 35–40 minutos."
+    ], 
+    expectedTexture: "Miga suave y compacta, fácil de cortar. El pan se siente firme al centro al presionar. Se forma grieta superficial (típico del pan keto).",
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Ideal para tostar. Acompaña bien con hummus, quesos o mantequilla vegetal. Para más volumen, agrega 1 clara extra batida a nieve."
+  },
+  { 
+    id: "104", 
+    title: "🍞 Pan keto de microondas (1 minuto)", 
+    categoryId: "high-protein",
+    description: "Pan keto ultra rápido en taza.",
+    ingredients: [
+      "Harina de almendra: 25 g",
+      "Huevo: 1 unidad",
+      "Aceite: 1 cda",
+      "Polvo de hornear: ¼ cdta",
+      "Sal: pizca"
+    ], 
+    instructions: [
+      "Mezcla los ingredientes en una taza o molde pequeño.",
+      "Cocina 1 min 30 seg en microondas (800–900 W).",
+      "Si el centro queda húmedo, agrega 10–15 seg más."
+    ], 
+    expectedTexture: "Miga suave, ideal para tostar.",
+    prepTime: "2 min", 
+    cookTime: "1-2 min", 
+    servings: "1 pan individual",
+    chefTip: "Añade ajo o queso para una versión salada."
+  },
+  { 
+    id: "105", 
+    title: "🧀 Pan keto tipo 'pan lactal' (suave y elástico)", 
+    categoryId: "high-protein",
+    description: "Pan keto con miga elástica, estilo pan de molde.",
+    ingredients: [
+      "Harina de almendra: 180 g",
+      "Psyllium: 10 g",
+      "Huevos: 4 unidades",
+      "Agua tibia: 160 ml",
+      "Aceite: 30 ml",
+      "Polvo de hornear: 8 g",
+      "Sal: 3 g"
+    ], 
+    instructions: [
+      "Mezcla secos.",
+      "Bate huevos y aceite, y añade el agua tibia.",
+      "Une todo y mezcla hasta lograr masa pesada y húmeda.",
+      "Vierte en molde alto.",
+      "Hornea 40–45 min."
+    ], 
+    expectedTexture: "Miga sorprendentemente elástica, poco común en keto. Se eleva más que un pan keto común.",
+    prepTime: "10 min", 
+    cookTime: "40-45 min", 
+    servings: "12 rebanadas",
+    chefTip: "Dejar enfriar completamente antes de cortar."
+  },
+  { 
+    id: "106", 
+    title: "Pan keto de semillas tostadas", 
+    categoryId: "high-protein",
+    description: "Pan firme estilo multisemillas keto.",
+    ingredients: [
+      "Linaza molida: 60 g",
+      "Semillas de girasol: 40 g",
+      "Semillas de sésamo: 30 g",
+      "Almendra molida: 80 g",
+      "Polvo de hornear: 6 g",
+      "Huevos: 3 unidades",
+      "Aceite: 20 ml",
+      "Sal: 3 g"
+    ], 
+    instructions: [
+      "Tosta ligeramente las semillas.",
+      "Mezcla con la almendra y la linaza.",
+      "Añade huevos y aceite.",
+      "Vierte en molde pequeño.",
+      "Hornea 30–35 min."
+    ], 
+    expectedTexture: "Pan firme, estilo 'multisemillas keto'.",
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "12 pequeñas rebanadas",
+    chefTip: "Añade hierbas para aroma tipo focaccia."
+  },
+  { 
+    id: "107", 
+    title: "Pan keto esponjoso con claras (tipo nube mejorado)", 
+    categoryId: "high-protein",
+    description: "Pan extremadamente ligero sin harinas.",
+    ingredients: [
+      "Claras: 4 unidades",
+      "Queso crema o yogurt vegetal: 60 g",
+      "Polvo de hornear: 3 g",
+      "Sal: pizca"
+    ], 
+    instructions: [
+      "Bate claras a nieve firme.",
+      "Mezcla queso crema con polvo de hornear.",
+      "Une con movimientos envolventes.",
+      "Hornea 15–18 min."
+    ], 
+    expectedTexture: "Extremadamente ligero.",
+    prepTime: "10 min", 
+    cookTime: "15-18 min", 
+    servings: "6 unidades",
+    chefTip: "Ideal para 'hamburguesas keto'."
+  },
+  { 
+    id: "108", 
+    title: "Pan keto tipo tortilla flexible", 
+    categoryId: "high-protein",
+    description: "Tortillas flexibles low carb para wraps.",
+    ingredients: [
+      "Harina de almendra: 60 g",
+      "Psyllium: 4 g",
+      "Agua caliente: 80 ml",
+      "Aceite: 1 cdta",
+      "Sal: pizca"
+    ], 
+    instructions: [
+      "Mezcla la almendra con el psyllium y la sal.",
+      "Añade agua caliente y aceite.",
+      "Amasa hasta obtener masa suave.",
+      "Estira y dora en sartén 1 min por lado."
+    ], 
+    expectedTexture: "Muy flexible, ideal para wraps keto.",
+    prepTime: "10 min", 
+    cookTime: "10 min", 
+    servings: "4 tortillas",
+    chefTip: "Guarda entre papeles encerados para que no se peguen."
+  },
+  { 
+    id: "109", 
+    title: "Pan keto de nuez (aromático y firme)", 
+    categoryId: "high-protein",
+    description: "Pan con nueces, miga húmeda y aromática.",
+    ingredients: [
+      "Harina de almendra: 120 g",
+      "Nueces picadas: 40 g",
+      "Psyllium: 6 g",
+      "Huevos: 3 unidades",
+      "Aceite: 20 ml",
+      "Polvo de hornear: 6 g",
+      "Agua tibia: 60 ml",
+      "Sal: 3 g"
+    ], 
+    instructions: [
+      "Mezcla secos: almendra, psyllium, polvo de hornear y sal.",
+      "Agrega huevos, aceite y agua.",
+      "Incorpora las nueces.",
+      "Hornea 35–40 minutos."
+    ], 
+    expectedTexture: "Miga húmeda, elástica y muy tostable.",
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Las nueces pueden reemplazarse por avellanas o almendras enteras."
+  },
+  { 
+    id: "110", 
+    title: "Pan keto con hierbas provenzales", 
+    categoryId: "high-protein",
+    description: "Pan aromático con hierbas mediterráneas.",
+    ingredients: [
+      "Harina de almendra: 140 g",
+      "Psyllium: 6 g",
+      "Huevos: 3 unidades",
+      "Aceite: 20 ml",
+      "Agua tibia: 70 ml",
+      "Polvo de hornear: 8 g",
+      "Mezcla de hierbas provenzales: 1 cdta",
+      "Sal: 3 g"
+    ], 
+    instructions: [
+      "Mezcla secos.",
+      "Agrega huevos, aceite y agua.",
+      "Vierte en molde.",
+      "Hornea 30–35 min a 180 °C."
+    ], 
+    expectedTexture: "Muy aromático, miga suave.",
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8 rebanadas",
+    chefTip: "Añade ajo para versión mediterránea."
+  },
+  { 
+    id: "111", 
+    title: "Pan keto de limón y semillas (aroma fresco)", 
+    categoryId: "high-protein",
+    description: "Pan con toque cítrico y semillas crujientes.",
+    ingredients: [
+      "Harina de almendra: 150 g",
+      "Psyllium: 6 g",
+      "Huevos: 3 unidades",
+      "Aceite: 20 ml",
+      "Jugo de limón: 10 ml",
+      "Ralladura de limón: ½ cdta",
+      "Polvo de hornear: 8 g",
+      "Semillas de amapola o sésamo: 15 g",
+      "Agua tibia: 60 ml",
+      "Sal: pizca"
+    ], 
+    instructions: [
+      "Mezcla todos los secos.",
+      "Añade huevos, aceite, jugo de limón y agua.",
+      "Incorpora ralladura y semillas.",
+      "Hornea 35–40 min."
+    ], 
+    expectedTexture: "Miga aromática y húmeda.",
+    prepTime: "10 min", 
+    cookTime: "35-40 min", 
+    servings: "10 rebanadas",
+    chefTip: "Ideal para tostadas con queso crema."
+  },
+  { 
+    id: "112", 
+    title: "🥥 Pan keto de coco suave", 
+    categoryId: "high-protein",
+    description: "Pan con aroma tropical suave.",
+    ingredients: [
+      "Harina de coco: 30 g",
+      "Harina de almendra: 80 g",
+      "Huevos: 3 unidades",
+      "Aceite de coco: 20 ml",
+      "Agua tibia: 80 ml",
+      "Polvo de hornear: 6 g",
+      "Sal: 2 g"
+    ], 
+    instructions: [
+      "Mezcla secos.",
+      "Añade huevos, aceite y agua.",
+      "Vierte en molde.",
+      "Hornea 25–30 min."
+    ], 
+    expectedTexture: "Suave, con aroma tropical leve.",
+    prepTime: "10 min", 
+    cookTime: "25-30 min", 
+    servings: "6-8 rebanadas",
+    chefTip: "Añade vainilla para estilo dulce."
+  },
+  { 
+    id: "113", 
+    title: "🔥 Pan keto tipo focaccina (sartén u horno)", 
+    categoryId: "high-protein",
+    description: "Pan plano tipo focaccia keto, cocción flexible.",
+    ingredients: [
+      "Harina de almendra: 100 g",
+      "Linaza molida: 20 g",
+      "Psyllium: 4 g",
+      "Agua caliente: 90 ml",
+      "Aceite de oliva: 20 ml",
+      "Sal: 3 g",
+      "Romero: 1 cdta"
+    ], 
+    instructions: [
+      "Mezcla secos.",
+      "Agrega agua caliente y aceite.",
+      "Amasa suave y extiende.",
+      "Cocina en sartén tapado 5 min por lado o hornea 15–20 min a 190 °C."
+    ], 
+    expectedTexture: "Pan plano firme, tipo focaccia keto.",
+    prepTime: "10 min", 
+    cookTime: "15-20 min", 
+    servings: "1 pan plano grande",
+    chefTip: "Añade aceitunas picadas para más sabor."
+  },
+  { 
+    id: "114", 
+    title: "🧈 Pan keto 'mantecoso' (suave y dorado)", 
+    categoryId: "high-protein",
+    description: "Pan enriquecido con mantequilla, muy suave.",
+    ingredients: [
+      "Harina de almendra: 140 g",
+      "Huevos: 3 unidades",
+      "Mantequilla derretida: 40 g",
+      "Polvo de hornear: 8 g",
+      "Psyllium: 6 g",
+      "Sal: 3 g",
+      "Agua tibia: 50 ml"
+    ], 
+    instructions: [
+      "Mezcla secos.",
+      "Añade huevos y mantequilla.",
+      "Ajusta con agua para masa espesa.",
+      "Hornea 30–35 min."
+    ], 
+    expectedTexture: "Miga suave y color amarillo manteca.",
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8 rebanadas",
+    chefTip: "Perfecto para desayunos low-carb."
+  },
+  { 
+    id: "115", 
+    title: "🫘 Pan keto húmedo de ricotta", 
+    categoryId: "high-protein",
+    description: "Pan ultra húmedo con ricotta, muy suave.",
+    ingredients: [
+      "Ricotta o requesón firme: 120 g",
+      "Harina de almendra: 110 g",
+      "Huevos: 3 unidades",
+      "Polvo de hornear: 8 g",
+      "Aceite: 15 ml",
+      "Psyllium: 4-5 g",
+      "Sal: 2-3 g"
+    ], 
+    instructions: [
+      "Mezcla ricotta con huevos y aceite.",
+      "Añade almendra, psyllium, polvo de hornear y sal.",
+      "Mezcla hasta masa espesa.",
+      "Hornea 30–35 minutos."
+    ], 
+    expectedTexture: "Muy húmedo, suave, ideal para tostar.",
+    prepTime: "10 min", 
+    cookTime: "30-35 min", 
+    servings: "8 rebanadas",
+    chefTip: "Combina perfecto con tomate y albahaca."
   },
 
   // Categoría 9: Regionales LATAM (12)
